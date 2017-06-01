@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello MUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/font-awesome.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/Admin/css/base.css">
+    <script src="__PUBLIC__/Admin/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/Admin/plug/laydate/laydate.js"></script>
+    <script src="__PUBLIC__/Admin/plug/layer/layer.js"></script>
+
+    <script src="__PUBLIC__/Admin/js/base.js"></script>
+    <style type="text/css">
+        .laydate_box, .laydate_box * {
+            box-sizing:content-box;
+        }
+
+        .laydate-icon{
+            height: 34px;
+            line-height: 34px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+<div  class="navLeftBar">
+    <div  class="list-group ">
+        <a class="list-group-item  web_log"><img src="__PUBLIC__/Admin/image/web_login.png" width="400%"></a>
+    </div>
+    <div  class="list-group">
+   <!--     <a class="list-group-item part-line " href="{:U('Index/index')}">
+            <i class="fa fa-reorder pd5" aria-hidden="true"></i> 仪表盘
+        </a>-->
+
+        <a class="list-group-item part-line" href="{:U('Member/index')}">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>会员管理
+        </a>
+
+        <a class="list-group-item " href="{:U('Order/index')}">
+            <i class="fa fa-reorder pd5" aria-hidden="true"></i>订单管理
+        </a>
+        <a class="list-group-item" href="{:U('gCate/index')}">
+            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品分类
+        </a>
+        <a class="list-group-item" href="{:U('Goods/index')}">
+            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
+        </a>
+
+        <a class="list-group-item" href="{:U('Order/index')}">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
+        </a>
+
+        <a class="list-group-item" href="{:U('Address/index')}">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
+        </a>
+    </div >
+
+    <ul class="list-group">
+        <li class="list-group-item ">
+            <i class="fa fa-user" aria-hidden="true"></i> 会员中心
+        </li>
+    </ul>
+
+</div>
