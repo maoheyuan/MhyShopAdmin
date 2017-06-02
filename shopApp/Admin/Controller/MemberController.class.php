@@ -74,4 +74,8 @@ class MemberController extends Controller {
         $filename = "会员数据".date('YmdHis').'.csv'; //设置文件名
         export_csv($filename,$data); //导出
     }
+
+
+
+    
 }
