@@ -1,0 +1,407 @@
+<include file="Public/header" />
+<form class="form-horizontal mt20">
+<!--    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">所属分类：</label>
+        <div class="col-sm-8">
+            <select name="parentId" id="inputEmail3" class="form-control">
+                <option value="-1" selected="">请选择父级</option>
+                <option value="0">第一级</option>
+                <option value="322"> 统计系统</option>
+                <option value="365">&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单转化率</option>
+                <option value="366">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  订单转化率</option>
+                <option value="353">&nbsp;&nbsp;&nbsp;&nbsp;├─ 访问数据</option>
+                <option value="354">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  商品曝光量</option>
+                <option value="327">&nbsp;&nbsp;&nbsp;&nbsp;├─ 用户量</option>
+                <option value="473">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 会员统计</option>
+                <option value="330">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 新增用户量</option>
+                <option value="329">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 用户总量</option>
+                <option value="328">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  活跃用户量</option>
+                <option value="326">&nbsp;&nbsp;&nbsp;&nbsp;└─  销售数据</option>
+                <option value="462">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 自提点金额统计</option>
+                <option value="335">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单总量</option>
+                <option value="357">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 订单总量图表</option>
+                <option value="355">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  导出excel表格</option>
+                <option value="334">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  销售总金额</option>
+                <option value="352">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 销售总金额图表</option>
+                <option value="348">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 销售总金额图表</option>
+                <option value="344">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 导出excel表格</option>
+                <option value="343">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 商品类型ajax查询</option>
+                <option value="342">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单小区ajax查询</option>
+                <option value="341">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 商品排名</option>
+                <option value="340">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  商品分类排名</option>
+                <option value="140"> 会员管理</option>
+                <option value="283">&nbsp;&nbsp;&nbsp;&nbsp;├─ 账户流水管理</option>
+                <option value="284">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  账户流水列表</option>
+                <option value="145">&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员信息管理</option>
+                <option value="146">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  所有会员列表</option>
+                <option value="454">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员余额修改</option>
+                <option value="166">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员提现</option>
+                <option value="161">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 充值验证</option>
+                <option value="160">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员充值</option>
+                <option value="159">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员修改</option>
+                <option value="158">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员删除</option>
+                <option value="157">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 是否存在会员</option>
+                <option value="155">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员新增ajax地址</option>
+                <option value="151">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 会员修改</option>
+                <option value="150">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  会员新增</option>
+                <option value="141">&nbsp;&nbsp;&nbsp;&nbsp;└─  会员等级管理</option>
+                <option value="142">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  会员等级列表</option>
+                <option value="109"> 门店管理</option>
+                <option value="440">&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动管理</option>
+                <option value="467">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 满赠(券)规则列表</option>
+                <option value="470">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 满赠(券)规则删除</option>
+                <option value="469">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 满赠(券)规则修改</option>
+                <option value="468">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  满赠(券)规则添加</option>
+                <option value="441">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  活动列表</option>
+                <option value="452">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动售品导出</option>
+                <option value="451">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动售品导入</option>
+                <option value="450">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 添加商品绑定</option>
+                <option value="449">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动满减规则删除</option>
+                <option value="448">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动满减规则修改</option>
+                <option value="447">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动满减规则添加</option>
+                <option value="446">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动满减规则列表</option>
+                <option value="445">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动绑定</option>
+                <option value="444">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动删除</option>
+                <option value="443">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动修改</option>
+                <option value="442">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  活动新增</option>
+                <option value="404">&nbsp;&nbsp;&nbsp;&nbsp;├─ 广告管理</option>
+                <option value="506">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告分组</option>
+                <option value="510">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告分组删除</option>
+                <option value="509">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告分组修改</option>
+                <option value="508">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告分组添加</option>
+                <option value="507">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  广告分组列表</option>
+                <option value="487">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品单页管理</option>
+                <option value="491">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品单页排序</option>
+                <option value="490">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品单页删除</option>
+                <option value="489">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品单页修改</option>
+                <option value="488">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  商品单页添加</option>
+                <option value="428">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 购物车图标列表</option>
+                <option value="431">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 购物车图标删除</option>
+                <option value="430">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 购物车图标修改</option>
+                <option value="429">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  购物车图标添加</option>
+                <option value="412">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告模板列表</option>
+                <option value="416">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 验证模板名称</option>
+                <option value="415">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告模板删除</option>
+                <option value="414">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告模板修改</option>
+                <option value="413">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  广告模板添加</option>
+                <option value="405">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 首页区块列表</option>
+                <option value="427">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 模板管理广告</option>
+                <option value="421">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告移动</option>
+                <option value="420">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告删除</option>
+                <option value="419">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告修改</option>
+                <option value="418">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 添加广告</option>
+                <option value="417">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告列表</option>
+                <option value="411">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告位上下移动</option>
+                <option value="410">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 检测广告位名</option>
+                <option value="409">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 根据门店获取小区</option>
+                <option value="408">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告位删除</option>
+                <option value="407">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 广告位修改</option>
+                <option value="406">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  广告位添加</option>
+                <option value="262">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 搜索关键字记录</option>
+                <option value="257">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 搜索关键字管理</option>
+                <option value="260">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 搜索关键字删除</option>
+                <option value="259">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 搜索关键字修改</option>
+                <option value="258">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  搜索关键字新增</option>
+                <option value="235">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  活动页列表</option>
+                <option value="243">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动页新增</option>
+                <option value="240">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 活动页修改</option>
+                <option value="236">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  活动页删除</option>
+                <option value="377">&nbsp;&nbsp;&nbsp;&nbsp;├─ 货架管理</option>
+                <option value="378">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  绑定列表</option>
+                <option value="398">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 货架绑定导出</option>
+                <option value="397">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 货架绑定导入</option>
+                <option value="388">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 货架条码列表</option>
+                <option value="380">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  货架缺货状态ajax</option>
+                <option value="309">&nbsp;&nbsp;&nbsp;&nbsp;├─ 1小时达管理</option>
+                <option value="466">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 送货上门订单列表</option>
+                <option value="463">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 送货上门小票打印管理</option>
+                <option value="465">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 获取门店配送时间</option>
+                <option value="464">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  打印小票</option>
+                <option value="376">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 1小时分拣单</option>
+                <option value="311">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 订单配送员管理</option>
+                <option value="310">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 1小时达分拣</option>
+                <option value="361">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  门店小区ajax查询</option>
+                <option value="305">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  配送员列表</option>
+                <option value="346">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ AJAX验证修改配送员信息的手机号码</option>
+                <option value="315">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ AJAX验证输入配送员的手机号码</option>
+                <option value="308">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 修改配送员</option>
+                <option value="307">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 删除配送员</option>
+                <option value="306">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  新增配送员</option>
+                <option value="274">&nbsp;&nbsp;&nbsp;&nbsp;├─ 优惠券管理</option>
+                <option value="276">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 优惠券列表</option>
+                <option value="277">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  优惠券新增</option>
+                <option value="275">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  优惠券记录列表</option>
+                <option value="479">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 优惠券记录删除</option>
+                <option value="278">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  优惠卷发放</option>
+                <option value="264">&nbsp;&nbsp;&nbsp;&nbsp;├─ 团购管理</option>
+                <option value="273">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 团购记录</option>
+                <option value="272">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  团购列表</option>
+                <option value="271">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 链接删除</option>
+                <option value="270">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 链接修改</option>
+                <option value="269">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 链接新增</option>
+                <option value="268">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 生成链接列表</option>
+                <option value="267">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 团购删除</option>
+                <option value="266">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 团购修改</option>
+                <option value="265">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  团购新增</option>
+                <option value="237">&nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣管理</option>
+                <option value="494">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 退货分拣功能</option>
+                <option value="499">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣打印小票</option>
+                <option value="498">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣序号</option>
+                <option value="497">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣ajax</option>
+                <option value="496">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣箱号</option>
+                <option value="495">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  分拣保存</option>
+                <option value="373">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 新分拣单列表</option>
+                <option value="492">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 自提点打印小票</option>
+                <option value="374">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  新分拣单小票</option>
+                <option value="367">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 新分拣功能</option>
+                <option value="372">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣打印小票</option>
+                <option value="371">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣序号</option>
+                <option value="370">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣ajax</option>
+                <option value="369">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分拣箱号</option>
+                <option value="368">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  分拣保存	</option>
+                <option value="242">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  送货单列表</option>
+                <option value="500">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 小区送货单打印</option>
+                <option value="493">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 自提点打印分拣单</option>
+                <option value="480">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 自提点分拣单打印</option>
+                <option value="244">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  送货单详情</option>
+                <option value="118">&nbsp;&nbsp;&nbsp;&nbsp;├─ 商品管理</option>
+                <option value="296">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 售品管理</option>
+                <option value="362">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 售品库存修改</option>
+                <option value="358">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 售品导出</option>
+                <option value="351">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 售品导入</option>
+                <option value="299">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 售品删除</option>
+                <option value="298">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 售品修改</option>
+                <option value="297">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  售品添加</option>
+                <option value="291">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组</option>
+                <option value="486">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组添加</option>
+                <option value="485">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组删除</option>
+                <option value="484">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组排序移动</option>
+                <option value="483">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组修改</option>
+                <option value="482">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组搜索</option>
+                <option value="481">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分组克隆功能</option>
+                <option value="294">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分组商品列表</option>
+                <option value="293">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ ajax根据分类id获取商品</option>
+                <option value="292">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  分组添加商品</option>
+                <option value="121">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品分类</option>
+                <option value="471">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 次级分类</option>
+                <option value="214">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 分类图片上传</option>
+                <option value="213">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  分类修改</option>
+                <option value="119">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  商品列表</option>
+                <option value="390">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 商品条码列表</option>
+                <option value="389">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 条码打印</option>
+                <option value="347">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 导入商品</option>
+                <option value="345">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 导出售品摸板</option>
+                <option value="323">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ AJAX验证条码是否存在</option>
+                <option value="316">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 商品新增</option>
+                <option value="234">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 商品导出</option>
+                <option value="212">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 图片上传</option>
+                <option value="143">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  商品修改</option>
+                <option value="114">&nbsp;&nbsp;&nbsp;&nbsp;└─  订单管理</option>
+                <option value="287">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 退换货记录表</option>
+                <option value="288">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  退换货订单的详细信息</option>
+                <option value="285">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 退换货审核</option>
+                <option value="289">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 查看详细的退换货聊天记录</option>
+                <option value="286">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  客服回复客户退换货申请</option>
+                <option value="256">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 发送tB记录表</option>
+                <option value="211">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单汇总</option>
+                <option value="501">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商品汇总打印</option>
+                <option value="215">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  汇总导出</option>
+                <option value="116">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单商品列表</option>
+                <option value="282">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  导出订单商品列表到Excel表</option>
+                <option value="115">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  订单列表</option>
+                <option value="453">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 确认收货ajax</option>
+                <option value="360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 导出退货记录表到Excel表</option>
+                <option value="290">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单客服退货操作</option>
+                <option value="218">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─  取得自提点ajax</option>
+                <option value="217">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 订单小区ajax查询</option>
+                <option value="216">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 打印小票</option>
+                <option value="123">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  订单商品信息</option>
+                <option value="102"> 组织架构</option><option value="433">&nbsp;&nbsp;&nbsp;&nbsp;├─ 与分拣数据交互</option>
+                <option value="436">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 手动导出</option>
+                <option value="435">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 手动导入</option>
+                <option value="434">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  自动化导入</option>
+                <option value="84">&nbsp;&nbsp;&nbsp;&nbsp;├─ 系统管理</option>
+                <option value="502">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 活动设置</option>
+                <option value="504">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 活动设置列表</option>
+                <option value="503">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  活动设置修改/新增</option>
+                <option value="472">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ MQ消息队列管理</option>
+                <option value="455">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 会员账户余额日志</option>
+                <option value="439">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 订单状态修改日志</option>
+                <option value="437">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 黑名单管理</option>
+                <option value="359">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 二维码管理</option>
+                <option value="302">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 操作日志</option>
+                <option value="301">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 微信日志</option>
+                <option value="300">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 接口日志</option>
+                <option value="251">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 自动下单异常通知</option>
+                <option value="255">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信号码验证</option>
+                <option value="254">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信号码删除</option><option value="253">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信号码修改</option><option value="252">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  短信号码添加</option><option value="246">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信设置</option><option value="250">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信模板添加</option><option value="249">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信模板修改</option><option value="248">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信模板删除</option><option value="247">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  验证短信模板识别字段</option><option value="245">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 短信发送记录</option><option value="95">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  站点设置</option><option value="98">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 站点[修改/新增]</option><option value="97">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  站点列表</option><option value="72">&nbsp;&nbsp;&nbsp;&nbsp;├─ 门店管理</option><option value="474">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商城公告</option><option value="478">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 公告删除</option><option value="477">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 公告修改</option><option value="476">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 公告新增</option><option value="475">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  公告列表</option><option value="457">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 配送时间设置</option><option value="460">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 配送时间删除</option><option value="459">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 配送时间修改</option><option value="458">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  配送时间添加</option><option value="332">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 门店批量导入售品</option><option value="313">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 线路管理</option><option value="220">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 商城广告管理</option><option value="188">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 自提点列表</option><option value="193">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 自提点编号验证</option><option value="191">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 删除自提点</option><option value="190">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 修改自提点</option><option value="189">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  新增自提点</option><option value="184">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 小区列表</option><option value="505">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 小区图片</option><option value="200">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 小区是否存在</option><option value="196">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 仓库小区删除</option><option value="195">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 仓库小区修改</option><option value="194">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  仓库小区新增</option><option value="79">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 门店信息</option><option value="181">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 门店编号检查</option><option value="83">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 门店删除</option><option value="82">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 门店修改</option><option value="81">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 门店新增</option><option value="80">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  门店列表</option><option value="73">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  地区管理</option><option value="78">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 列表api接口</option><option value="77">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 地区删除</option><option value="76">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 地区修改</option><option value="75">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 地区新增</option><option value="74">&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  地区列表</option><option value="60">&nbsp;&nbsp;&nbsp;&nbsp;└─  权限管理</option><option value="71">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 权限管理</option><option value="64">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 权限删除</option><option value="63">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 权限修改</option><option value="62">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 权限新增</option><option value="61">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  权限列表</option><option value="70">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 账户管理</option><option value="219">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 管理员修改密码</option><option value="69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 管理员删除</option><option value="68">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 管理员修改</option><option value="67">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;├─ 管理员新增</option>
+                <option value="66">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│ &nbsp;&nbsp;&nbsp;&nbsp;└─  管理员列表</option>
+                <option value="55">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  角色管理</option>
+                <option value="87">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 验证管理员用户名</option>
+                <option value="59">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 角色修改</option>
+                <option value="58">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 角色删除</option>
+                <option value="57">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ 角色新增</option>
+                <option value="56">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─  角色列表</option>
+            </select>
+
+        </div>
+    </div>-->
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">会员名称：</label>
+        <div class="col-sm-8">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="商品名称">
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <label for="inputPassword11" class="col-sm-2 control-label">真实姓名：</label>
+        <div class="col-sm-8">
+            <input type="password" class="form-control" id="inputPassword11" placeholder="商品简介">
+        </div>
+    </div>
+
+
+
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">会员性别：</label>
+        <div class="col-sm-8">
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions"  value="option1"> 女
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions"  value="option2"> 男
+            </label>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">图片：</label>
+        <div class="col-sm-8">
+            <input type="file" >
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label"></label>
+        <div class="col-sm-8">
+            <img
+                    data-src="holder.js/140x140"
+                    class="img-rounded" alt="140x140"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzE0MHgxNDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNWMxZjlmNGQzNiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1YzFmOWY0ZDM2Ij48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1IiB5PSI3NC44Ij4xNDB4MTQwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                    data-holder-rendered="true"
+                    style="width: 140px;
+                        height: 140px;">
+
+            <img
+                    data-src="holder.js/140x140"
+                    class="img-rounded" alt="140x140"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzE0MHgxNDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNWMxZjlmNGQzNiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1YzFmOWY0ZDM2Ij48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1IiB5PSI3NC44Ij4xNDB4MTQwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                    data-holder-rendered="true"
+                    style="width: 140px;
+                        height: 140px;">
+
+            <img
+                    data-src="holder.js/140x140"
+                    class="img-rounded" alt="140x140"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzE0MHgxNDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNWMxZjlmNGQzNiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1YzFmOWY0ZDM2Ij48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1IiB5PSI3NC44Ij4xNDB4MTQwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                    data-holder-rendered="true"
+                    style="width: 140px;
+                        height: 140px;">
+
+        </div>
+    </div>
+
+
+
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">市场价：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="scj" placeholder="市场价" >
+        </div>
+    </div>
+
+
+
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">手机号：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="scj" placeholder="手机号" >
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label"> 	QQ：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="" placeholder="QQ">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label"> 账户金额：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="" placeholder="账户金额">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="inputPassword3" class="col-sm-2 control-label">状态：</label>
+        <div class="col-sm-8">
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 启用
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 禁用
+            </label>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+
+        <label for="inputPassword3" class="col-sm-2 control-label">有效时间：</label>
+        <div class="col-sm-4">
+            <input type="text" class="col-sm-3 form-control laydate-icon" placeholder="上架时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+        </div>
+        <div class="col-sm-4">
+            <input type="text" class="col-sm-3 form-control laydate-icon" placeholder="下架时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+        </div>
+    </div>
+
+    <div class="form-group">
+
+        <label for="inputPassword3" class="col-sm-2 control-label">详细内容：</label>
+        <div class="col-sm-8">
+            <!--    <textarea class="form-control" rows="70" id="myEditor" style="width:100% !important;";></textarea>-->
+            <textarea  id="editor" type="text/plain" style="width:100%;height:500px;">sssssssssssss</textarea>
+        </div>
+
+    </div>
+
+    <div class="form-group">
+        <label for="inputEmail3" class="col-sm-2 control-label">排序：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="sort" placeholder="排序" value="0">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-2"></div>
+        <div class=" col-sm-8">
+            <button type="submit" class="btn btn-primary">提交</button>
+            <button type="reset" class="btn btn-default">重置</button>
+        </div>
+    </div>
+</form>
+
+<!--<body class="create-page">-->
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Admin/plug/ueditor1_4_3_3/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Admin/plug/ueditor1_4_3_3/ueditor.all.min.js"> </script>
+<!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
+<!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Admin/plug/ueditor1_4_3_3/lang/zh-cn/zh-cn.js"></script>
+<script type="text/javascript">
+    $("#body").addClass("create-page");
+    var ue = UE.getEditor('editor');
+</script>
+<include file="Public/footer" />

@@ -13,13 +13,11 @@
     <script src="/MhyShopAdmin/Public/Admin/js/jquery.min.js"></script>
     <script src="/MhyShopAdmin/Public/Admin/plug/laydate/laydate.js"></script>
     <script src="/MhyShopAdmin/Public/Admin/plug/layer/layer.js"></script>
-
     <script src="/MhyShopAdmin/Public/Admin/js/base.js"></script>
     <style type="text/css">
         .laydate_box, .laydate_box * {
             box-sizing:content-box;
         }
-
         .laydate-icon{
             height: 34px;
             line-height: 34px;
@@ -27,8 +25,51 @@
     </style>
 </head>
 
-<body>
+<body id="body">
 
+
+<!--
+
+<div  class="navLeftBar">
+    <div  class="list-group ">
+        <a class="list-group-item  web_log"><img src="/MhyShopAdmin/Public/Admin/image/web_login.png" width="400%"></a>
+    </div>
+    <div  class="list-group">
+   &lt;!&ndash;     <a class="list-group-item part-line " href="<?php echo U('Index/index');?>">
+            <i class="fa fa-reorder pd5" aria-hidden="true"></i> 仪表盘
+        </a>&ndash;&gt;
+
+        <a class="list-group-item part-line" href="<?php echo U('Member/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>会员管理
+        </a>
+
+        <a class="list-group-item " href="<?php echo U('Order/index');?>">
+            <i class="fa fa-reorder pd5" aria-hidden="true"></i>订单管理
+        </a>
+        <a class="list-group-item" href="<?php echo U('gCate/index');?>">
+            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品分类
+        </a>
+        <a class="list-group-item" href="<?php echo U('Goods/index');?>">
+            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
+        </a>
+
+        <a class="list-group-item" href="<?php echo U('Order/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
+        </a>
+
+        <a class="list-group-item" href="<?php echo U('Address/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
+        </a>
+    </div >
+
+    <ul class="list-group">
+        <li class="list-group-item ">
+            <i class="fa fa-user" aria-hidden="true"></i> 会员中心
+        </li>
+    </ul>
+
+</div>
+-->
 
 
 <div  class="navLeftBar">
@@ -68,9 +109,7 @@
             <i class="fa fa-user" aria-hidden="true"></i> 会员中心
         </li>
     </ul>
-
 </div>
-
 
 <ol class="breadcrumb">
     <li>主页</li>
@@ -91,7 +130,7 @@
 
                 <div class="btn-group form-group" >
                     <!-- Standard button -->
-                    <button type="button" class="btn btn-primary create" title="订单新增" data-url="./add.html"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <button type="button" class="btn btn-primary create" title="会员新增" data-url="<?php echo U('Member/add');?>"><i class="fa fa-plus" aria-hidden="true"></i></button>
                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                     <!-- <button type="button" class="btn btn-warning edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
                      &lt;!&ndash; Indicates a successful or positive action &ndash;&gt;

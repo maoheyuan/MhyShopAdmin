@@ -77,5 +77,27 @@ class MemberController extends Controller {
 
 
 
-    
+
+    public  function  add(){
+
+
+
+        if(IS_POST){
+
+
+
+
+        }
+        else{
+
+            $this->display();
+        }
+
+
+
+    }
+
+
+
+
 }
