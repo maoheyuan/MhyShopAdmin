@@ -72,7 +72,6 @@
 </div>
 
 
-
 <ol class="breadcrumb">
     <li>主页</li>
     <li>会员管理</li>
@@ -82,7 +81,6 @@
         <a href="#">[退出]</a>
     </div>
 </ol>
-
 
 <nav class="navbar navbar-default">
     <div class="container-fluid pdl0">
@@ -101,35 +99,37 @@
 
                 </div>
                 <div class="form-group">
-                    <input type="text" class="form-control laydate-icon" placeholder="开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+                    <input type="text" class="form-control laydate-icon" placeholder="开始时间"
+                           onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="startTime" value="<?php echo ($request['startTime']); ?>">
                 </div>
                 <div class="form-group">
-
-                    <input type="text" class="form-control laydate-icon" placeholder="结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+                    <input type="text" class="form-control laydate-icon" placeholder="结束时间"
+                           onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="endTime" value="<?php echo ($request['endTime']); ?>">
                 </div>
                 <div class="form-group">
-                    <select name="key" class="form-control">
-                        <option value="">请选择</option>
-                        <option value="memberId">20条</option>
-                        <option value="member_name">30条</option>
-                        <option value="mobile">50条</option>
+                    <select name="limit" class="form-control">
+                        <option value=""  >请选择</option>
+                        <option value="20" <?php if($request['limit'] == 20 ): ?>selected<?php endif; ?> >20条</option>
+                        <option value="30" <?php if($request['limit'] == 30 ): ?>selected<?php endif; ?> >30条</option>
+                        <option value="50" <?php if($request['limit'] == 50 ): ?>selected<?php endif; ?> >50条</option>
                     </select>
 
                 </div>
                 <div class="form-group">
                     <select name="key" class="form-control">
                         <option value="">请选择</option>
-                        <option value="memberId">会员编号</option>
-                        <option value="member_name">会员名称</option>
-                        <option value="mobile">会员手机号</option>
+                        <option value="member_id"     <?php if($request['key'] == 'member_id' ): ?>selected<?php endif; ?>  >会员编号</option>
+                        <option value="member_name"   <?php if($request['key'] == 'member_name' ): ?>selected<?php endif; ?> >会员名称</option>
+                        <option value="member_mobile" <?php if($request['key'] == 'member_mobile' ): ?>selected<?php endif; ?>>会员手机号</option>
                     </select>
 
                 </div>
 
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="内容">
+                    <input type="text" class="form-control" name="content" placeholder="内容" value="<?php echo ($request['content']); ?>">
                 </div>
                 <button type="submit" class="btn btn-primary">查找</button>
+                <button id="reset" type="button" class="btn btn-default">重置</button>
                 <button type="submit" class="btn btn-default">导出</button>
             </form>
 
@@ -161,11 +161,11 @@
                     <td><?php echo ($vo["member_id"]); ?></td>
                     <td><?php echo ($vo["member_name"]); ?></td>
                     <td><?php echo ($vo["member_truename"]); ?></td>
-                    <td><?php echo ($vo["member_sex"]); ?></td>
+                    <td><?php echo ($vo["member_sex_name"]); ?></td>
                     <td><?php echo ($vo["member_mobile"]); ?></td>
                     <td><?php echo ($vo["member_qq"]); ?></td>
-                    <td><?php echo ($vo["member_points"]); ?></td>
-                    <td><?php echo ($vo["member_time"]); ?></td>
+                    <td><?php echo ($vo["member_money"]); ?></td>
+                    <td><?php echo ($vo["member_time_name"]); ?></td>
                     <td>
                         <a  class="btn btn-warning  btn-sm update" title="分类修改" data-url="./update.html?id="><i class="fa fa-edit" aria-hidden="true"></i> </a>
                         <a  class="btn btn-danger   btn-sm delete"  title="分类删除"  data-url="./delete.html?id="> <i class="fa fa-trash-o fa-lg"></i></a>
@@ -173,33 +173,25 @@
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>
-    <nav class="Page textRight" aria-label="Page navigation  ">
-
-
- <!--       <ul class="pagination pull-right">
-            <li>
-                <a href="#" aria-label="Previous">
-                    <span aria-hidden="true">上页</span>
-                </a>
-            </li>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
-            <li>
-                <a href="#" aria-label="Next">
-                    <span aria-hidden="true">下页</span>
-                </a>
-            </li>
-        </ul>-->
+    <nav class="Page textRight" aria-label="Page navigation">
         <?php echo ($page); ?>
-       <!-- <span class="row-num">本页<?php echo ($pageNum); ?>条，总数<?php echo ($allNum); ?>条</span>-->
     </nav>
 
 
 </div>
 
+<script type="application/javascript">
+
+    (function($){
+
+        $("#reset").click(function(){
+
+
+
+        });
+
+    })(jQuery)
+</script>
 </body>
 
 </html>
