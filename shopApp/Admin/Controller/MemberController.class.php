@@ -7,24 +7,33 @@ class MemberController extends Controller {
         $request=I("request.");
 
         $map=array();
-        $starTime=$request["startTime"];
-        if($request["startTime"]){
-            $map["member_time"]=array("gt",$request["startTime"]);
+        $starTime=trim($request["startTime"]);
+        if($starTime){
+            $starTime=strtotime($starTime);
+            $map["member_time"]=array("gt",$starTime);
         }
+        $endTime=trim($request["endTime"]);
         if($request["endTime"]){
-            $map["member_time"]=array("lt",$request["member_time"]);
+            $endTime=strtotime($endTime);
+            $map["member_time"]=array("lt",$endTime);
         }
         if($request["content"]){
-            $map[$request["key"]]=array("like","%".$request["content"]."%");
+            if($request["key"]=="member_id"){
+                $map[$request["key"]]=$request["content"];
+            }
+            else{
+                $map[$request["key"]]=array("like","%".$request["content"]."%");
+            }
         }
-        $limit=$request["limit"]?$request["limit"]:null;
+        $limit=$request["limit"]?$request["limit"]:20;
         $returnList=D("member")->getList($map,"member_id desc",$limit);
-
+        //print_r($returnList["list"]);
         $this->assign("list",$returnList["list"]);
         $this->assign("page",$returnList["page"]);
         $this->assign("allNum",$returnList["allNum"]);
         $this->assign("pageNum",$returnList["pageNum"]);
         $this->display();
     }
+
 
 }

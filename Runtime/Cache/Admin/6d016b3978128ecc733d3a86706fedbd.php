@@ -151,291 +151,32 @@
             <th >手机号</th>
             <th >QQ</th>
             <th>账户金额</th>
-            <th>修改时间</th>
+            <th>新增时间</th>
             <th>操作</th>
         </tr>
         </thead>
-
-
-
         <tbody>
-        <tr>
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm update" title="分类修改" data-url="./update.html?id="><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger   btn-sm delete"  title="分类删除"  data-url="./delete.html?id="> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-
-
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>            <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
-        <tr >
-            <td><input  type="checkbox"></td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>快速新建卡片</td>
-            <td>
-                <a  class="btn btn-warning  btn-sm"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                <a  class="btn btn-danger  btn-sm"> <i class="fa fa-trash-o fa-lg"></i></a>
-            </td>
-        </tr>
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+                    <td><input  type="checkbox"></td>
+                    <td><?php echo ($vo["member_id"]); ?></td>
+                    <td><?php echo ($vo["member_name"]); ?></td>
+                    <td><?php echo ($vo["member_truename"]); ?></td>
+                    <td><?php echo ($vo["member_sex"]); ?></td>
+                    <td><?php echo ($vo["member_mobile"]); ?></td>
+                    <td><?php echo ($vo["member_qq"]); ?></td>
+                    <td><?php echo ($vo["member_points"]); ?></td>
+                    <td><?php echo ($vo["member_time"]); ?></td>
+                    <td>
+                        <a  class="btn btn-warning  btn-sm update" title="分类修改" data-url="./update.html?id="><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                        <a  class="btn btn-danger   btn-sm delete"  title="分类删除"  data-url="./delete.html?id="> <i class="fa fa-trash-o fa-lg"></i></a>
+                    </td>
+                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>
-    <nav class="Page" aria-label="Page navigation ">
+    <nav class="Page textRight" aria-label="Page navigation  ">
 
 
-        <ul class="pagination pull-right">
+ <!--       <ul class="pagination pull-right">
             <li>
                 <a href="#" aria-label="Previous">
                     <span aria-hidden="true">上页</span>
@@ -451,8 +192,9 @@
                     <span aria-hidden="true">下页</span>
                 </a>
             </li>
-        </ul>
-        <span class="row-num">本页100条，总数500条</span>
+        </ul>-->
+        <?php echo ($page); ?>
+       <!-- <span class="row-num">本页<?php echo ($pageNum); ?>条，总数<?php echo ($allNum); ?>条</span>-->
     </nav>
 
 

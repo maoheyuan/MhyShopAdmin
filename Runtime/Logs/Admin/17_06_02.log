@@ -1,0 +1,2533 @@
+[ 2017-06-02T09:26:14+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/login.html?a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:26:14+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-06-02T09:26:15+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-06-02T09:26:22+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0250s ]
+SQL: SELECT * FROM `mhy_admin` WHERE `admin_name` = 'maoheyuan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T09:26:25+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:js
+
+[ 2017-06-02T09:26:25+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-06-02T09:54:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_admin` WHERE `admin_name` = 'maoheyuan' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:50+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
+[ 2017-06-02T09:54:57+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_admin` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T09:54:58+08:00 ] ::1 /MhyShopAdmin/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:44:58+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 18 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0380s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( status=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( status=1 ) LIMIT 1  
+
+[ 2017-06-02T10:47:44+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( status=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( status=1 ) LIMIT 1  
+
+[ 2017-06-02T10:47:48+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( status=1 ) LIMIT 1  
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( status=1 ) LIMIT 1  
+
+[ 2017-06-02T10:48:12+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0540s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:48:30+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:49:06+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:49:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:53:19+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T10:54:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T10:57:31+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:05:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:10:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:11:25+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:17:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:18:31+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:18:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:18:33+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:21:22+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:22:18+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:22:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:23:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-02T11:24:34+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:24:35+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:24:36+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:24:37+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:24:38+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:24:39+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:24:40+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:24:41+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:41:44+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/_memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:_memberAdd
+
+[ 2017-06-02T11:41:54+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:10+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:33+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('tN2B','cwMOF','6M0oLpng','0','1063284289','e10adc3949ba59abbe56e057f20f883e','13548203585','2596700@qq.com','826732','1') [ RunTime:0.0240s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('inT0','d90PH','bMq2ipng','0','1106958137','e10adc3949ba59abbe56e057f20f883e','13548203582','2417072@qq.com','5560721','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('qAGU','k8tKr','Aoiilpng','1','1097827329','e10adc3949ba59abbe56e057f20f883e','13548203586','5139457@qq.com','3645264','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('lMJH','72mtd','s1zb0png','1','1039067576','e10adc3949ba59abbe56e057f20f883e','13548203583','7175859@qq.com','1585287','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('v9r6','XmWr8','lITWOpng','1','1064536599','e10adc3949ba59abbe56e057f20f883e','13548203585','4598349@qq.com','5198166','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Gkkv','L7GUq','8bskjpng','1','1032175413','e10adc3949ba59abbe56e057f20f883e','13548203584','5968149@qq.com','8747908','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('H4Lj','DNE2l','Ud13Fpng','0','1080557164','e10adc3949ba59abbe56e057f20f883e','13548203586','1630760@qq.com','1406081','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('6ySk','yOBnJ','T2TOXpng','1','1018635011','e10adc3949ba59abbe56e057f20f883e','13548203583','5018751@qq.com','7648967','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('5iIP','zQLIW','QcbIbpng','0','1070198499','e10adc3949ba59abbe56e057f20f883e','13548203589','4020464@qq.com','1556547','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('zuys','NgnFl','7EUL7png','0','1031032313','e10adc3949ba59abbe56e057f20f883e','13548203584','1335562@qq.com','2059849','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('h72L','z9VR2','ulybkpng','0','1106757600','e10adc3949ba59abbe56e057f20f883e','13548203589','3945484@qq.com','8923695','0') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:37+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:42:45+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('pEqt','1mWHO','vDMWcpng','1','1099507785','e10adc3949ba59abbe56e057f20f883e','13548203581','8958362@qq.com','3398703','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('utaS','I8ZCw','vM3Jwpng','0','1027731950','e10adc3949ba59abbe56e057f20f883e','13548203584','6319218@qq.com','7705907','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('httk','jZsM0','MaVqXpng','0','1046162569','e10adc3949ba59abbe56e057f20f883e','13548203582','517366@qq.com','4635493','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('8Jcz','goQY3','bGFZApng','1','1078199283','e10adc3949ba59abbe56e057f20f883e','13548203587','4845275@qq.com','4475879','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('ZQwH','jb5gn','XbJntpng','1','1013074844','e10adc3949ba59abbe56e057f20f883e','13548203587','7535781@qq.com','8970689','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('5Uu4','cIAfj','U79HZpng','1','1051104206','e10adc3949ba59abbe56e057f20f883e','13548203581','6300666@qq.com','4229750','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Mmzr','HROse','YbINHpng','0','1056877827','e10adc3949ba59abbe56e057f20f883e','13548203588','8958202@qq.com','8110893','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('7gg2','MuqKI','irSFKpng','0','1077616452','e10adc3949ba59abbe56e057f20f883e','13548203583','7562265@qq.com','1537265','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Lmsv','JQGBE','FGyHzpng','0','1070522428','e10adc3949ba59abbe56e057f20f883e','13548203582','1897056@qq.com','6237960','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('wDRK','FlHoz','ilHmUpng','0','1026239123','e10adc3949ba59abbe56e057f20f883e','13548203585','4124835@qq.com','8933143','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('k0zx','q2nsC','ax8V5png','0','1026764911','e10adc3949ba59abbe56e057f20f883e','13548203580','4083796@qq.com','8397415','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:54+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:56+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('b4TY','QyvJ8','Kmb8Qpng','0','1103656102','e10adc3949ba59abbe56e057f20f883e','13548203580','722363@qq.com','7562920','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('ztDe','Sqo7L','L3ddJpng','0','1018341076','e10adc3949ba59abbe56e057f20f883e','13548203586','2379206@qq.com','8599757','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('j4SE','yTGgU','9bnEcpng','1','1003823582','e10adc3949ba59abbe56e057f20f883e','13548203581','1026884@qq.com','8887730','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('GFzc','9e9VQ','e5sHFpng','1','1107896037','e10adc3949ba59abbe56e057f20f883e','13548203581','2161497@qq.com','6215156','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('yLZB','beuMX','XeVBXpng','0','1005331228','e10adc3949ba59abbe56e057f20f883e','13548203581','3660186@qq.com','5221125','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('MAcz','dIuZU','Wnq32png','1','1015548240','e10adc3949ba59abbe56e057f20f883e','13548203588','5258222@qq.com','3896898','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('CCxc','mEQTh','ex2yXpng','0','1108912248','e10adc3949ba59abbe56e057f20f883e','13548203589','711016@qq.com','3719895','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('LE2D','1cg6w','SgyXUpng','1','1030353391','e10adc3949ba59abbe56e057f20f883e','13548203583','6587341@qq.com','3522116','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('09wt','zunCN','Msi6Dpng','0','1020225938','e10adc3949ba59abbe56e057f20f883e','13548203580','8724321@qq.com','5959764','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('fp3T','StLFy','Ke1xWpng','1','1045147995','e10adc3949ba59abbe56e057f20f883e','13548203584','8551913@qq.com','7317787','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('03wP','jT7cc','dIKs6png','1','1009487980','e10adc3949ba59abbe56e057f20f883e','13548203583','2009422@qq.com','3587987','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:42:59+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Page.class.php 第 84 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:43:22+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:43:50+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:45:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\MemberModel.class.php 第 30 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:46:06+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\MemberModel.class.php 第 30 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:46:15+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\MemberModel.class.php 第 30 行.
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:49:30+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:49:35+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-02T11:52:33+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Kw8X','hQyZ2','DiffIpng','0','1091063637','e10adc3949ba59abbe56e057f20f883e','13548203580','6563674@qq.com','8207280','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('MAKU','w6I4y','kbUYBpng','1','1056228885','e10adc3949ba59abbe56e057f20f883e','13548203588','982645@qq.com','1307036','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('j3mS','xVG0E','4byp4png','1','1082666464','e10adc3949ba59abbe56e057f20f883e','13548203585','7645813@qq.com','5101392','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('jl4d','z1EK0','1U2S8png','0','1062084659','e10adc3949ba59abbe56e057f20f883e','13548203588','2060571@qq.com','3940565','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Otj4','xZRv9','iMuF5png','0','1115772190','e10adc3949ba59abbe56e057f20f883e','13548203587','5327366@qq.com','6820443','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Wv1h','eRAiW','Z7ceLpng','1','1021497949','e10adc3949ba59abbe56e057f20f883e','13548203585','1786263@qq.com','4317965','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('NqgV','zcCUe','gh48Fpng','0','1111823446','e10adc3949ba59abbe56e057f20f883e','13548203584','2512890@qq.com','7041363','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('dyVF','M1A9k','2DVtRpng','1','1087726850','e10adc3949ba59abbe56e057f20f883e','13548203584','3838619@qq.com','691572','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('hXyY','GxIUO','yg6BPpng','0','1035514672','e10adc3949ba59abbe56e057f20f883e','13548203587','1536380@qq.com','4777065','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('OSGd','tseWF','dhkzkpng','0','1040283604','e10adc3949ba59abbe56e057f20f883e','13548203584','3598029@qq.com','4582456','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('0Sgc','omOAs','ulnTnpng','0','1024558339','e10adc3949ba59abbe56e057f20f883e','13548203581','210293@qq.com','6373921','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:53:59+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:54:04+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:54:10+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('JfHs','mnINe','fdpcFpng','1','1111007221','e10adc3949ba59abbe56e057f20f883e','13548203586','1727929@qq.com','5662544','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Y2ZM','bnkno','tUdnCpng','0','1111429818','e10adc3949ba59abbe56e057f20f883e','13548203588','4792085@qq.com','1742724','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('q3JS','b53P7','cD10vpng','1','1115168316','e10adc3949ba59abbe56e057f20f883e','13548203588','2768372@qq.com','6858511','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('RTGX','iyRfZ','GFuVjpng','1','1096345177','e10adc3949ba59abbe56e057f20f883e','13548203583','6841710@qq.com','3327966','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('LXLE','EpTwZ','reJlipng','1','1075093877','e10adc3949ba59abbe56e057f20f883e','13548203587','729865@qq.com','4357623','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Z0MQ','Dgyd7','X0PA1png','0','1111856933','e10adc3949ba59abbe56e057f20f883e','13548203582','288399@qq.com','5614270','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('d9ss','xxnLA','5kOy7png','1','1113654551','e10adc3949ba59abbe56e057f20f883e','13548203587','7870401@qq.com','683538','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('SL5d','k8x0n','kgMevpng','0','1036992195','e10adc3949ba59abbe56e057f20f883e','13548203587','126448@qq.com','1166735','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('uPKW','cRIsR','fICwrpng','0','1018472933','e10adc3949ba59abbe56e057f20f883e','13548203582','8358024@qq.com','7381706','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('HFkg','LKC2E','6PQvYpng','1','1004808904','e10adc3949ba59abbe56e057f20f883e','13548203580','1357815@qq.com','2132835','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('0IGY','7VwIZ','xUFHQpng','0','1022933991','e10adc3949ba59abbe56e057f20f883e','13548203587','6100984@qq.com','6047273','0') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:54:13+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('GrDO','JwM3Q','jyjLipng','1','1015134584','e10adc3949ba59abbe56e057f20f883e','13548203585','6585019@qq.com','7226493','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('apYI','nLgia','cgHO8png','0','1030167384','e10adc3949ba59abbe56e057f20f883e','13548203583','5962316@qq.com','8655626','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('1OX6','mhJOZ','RMf2kpng','0','1044995507','e10adc3949ba59abbe56e057f20f883e','13548203580','532042@qq.com','7798786','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('l3lr','7pPbC','buxKYpng','1','1063962088','e10adc3949ba59abbe56e057f20f883e','13548203589','6441582@qq.com','7754620','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('bGwp','qXldv','wn6XIpng','0','1087532862','e10adc3949ba59abbe56e057f20f883e','13548203586','7588490@qq.com','8143261','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('kupL','8vtwq','YKH4Tpng','1','1107878209','e10adc3949ba59abbe56e057f20f883e','13548203587','1490547@qq.com','2372189','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('dwqh','pA9JA','CCIfppng','1','1051163485','e10adc3949ba59abbe56e057f20f883e','13548203580','322266@qq.com','843073','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('DbtY','an5NL','cfvBhpng','1','1079853791','e10adc3949ba59abbe56e057f20f883e','13548203585','7103390@qq.com','795319','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('LM6C','RJTaR','YJdy9png','1','1073289897','e10adc3949ba59abbe56e057f20f883e','13548203582','4746440@qq.com','893388','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('7vdF','wME4y','fNEdXpng','1','1101605780','e10adc3949ba59abbe56e057f20f883e','13548203587','3343531@qq.com','6057962','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('j5hn','w4cP5','Z0KUopng','1','1004477213','e10adc3949ba59abbe56e057f20f883e','13548203587','1824616@qq.com','464652','0') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:54:15+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('za7T','2zfZI','dnvhFpng','0','1065519982','e10adc3949ba59abbe56e057f20f883e','13548203581','2762240@qq.com','3580160','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('RJOI','LcrOV','vd1e3png','1','1027368285','e10adc3949ba59abbe56e057f20f883e','13548203587','7452014@qq.com','8873635','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('b5uF','gQTix','VIvhtpng','1','1017182121','e10adc3949ba59abbe56e057f20f883e','13548203584','7901093@qq.com','8300547','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('YRj8','CmuII','X7G47png','0','1107757345','e10adc3949ba59abbe56e057f20f883e','13548203580','8131373@qq.com','7918405','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Y0Nw','V1nRS','JxQ03png','1','1032807434','e10adc3949ba59abbe56e057f20f883e','13548203583','4791369@qq.com','5504051','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('f4im','uT8LX','LErxipng','0','1084905983','e10adc3949ba59abbe56e057f20f883e','13548203582','6913219@qq.com','5235225','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('tc6P','hGVvn','LozU0png','1','1117423160','e10adc3949ba59abbe56e057f20f883e','13548203586','4018569@qq.com','6210210','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('I6cV','zSVuk','622impng','1','1102933520','e10adc3949ba59abbe56e057f20f883e','13548203584','5060101@qq.com','4995692','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('SfMk','8hi1j','5npzTpng','1','1093421505','e10adc3949ba59abbe56e057f20f883e','13548203586','4326543@qq.com','6522682','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('3R2P','mPrTr','SJO29png','0','1013650155','e10adc3949ba59abbe56e057f20f883e','13548203588','8514781@qq.com','1873460','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('utH8','9EbGl','52LCCpng','1','1091921053','e10adc3949ba59abbe56e057f20f883e','13548203585','1319774@qq.com','6793098','1') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:54:18+08:00 ] ::1 /MhyShopAdmin/admin.php/AddTestData/memberAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('RcWN','jz2EC','kpaRXpng','1','1065115541','e10adc3949ba59abbe56e057f20f883e','13548203588','1972284@qq.com','3316484','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('g0IY','8N4C9','GYtDNpng','1','1052919069','e10adc3949ba59abbe56e057f20f883e','13548203580','8915154@qq.com','8669905','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('rQj4','PdRcM','zM0c9png','0','1070570395','e10adc3949ba59abbe56e057f20f883e','13548203587','1851195@qq.com','4440033','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('0KH1','SjiEo','jaT2Vpng','0','1062190939','e10adc3949ba59abbe56e057f20f883e','13548203583','7872084@qq.com','4144149','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('UawO','wknwl','Gnm0Cpng','0','1095699695','e10adc3949ba59abbe56e057f20f883e','13548203581','3448747@qq.com','3314440','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('Uyko','dKpX2','XGQJvpng','0','1091773598','e10adc3949ba59abbe56e057f20f883e','13548203580','2705751@qq.com','2019599','1') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('0CKz','xx0EX','y50zqpng','0','1069129151','e10adc3949ba59abbe56e057f20f883e','13548203589','4186760@qq.com','7152832','1') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('6F3h','c75JC','fVkLopng','1','1054284763','e10adc3949ba59abbe56e057f20f883e','13548203580','6780782@qq.com','2178595','0') [ RunTime:0.0010s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('8Fyf','LqnI5','02uezpng','1','1018531527','e10adc3949ba59abbe56e057f20f883e','13548203588','6247185@qq.com','84154','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('MGtO','i4VAx','DTTJbpng','1','1008129638','e10adc3949ba59abbe56e057f20f883e','13548203587','4957233@qq.com','7648491','0') [ RunTime:0.0000s ]
+SQL: INSERT INTO `mhy_member` (`member_name`,`member_truename`,`member_avatar`,`member_sex`,`member_birthday`,`member_passwd`,`member_mobile`,`member_email`,`member_qq`,`member_state`) VALUES ('MSlK','ZN0d9','CJf38png','0','1007145696','e10adc3949ba59abbe56e057f20f883e','13548203587','2313929@qq.com','4875973','1') [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:54:20+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:54:24+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 80,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:54:27+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:56:02+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:57:50+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:57:53+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:57:54+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:57:58+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T11:58:01+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:58:04+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:58:07+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 80,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:58:19+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:58:28+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 20,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:58:33+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T11:58:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T11:58:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:00:01+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:00:03+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:00:04+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T12:00:05+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:00:06+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:00:07+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T12:00:08+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:00:09+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-02T12:02:03+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T12:02:06+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:02:09+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:02:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:24:05+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:29:54+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 60,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T12:30:02+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 40,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-02T12:30:05+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-02T12:30:18+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 15 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 16 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 20 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

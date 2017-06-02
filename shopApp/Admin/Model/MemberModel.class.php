@@ -24,8 +24,9 @@ class MemberModel extends Model {
     }
 
     public  function  getList($map,$orderBy="member_id desc",$limit=25){
-        $count      =$this->where('status=1')->count();
+        $count      =$this->where($map)->count();
         $page       = new \Think\Page($count,$limit);
+        $page->setConfig('theme',C("PAGE_THEME"));
         $show       = $page->show();
         $list = $this->where($map)->order($orderBy)->limit($page->firstRow.','.$page->listRows)->select();
         $returnData=array();
