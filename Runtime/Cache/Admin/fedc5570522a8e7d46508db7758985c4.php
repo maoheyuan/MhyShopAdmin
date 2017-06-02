@@ -107,7 +107,6 @@
         <div class="col-sm-8">
             <img id="upload" alt="" style="width: 200px; height: 200px"
                  src="http://p3.pstatp.com/large/2498000b473b93dc41af">
-
             <!-- 隐藏file标签 -->
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
         </div>
@@ -174,14 +173,11 @@
 <script src="/MhyShopAdmin/Public/admin/js/ajaxfileupload.js"></script>
 <script type="text/javascript">
     $("#body").addClass("create-page");
-
-
     $(function(){
         //点击打开文件选择器
         $("#upload").on('click', function() {
             $('#fileToUpload').click();
         });
-
         //选择文件之后执行上传
         $('#fileToUpload').on('change', function() {
             $.ajaxFileUpload({
