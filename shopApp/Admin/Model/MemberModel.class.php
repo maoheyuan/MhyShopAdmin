@@ -45,6 +45,18 @@ class MemberModel extends Model {
         return $returnData;
     }
 
+
+
+    public  function exportList($map=array(),$orderBy="member_id desc"){
+
+        $list = $this->where($map)->order($orderBy)->select();
+
+        foreach($list as $key=>$value){
+            $list[$key]=$this->dataFormat($value);
+        }
+        return $list;
+    }
+
     public  function  stateFormat($state){
 
         if($state==self::ENABLE){
