@@ -33,7 +33,10 @@
     <div class="form-group">
         <label for="member_avatar" class="col-sm-2 control-label">图片：</label>
         <div class="col-sm-8">
-            <input type="file"  id="member_avatar">
+            <img id="upload" alt="" style="width: 200px; height: 200px"
+                 src="http://p3.pstatp.com/large/2498000b473b93dc41af">
+            <!-- 隐藏file标签 -->
+            <input id="fileToUpload" style="display: none" type="file" name="upfile">
         </div>
     </div>
     <div class="form-group">
@@ -94,8 +97,43 @@
         </div>
     </div>
 </form>
+
+<script src="__PUBLIC__/admin/js/ajaxfileupload.js"></script>
 <script type="text/javascript">
     $("#body").addClass("create-page");
+    $(function(){
+        //点击打开文件选择器
+        $("#upload").on('click', function() {
+            $('#fileToUpload').click();
+        });
+        //选择文件之后执行上传
+        $('#fileToUpload').on('change', function() {
+            $.ajaxFileUpload({
+                url:'../FileUploadServlet',
+                secureuri:false,
+                fileElementId:'fileToUpload',//file标签的id
+                dataType: 'json',//返回数据的类型
+                data:{name:'logan'},//一同上传的数据
+                success: function (data, status) {
+                    //把图片替换
+                    var obj = jQuery.parseJSON(data);
+                    $("#upload").attr("src", "../image/"+obj.fileName);
+
+                    if(typeof(data.error) != 'undefined') {
+                        if(data.error != '') {
+                            alert(data.error);
+                        } else {
+                            alert(data.msg);
+                        }
+                    }
+                },
+                error: function (data, status, e) {
+                    alert(e);
+                }
+            });
+        });
+
+    });
 
 </script>
 <include file="Public/footer" />
