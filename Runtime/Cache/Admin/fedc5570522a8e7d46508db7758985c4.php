@@ -71,33 +71,39 @@
 </div>
 -->
 
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Member/add');?>">
 
     <div class="form-group">
-        <label for="member_name" class="col-sm-2 control-label">名称：</label>
+        <label for="member_name" class="col-sm-2 control-label"><span aria-hidden="true">&times;</span>名称：</label>
         <div class="col-sm-8">
-            <input type="password" class="form-control" id="member_name" placeholder="名称">
+            <input type="text" class="form-control" id="member_name" name="member_name" placeholder="名称">
         </div>
     </div>
 
 
     <div class="form-group">
-        <label for="member_truename" class="col-sm-2 control-label">真实姓名：</label>
+        <label for="member_truename" class="col-sm-2 control-label text-muted">真实姓名：</label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_truename" placeholder="真实姓名">
+            <input type="text" class="form-control" id="member_truename"  name="member_truename" placeholder="真实姓名">
         </div>
     </div>
 
 
+    <div class="form-group">
+        <label for="member_money" class="col-sm-2 control-label">会员密码：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="member_passwd" name="member_passwd" placeholder="会员密码">
+        </div>
+    </div>
 
     <div class="form-group">
         <label class="col-sm-2 control-label">性别：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions"  value="1"> 女
+                <input type="radio" name="member_sex"  value="1"> 女
             </label>
             <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions"  value="2"> 男
+                <input type="radio" name="member_sex"  value="2"> 男
             </label>
         </div>
     </div>
@@ -127,34 +133,39 @@
     <div class="form-group">
         <label for="member_mobile" class="col-sm-2 control-label">手机号：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_mobile" placeholder="手机号" >
+            <input  class="form-control" id="member_mobile" name="member_mobile" placeholder="手机号" >
         </div>
     </div>
 
     <div class="form-group">
         <label for="member_qq" class="col-sm-2 control-label"> 	QQ：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_qq" placeholder="QQ">
+            <input  class="form-control" id="member_qq"  name="member_qq" placeholder="QQ">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="member_mobile" class="col-sm-2 control-label">Email：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="member_email" name="member_mobile" placeholder="Email" >
         </div>
     </div>
 
     <div class="form-group">
         <label for="member_money" class="col-sm-2 control-label">金额：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_money" placeholder="金额">
+            <input  class="form-control" id="member_money" name="member_money" placeholder="金额">
         </div>
     </div>
-
-
 
     <div class="form-group">
         <label  class="col-sm-2 control-label">状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions"  value="option1"> 启用
+                <input type="radio" name="member_state"  value="option1"> 启用
             </label>
             <label class="radio-inline">
-                <input type="radio" name="inlineRadioOptions"  value="option2"> 禁用
+                <input type="radio" name="member_state"  value="option2"> 禁用
             </label>
         </div>
     </div>
@@ -174,14 +185,10 @@
     $(function(){
         //点击打开文件选择器
         $("#upload").on('click', function() {
-
-
             $('#fileToUpload').click();
         });
         //选择文件之后执行上传
         $('#fileToUpload').live('change', function() {
-
-            alert("dddd");
             $.ajaxFileUpload({
                 url:'<?php echo U("Member/JqueryAjaxUpload");?>',
                 secureuri:false,
@@ -203,7 +210,6 @@
                 }
             });
         });
-
     });
 </script>
 </body>

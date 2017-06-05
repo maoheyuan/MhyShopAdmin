@@ -19,6 +19,7 @@ class BaseController extends Controller {
 
     public function JqueryAjaxUpLoad(){
 
+        C('TOKEN_ON',false);
         $returnData=array();
         $upload = new \Think\Upload();// 实例化上传类
         $upload->maxSize   =     3145728 ;// 设置附件上传大小

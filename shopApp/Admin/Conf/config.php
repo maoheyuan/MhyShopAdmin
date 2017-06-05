@@ -16,6 +16,8 @@ return array(
     'TOKEN_NAME'    =>    '__hash__',     // 令牌验证的表单隐藏字段名称，默认为__hash__
     'TOKEN_TYPE'    =>    'md5',          //令牌哈希验证规则 默认为MD5
     'TOKEN_RESET'   =>    true,           //令牌验证出错后是否重置令牌 默认为true
+
+   //分页样式
     "PAGE_THEME"    =>   "<ul class='pagination'></li><li>%FIRST%</li><li>%UP_PAGE%</li><li>%LINK_PAGE%</li><li>%DOWN_PAGE%</li><li>%END%</li><li><a>%HEADER%  %NOW_PAGE%/%TOTAL_PAGE% 页</a></ul>",
 
 );
