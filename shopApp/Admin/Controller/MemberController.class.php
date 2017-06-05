@@ -1,7 +1,9 @@
 <?php
 namespace Admin\Controller;
 use Think\Controller;
-class MemberController extends Controller {
+use Think\Exception;
+
+class MemberController extends BaseController {
     public function index(){
 
         $request=I("request.");
@@ -79,22 +81,65 @@ class MemberController extends Controller {
 
 
     public  function  add(){
-
-
-
         if(IS_POST){
 
+            try{
 
 
 
+                $rules = array(
+                    array('verify','require','验证码必须！'), //默认情况下用正则进行验证
+                    array('name','','帐号名称已经存在！',0,'unique',1), // 在新增的时候验证name字段是否唯一
+                    array('value',array(1,2,3),'值的范围不正确！',2,'in'), // 当值不为空的时候判断是否在一个范围内
+                    array('repassword','password','确认密码不正确',0,'confirm'), // 验证确认密码是否和密码一致
+                    array('password','checkPwd','密码格式不正确',0,'function'), // 自定义函数验证密码格式
+                );
+
+
+                $User = M("User"); // 实例化User对象
+                if (!$User->validate($rules)->create()){
+                    // 如果创建失败 表示验证没有通过 输出错误提示信息
+                    exit($User->getError());
+                }else{
+                    // 验证通过 可以进行其他数据操作
+                }
+
+                $rule = [
+                    'name'  => 'require|max:25',
+                    'age'   => 'number|between:1,120',
+                    'email' => 'email',
+                ];
+                $msg = [
+                    'name.require' => '名称必须',
+                    'name.max'     => '名称最多不能超过25个字符',
+                    'age.number'   => '年龄必须是数字',
+                    'age.between'  => '年龄只能在1-120之间',
+                    'email'        => '邮箱格式错误',
+                ];
+                $data = [
+                    'name'  => 'thinkphp',
+                    'age'   => 10,
+                    'email' => 'thinkphp@qq.com',
+                ];
+                $validate = new Validate($rule, $msg);
+                if(!$validate->check($data)){
+                    E($validate->getError());
+                }
+                $result=D("member")->add($data);
+                if($result){
+                    $this->success("新增成功!");
+                }
+                else{
+                    E($validate->getError());
+                }
+            }
+            catch(\Exception $e){
+                $this->error($e->getMessage());
+            }
         }
         else{
-
             $this->display();
         }
-
-
-
     }
 
 
