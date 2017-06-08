@@ -195,7 +195,7 @@
         </tr>
         </thead>
         <tbody>
-            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="row<?php echo ($vo['member_id']); ?>">
                     <td><input  type="checkbox"></td>
                     <td><?php echo ($vo["member_id"]); ?></td>
                     <td><?php echo ($vo["member_name"]); ?></td>
@@ -207,7 +207,7 @@
                     <td><?php echo ($vo["member_time_name"]); ?></td>
                     <td>
                         <a  class="btn btn-warning  btn-sm update" title="会员修改" data-url="<?php echo U('member/update');?>?member_id=<?php echo ($vo['member_id']); ?>"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                        <a  class="btn btn-danger   btn-sm delete"  title="会员删除"  data-url="<?php echo U('member/delete');?>?member_id=<?php echo ($vo['member_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
+                        <a  class="btn btn-danger   btn-sm delete"  title="会员删除" data-id="<?php echo ($vo['member_id']); ?>" data-url="<?php echo U('member/delete');?>?member_id=<?php echo ($vo['member_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
                     </td>
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

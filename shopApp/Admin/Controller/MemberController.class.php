@@ -130,6 +130,7 @@ class MemberController extends BaseController {
     }
 
     public  function  delete(){
+        C('TOKEN_ON',false);
         try {
             $returnData=D("member")->memberDelete();
             if($returnData["status"]==1){

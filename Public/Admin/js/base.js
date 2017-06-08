@@ -24,7 +24,7 @@
      };
      heyuan.updateData=function(node){
          title=$(node).attr("title");
-         id=$(node).attr("data-id");
+
          url=$(node).attr("data-url");
          layer.open({
              type: 2,
@@ -32,7 +32,7 @@
              shadeClose: true,
              shade: 0.8,
              area: ['80%', '80%'],
-             content: url+id
+             content: url
          });
      };
 
@@ -41,6 +41,8 @@
          url=$(node).attr("data-url");
          mhyDeleteCallBack=function(data,status){
              if(data.status==1){
+
+                 $("#row"+id).remove();
                  layer.msg('删除成功!', {icon: 1});
              }
              else{
@@ -52,7 +54,7 @@
                 btn: ['确认','取消'] //按钮
              },
              function(){
-                heyuan.post(url,{"id":id},mhyDeleteCallBack);
+                heyuan.post(url,{},mhyDeleteCallBack);
              },
              function(){
              layer.msg('取消成功!', {icon: 2});
