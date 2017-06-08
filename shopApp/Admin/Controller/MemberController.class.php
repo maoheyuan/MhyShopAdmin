@@ -85,48 +85,12 @@ class MemberController extends BaseController {
         C('TOKEN_ON',false);
         if(IS_POST){
             try{
-                $post=I("post.");
-                $rules = array(
-                    array('member_name'    ,  'require'  ,   '会员名称不能为空!' ),
-                    array('member_name'    ,  ''         ,   '会员名称已经存在!',1,'unique'),
-                    array('member_truename',  'require'  ,   '真实姓名不能为空!' ),
-                   // array('member_avatar'  ,  'require'  ,   '会员头像不能为空!' ),
-                    array('member_passwd'  ,  'require'  ,   '会员密码不能为空!' ),
-                    array('member_sex'     ,  array(1,2) ,   '值的范围不正确！' ,2,'in'),
-
-                    array('member_mobile'  ,  'require'  ,   '手机号不能为空!' ),
-                    array('member_email'  ,  'require'  ,   '电子邮件不能为空!' ),
-                    array('member_qq'  ,  'require'  ,   'QQ号不能为空!' ),
-                );
-                $data = array(
-                    'member_name'       =>  $post["member_name"]      ? $post["member_name"]       : "",
-                    'member_truename'   =>  $post["member_truename"]  ? $post["member_truename"]   : "",
-                    'member_avatar'     =>  $post["member_avatar"]    ? $post["member_avatar"]     : "",
-                    'member_sex'        =>  $post["member_sex"]       ? $post["member_sex"]        : 1,
-                    'member_birthday'   =>  $post["member_birthday"]  ? $post["member_birthday"]   : "",
-                    'member_passwd'     =>  $post["member_passwd"]    ? $post["member_passwd"]     : "",
-                    'member_mobile'     =>  $post["member_mobile"]    ? $post["member_mobile"]     : "",
-                    'member_email'      =>  $post["member_email"]     ? $post["member_email"]      : "",
-                    'member_qq'         =>  $post["member_qq"]        ? $post["member_qq"]         : "",
-                    'member_time'       =>  $post["member_time"]      ? $post["member_time"]       : time(),
-                    'member_points'     =>  $post["member_points"]    ? $post["member_points"]     : 0,
-                    'member_state'      =>  $post["member_state"]     ? $post["member_state"]      : 1,
-                    'member_areaid'     =>  $post["member_areaid"]    ? $post["member_areaid"]     : 0,
-                    'member_cityid'     =>  $post["member_cityid"]    ? $post["member_cityid"]     : 0,
-                    'member_provinceid' =>  $post["member_provinceid"]? $post["member_provinceid"] : 0,
-                    'member_areainfo'   =>  $post["member_areainfo"]  ? $post["member_areainfo"]   : 0,
-                    'member_money'      =>  $post["member_money"]     ? $post["member_money"]      : 0,
-                );
-                if (!M("member")->validate($rules)->create($data)){
-
-                    E(M("member")->getError());
-                }
-                $result=D("member")->add($data);
-                if($result){
+                $returnData=D("member")->memberAdd();
+                if($returnData["status"]==1){
                     $this->success("新增成功!");
                 }
                 else{
-                    E(D("member")->getError());
+                    E($returnData["tip"]);
                 }
             }
             catch(\Exception $e){
@@ -134,8 +98,49 @@ class MemberController extends BaseController {
             }
         }
         else{
-
             $this->display();
+        }
+    }
+
+    public  function  update(){
+
+        C('TOKEN_ON',false);
+        try{
+            if(IS_POST){
+                $returnData=D("member")->memberEdit();
+                if($returnData["status"]==1){
+                    $this->success("修改成功!");
+                }
+                else{
+                    E($returnData["tip"]);
+                }
+            }
+            else{
+                if(!I("get.member_id",0)){
+                    E("修改的编号不存在!");
+                }
+                $memberInfo=D("member")->getInfoById(I("get.member_id"));
+                $this->assign("memberInfo",$memberInfo);
+                $this->display();
+            }
+        }
+        catch(\Exception $e){
+            $this->error($e->getMessage());
+        }
+    }
+
+    public  function  delete(){
+        try {
+            $returnData=D("member")->memberDelete();
+            if($returnData["status"]==1){
+                $this->success("册除成功!");
+            }
+            else{
+                E($returnData["tip"]);
+            }
+        }
+        catch(\Exception $e){
+            $this->error($e->getMessage());
         }
     }
 

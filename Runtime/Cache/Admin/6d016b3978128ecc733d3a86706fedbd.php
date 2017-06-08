@@ -206,8 +206,8 @@
                     <td><?php echo ($vo["member_money"]); ?></td>
                     <td><?php echo ($vo["member_time_name"]); ?></td>
                     <td>
-                        <a  class="btn btn-warning  btn-sm update" title="分类修改" data-url="./update.html?id="><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                        <a  class="btn btn-danger   btn-sm delete"  title="分类删除"  data-url="./delete.html?id="> <i class="fa fa-trash-o fa-lg"></i></a>
+                        <a  class="btn btn-warning  btn-sm update" title="会员修改" data-url="<?php echo U('member/update');?>?member_id=<?php echo ($vo['member_id']); ?>"><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                        <a  class="btn btn-danger   btn-sm delete"  title="会员删除"  data-url="<?php echo U('member/delete');?>?member_id=<?php echo ($vo['member_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
                     </td>
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>

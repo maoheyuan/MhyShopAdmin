@@ -71,12 +71,12 @@
 </div>
 -->
 
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Member/add');?>">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Member/update');?>">
 
     <div class="form-group">
         <label for="member_name" class="col-sm-2 control-label"><span aria-hidden="true">&times;</span>名称：</label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_name" name="member_name" placeholder="名称">
+            <input type="text" class="form-control" id="member_name" name="member_name" placeholder="名称" value="<?php echo ($memberInfo['member_name']); ?>">
         </div>
     </div>
 
@@ -84,7 +84,7 @@
     <div class="form-group">
         <label for="member_truename" class="col-sm-2 control-label text-muted">真实姓名：</label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_truename"  name="member_truename" placeholder="真实姓名">
+            <input type="text" class="form-control" id="member_truename"  name="member_truename" placeholder="真实姓名" value="<?php echo ($memberInfo['member_truename']); ?>">
         </div>
     </div>
 
@@ -92,7 +92,7 @@
     <div class="form-group">
         <label for="member_money" class="col-sm-2 control-label">会员密码：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_passwd" name="member_passwd" placeholder="会员密码">
+            <input  class="form-control" type="password" id="member_passwd" name="member_passwd" placeholder="会员密码"  value="<?php echo ($memberInfo['member_passwd']); ?>">
         </div>
     </div>
 
@@ -100,10 +100,10 @@
         <label class="col-sm-2 control-label">性别：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="member_sex"  value="1" checked> 女
+                <input type="radio" name="member_sex"  value="1" <?php if($memberInfo['member_sex'] == 1): ?>checked<?php endif; ?> > 女
             </label>
             <label class="radio-inline">
-                <input type="radio" name="member_sex"  value="2"> 男
+                <input type="radio" name="member_sex"  value="2" <?php if($memberInfo['member_sex'] == 2): ?>checked<?php endif; ?>> 男
             </label>
         </div>
     </div>
@@ -114,7 +114,7 @@
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="member_avatar" style="display: none" type="hidden" name="member_avatar">
+            <input id="member_avatar"  type="hidden" name="member_avatar" value="<?php echo ($memberInfo['member_avatar']); ?>">
         </div>
     </div>
 
@@ -133,28 +133,28 @@
     <div class="form-group">
         <label for="member_mobile" class="col-sm-2 control-label">手机号：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_mobile" name="member_mobile" placeholder="手机号" >
+            <input  class="form-control" id="member_mobile" name="member_mobile" placeholder="手机号" value="<?php echo ($memberInfo['member_mobile']); ?>">
         </div>
     </div>
 
     <div class="form-group">
         <label for="member_qq" class="col-sm-2 control-label"> 	QQ：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_qq"  name="member_qq" placeholder="QQ">
+            <input  class="form-control" id="member_qq"  name="member_qq" placeholder="QQ"  value="<?php echo ($memberInfo['member_qq']); ?>">
         </div>
     </div>
 
     <div class="form-group">
         <label for="member_mobile" class="col-sm-2 control-label">Email：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_email" name="member_email" placeholder="Email" >
+            <input  class="form-control" id="member_email" name="member_email" placeholder="Email"  value="<?php echo ($memberInfo['member_email']); ?>">
         </div>
     </div>
 
     <div class="form-group">
         <label for="member_money" class="col-sm-2 control-label">金额：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_money" name="member_money" placeholder="金额">
+            <input  class="form-control" id="member_money" name="member_money" placeholder="金额" value="<?php echo ($memberInfo['member_money']); ?>" >
         </div>
     </div>
 
@@ -162,14 +162,15 @@
         <label  class="col-sm-2 control-label">状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="member_state"  value="option1" checked> 启用
+                <input type="radio" name="member_state"  value="0" <?php if($memberInfo['member_state'] == 0): ?>checked<?php endif; ?> > 启用
             </label>
             <label class="radio-inline">
-                <input type="radio" name="member_state"  value="option2"> 禁用
+                <input type="radio" name="member_state"  value="1" <?php if($memberInfo['member_state'] == 1): ?>checked<?php endif; ?> > 禁用
             </label>
         </div>
     </div>
 
+    <input type="hidden" name="member_id" value="<?php echo ($memberInfo['member_id']); ?>">
     <div class="form-group">
         <div class="col-sm-2"></div>
         <div class=" col-sm-8">
