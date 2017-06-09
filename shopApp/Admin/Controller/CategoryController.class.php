@@ -17,7 +17,7 @@ class CategoryController extends BaseController {
                 $r["id"]=$r["category_id"];
                 $r["parentId"]=$r["category_parent_id"];
                 $r['str_manage'] = '<a  class="btn btn-warning btn-sm update" title="会员修改" data-url="'.U('Category/add').'"?category_id="'.$r['id'].'"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                                    <a  class="btn btn-danger btn-sm delete"  title="会员删除" data-id="'.$r['id'].'" data-url="'.U('Category/delete').'"?category_id='.$r['id'].'"> <i class="fa fa-trash-o fa-lg"></i></a>';
+                                    <a  class="btn btn-danger btn-sm delete"  title="会员删除" data-id="'.$r['id'].'" data-url="'.U('Category/delete').'?category_id='.$r['id'].'"> <i class="fa fa-trash-o fa-lg"></i></a>';
                 $array[] = $r;
             }
             $str  = "<tr id='row\$id'>
@@ -41,7 +41,7 @@ class CategoryController extends BaseController {
 
 
     public function  export($map){
-        $exportList=D("member")->exportList($map);
+        $exportList=D("category")->exportList($map);
         $memberTitle=array("会员编号","会员名称","真实姓名","会员性别","手机号","QQ","账户金额","新增时间");
         $rowHeader = implode(",",$memberTitle)."\n";
         $data = iconv('utf-8','gb2312',$rowHeader);
@@ -72,7 +72,7 @@ class CategoryController extends BaseController {
         C('TOKEN_ON',false);
         if(IS_POST){
             try{
-                $returnData=D("member")->memberAdd();
+                $returnData=D("category")->categoryAdd();
                 if($returnData["status"]==1){
                     $this->success("新增成功!");
                 }
@@ -94,7 +94,7 @@ class CategoryController extends BaseController {
         C('TOKEN_ON',false);
         try{
             if(IS_POST){
-                $returnData=D("member")->memberEdit();
+                $returnData=D("category")->categoryEdit();
                 if($returnData["status"]==1){
                     $this->success("修改成功!");
                 }
@@ -106,8 +106,8 @@ class CategoryController extends BaseController {
                 if(!I("get.member_id",0)){
                     E("修改的编号不存在!");
                 }
-                $memberInfo=D("member")->getInfoById(I("get.member_id"));
-                $this->assign("memberInfo",$memberInfo);
+                $categoryInfo=D("category")->getInfoById(I("get.member_id"));
+                $this->assign("categoryInfo",$categoryInfo);
                 $this->display();
             }
         }
@@ -119,7 +119,7 @@ class CategoryController extends BaseController {
     public  function  delete(){
         C('TOKEN_ON',false);
         try {
-            $returnData=D("member")->memberDelete();
+            $returnData=D("category")->categoryDelete();
             if($returnData["status"]==1){
                 $this->success("册除成功!");
             }
@@ -131,8 +131,5 @@ class CategoryController extends BaseController {
             $this->error($e->getMessage());
         }
     }
-
-
-
 
 }

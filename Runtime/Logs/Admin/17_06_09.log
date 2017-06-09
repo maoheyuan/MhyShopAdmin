@@ -1720,3 +1720,490 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-06-09T16:51:58+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T16:52:31+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T16:52:57+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T16:53:36+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T16:54:44+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:27:06+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-09T17:27:17+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'asdasdasd' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: INSERT INTO `mhy_category` (`category_id`,`category_name`,`category_parent_id`,`category_sort`,`category_status`,`category_add_time`) VALUES ('0','asdasdasd','0','10','0','1497000436') [ RunTime:0.1130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-09T17:27:18+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:27:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\CategoryController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `mhy_category` ORDER BY category_sort desc  [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:28:01+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0120s ]
+
+[ 2017-06-09T17:28:20+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0110s ]
+
+[ 2017-06-09T17:29:44+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/delete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0110s ]
+
+[ 2017-06-09T17:31:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\CategoryController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mhy_category` ORDER BY category_sort desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:31:55+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/delete.html?category_id=55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: DELETE FROM `mhy_category` WHERE `category_id` = 55 [ RunTime:0.0970s ]
+
+[ 2017-06-09T17:32:00+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:32:10+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaa' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: INSERT INTO `mhy_category` (`category_id`,`category_name`,`category_parent_id`,`category_sort`,`category_status`,`category_add_time`) VALUES ('0','aaaa','0','10','0','1497000730') [ RunTime:0.0540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:32:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:32:15+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\CategoryController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `mhy_category` ORDER BY category_sort desc  [ RunTime:0.0040s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

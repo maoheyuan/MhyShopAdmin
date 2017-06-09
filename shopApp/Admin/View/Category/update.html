@@ -1,51 +1,33 @@
 <include file="Public/header" />
 <form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="{:U('Member/update')}">
 
-    <div class="form-group">
-        <label for="member_name" class="col-sm-2 control-label"><span aria-hidden="true">&times;</span>名称：</label>
-        <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_name" name="member_name" placeholder="名称" value="{$memberInfo['member_name']}">
-        </div>
-    </div>
 
 
     <div class="form-group">
-        <label for="member_truename" class="col-sm-2 control-label text-muted">真实姓名：</label>
+        <label for="category_parent_id" class="col-sm-2 control-label">上级分类：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_truename"  name="member_truename" placeholder="真实姓名" value="{$memberInfo['member_truename']}">
-        </div>
-    </div>
-
-
-    <div class="form-group">
-        <label for="member_money" class="col-sm-2 control-label">会员密码：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" type="password" id="member_passwd" name="member_passwd" placeholder="会员密码"  value="{$memberInfo['member_passwd']}">
+            <select class="form-control" name="category_parent_id" id="category_parent_id">
+                <option value="" <if condition="$memberInfo['member_state'] eq 0">selected </if>>请选择分类</option>
+                <option value="0" <if condition="$memberInfo['member_state'] eq 0">selected </if>>一级分类</option>
+            </select>
         </div>
     </div>
 
     <div class="form-group">
-        <label class="col-sm-2 control-label">性别：</label>
+        <label for="category_name" class="col-sm-2 control-label">分类名称：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <label class="radio-inline">
-                <input type="radio" name="member_sex"  value="1" <if condition="$memberInfo['member_sex'] eq 1">checked </if> > 女
-            </label>
-            <label class="radio-inline">
-                <input type="radio" name="member_sex"  value="2" <if condition="$memberInfo['member_sex'] eq 2">checked </if>> 男
-            </label>
+            <input type="text" class="form-control" id="category_name" name="category_name" placeholder="名称" value="{$categoryInfo['member_id']}">
         </div>
     </div>
 
-
     <div class="form-group">
-        <label  class="col-sm-2 control-label">图片：</label>
+        <label  class="col-sm-2 control-label">分类图片：</label>
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="member_avatar"  type="hidden" name="member_avatar" value="{$memberInfo['member_avatar']}">
+            <input id="member_avatar" style="display: none" type="hidden" name="category_image_path" value="{$categoryInfo['member_id']}">
         </div>
     </div>
-
     <div class="form-group">
         <label  class="col-sm-2 control-label"></label>
         <div class="col-sm-8">
@@ -57,32 +39,10 @@
         </div>
     </div>
 
-
     <div class="form-group">
-        <label for="member_mobile" class="col-sm-2 control-label">手机号：</label>
+        <label for="category_sort" class="col-sm-2 control-label">排序：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_mobile" name="member_mobile" placeholder="手机号" value="{$memberInfo['member_mobile']}">
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="member_qq" class="col-sm-2 control-label"> 	QQ：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="member_qq"  name="member_qq" placeholder="QQ"  value="{$memberInfo['member_qq']}">
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="member_mobile" class="col-sm-2 control-label">Email：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="member_email" name="member_email" placeholder="Email"  value="{$memberInfo['member_email']}">
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="member_money" class="col-sm-2 control-label">金额：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="member_money" name="member_money" placeholder="金额" value="{$memberInfo['member_money']}" >
+            <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序"  value="{$categoryInfo['member_id']}">
         </div>
     </div>
 
@@ -90,14 +50,13 @@
         <label  class="col-sm-2 control-label">状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="member_state"  value="0" <if condition="$memberInfo['member_state'] eq 0">checked </if> > 启用
+                <input type="radio" name="category_status"  value="option1" <if condition="$memberInfo['member_state'] eq 0">checked </if> > 启用
             </label>
             <label class="radio-inline">
-                <input type="radio" name="member_state"  value="1" <if condition="$memberInfo['member_state'] eq 1">checked </if> > 禁用
+                <input type="radio" name="category_status"  value="option2" <if condition="$memberInfo['member_state'] eq 0">checked </if>> 禁用
             </label>
         </div>
     </div>
-
     <input type="hidden" name="member_id" value="{$memberInfo['member_id']}">
     <div class="form-group">
         <div class="col-sm-2"></div>
@@ -106,6 +65,7 @@
             <button type="reset" class="btn btn-default">重置</button>
         </div>
     </div>
+
 </form>
 
 <script src="__PUBLIC__/admin/js/ajaxfileupload.js"></script>

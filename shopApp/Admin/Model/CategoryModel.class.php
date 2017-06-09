@@ -52,149 +52,106 @@ class CategoryModel extends Model {
         return $data;
     }
 
-    public  function categoryAdd(){
+    public  function  getInfoById($id){
 
-        $returnData=array();
-        $returnData["status"]=1;
-        $returnData["tip"]="";
-        $returnData["data"]="";
+        $map=array();
+        $map["member_id"]=$id;
+        $memberInfo=$this->where($map)->find();
+        return $memberInfo;
+    }
 
+
+    public function categoryAddOrEditRules(){
         $rules = array(
-            array('member_name'    ,  'require'  ,'会员名称不能为空!'),
-            array('member_name'    ,  ''         ,'会员名称已经存在!',1,'unique'),
-            array('member_truename',  'require'  ,'真实姓名不能为空!'),
-            array('member_avatar'  ,  'require'  ,'会员头像不能为空!'),
-            array('member_passwd'  ,  'require'  ,'会员密码不能为空!'),
-            array('member_sex'     ,   array(1,2),'值的范围不正确！',2,'in'),
-            array('member_mobile'  ,  'require'  ,'手机号不能为空!' ),
-            array('member_email'   ,  'require'  ,'电子邮件不能为空!' ),
-            array('member_qq'      ,  'require'  ,'QQ号不能为空!' ),
+            array('category_id'      ,  'require'   ,   '分类编号不能为空!', self::MODEL_UPDATE),
+            array('category_name'    ,  'require'   ,   '分类名称不能为空!', self::MODEL_BOTH),
+            array('category_name'    ,  ''          ,   '分类名称已经存在!', self::MODEL_BOTH,'unique'),
+            array('category_parent_id',  'require'   ,   '父级不能为空!', self::MODEL_BOTH),
+            array('category_sort'  ,  'require'   ,   '排序不能为空!', self::MODEL_BOTH),
+            array('category_status'  ,  'require'   ,   '状态不能为空!', self::MODEL_BOTH)
         );
-
+        return $rules;
+    }
+    public  function  categoryAddOrEditData($type){
         $data = array(
-            'member_name'       =>  I("post.member_name",""),
-            'member_truename'   =>  I("post.member_truename",""),
-            //'member_avatar'     =>  I("post.member_avatar",""),
-            'member_sex'        =>  I("post.member_sex",""),
-            'member_birthday'   =>  I("post.member_birthday",""),
-            'member_passwd'     =>  I("post.member_passwd",""),
-            'member_mobile'     =>  I("post.member_mobile",""),
-            'member_email'      =>  I("post.member_email",""),
-            'member_qq'         =>  I("post.member_qq",""),
-            'member_time'       =>  I("post.member_time",time()),
-            'member_points'     =>  I("post.member_points",0),
-            'member_state'      =>  I("post.member_state",1),
-            'member_areaid'     =>  I("post.member_areaid",0),
-            'member_cityid'     =>  I("post.member_cityid",0),
-            'member_provinceid' =>  I("post.member_provinceid",0),
-            'member_areainfo'   =>  I("post.member_areainfo",0),
-            'member_money'      =>  I("post.member_money",0)
+            'category_id'       =>  I("post.category_id",""),
+            'category_name'     =>  I("post.category_name",""),
+            'category_name'     =>  I("post.category_name",""),
+            'category_parent_id'=>  I("post.category_parent_id",""),
+            'category_sort'     =>  I("post.category_sort",""),
+            'category_status'   =>  I("post.category_status",""),
         );
-
-        if (!$this->validate($rules)->create($data)){
-            $returnData["status"]=0;
-            $returnData["tip"]=$this->getError();
-            return $returnData;
+        if($type=="add"){
+            unset($data["member_id"]);
+            $data["category_add_time"]=time();
         }
+        if($type=="edit"){
+            $data["category_edit_time"]=time();
+        }
+        return $data;
+    }
 
+    /***
+     * 返回新增 修改 删除 操作数据
+     * @param $status
+     * @param $tip
+     * @param $data
+     * @return mixed
+     */
+    public function returnData($status,$tip,$data){
+        $returnData=array();
+        $returnData["status"]=$status;
+        $returnData["tip"]=$tip;
+        $returnData["data"]=$data;
+
+
+        return $returnData;
+    }
+    public  function categoryAdd(){
+        $rules=$this->categoryAddOrEditRules();
+        $data=$this->categoryAddOrEditData("add");
+        if (!$this->validate($rules)->create($data)){
+            return  $this->returnData(0,$this->getError(),"");
+        }
         $result=$this->add($data);
         if(!$result){
-            $returnData["status"]=0;
-            $returnData["tip"]="新增失败!";
-            return $returnData;
+            return   $this->returnData(0,"新增失败!","");
         }
-
-        $returnData["status"]=1;
-        $returnData["data"]=$result;
-        return $returnData;
+        return $this->returnData(1,"新增成功!",$result);
     }
+
 
     public  function  categoryEdit(){
-        $returnData=array();
-        $returnData["status"]=1;
-        $returnData["tip"]="";
-        $returnData["data"]="";
-        $rules = array(
-            array('member_id'    ,  'require'   ,   '会员编号不能为空!'),
-            array('member_name'    ,  'require'   ,   '会员名称不能为空!'),
-            array('member_name'    ,  ''          ,   '会员名称已经存在!',2,'unique'),
-            array('member_truename',  'require'   ,   '真实姓名不能为空!'),
-           // array('member_avatar'  ,  'require'   ,   '会员头像不能为空!'),
-            array('member_passwd'  ,  'require'   ,   '会员密码不能为空!'),
-            array('member_sex'     ,   array(1,2) ,   '值的范围不正确！',2,'in'),
-            array('member_mobile'  ,  'require'   ,   '手机号不能为空!' ),
-            array('member_email'   ,  'require'   ,   '电子邮件不能为空!' ),
-            array('member_qq'      ,  'require'   ,   'QQ号不能为空!' ),
-        );
-
-        $data = array(
-            'member_id'       =>  I("post.member_id",""),
-            'member_name'       =>  I("post.member_name",""),
-            'member_truename'   =>  I("post.member_truename",""),
-            'member_avatar'     =>  I("post.member_avatar",""),
-            'member_sex'        =>  I("post.member_sex",""),
-            'member_birthday'   =>  I("post.member_birthday",""),
-            'member_passwd'     =>  I("post.member_passwd",""),
-            'member_mobile'     =>  I("post.member_mobile",""),
-            'member_email'      =>  I("post.member_email",""),
-            'member_qq'         =>  I("post.member_qq",""),
-            'member_time'       =>  I("post.member_time",time()),
-            'member_points'     =>  I("post.member_points",0),
-            'member_state'      =>  I("post.member_state",1),
-            'member_areaid'     =>  I("post.member_areaid",0),
-            'member_cityid'     =>  I("post.member_cityid",0),
-            'member_provinceid' =>  I("post.member_provinceid",0),
-            'member_areainfo'   =>  I("post.member_areainfo",0),
-            'member_money'      =>  I("post.member_money",0)
-        );
-
+        $rules=$this->categoryAddOrEditRules();
+        $data=$this->categoryAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
-            $returnData["status"]=0;
-            $returnData["tip"]=$this->getError();
-            return $returnData;
+            return $this->returnData(0,$this->getError(),"");
         }
         $map=array();
-        $map["member_id"]=I("post.id");
+        $map["category_id"]=I("post.id");
         $result=$this->where($map)->save($data);
         if($result){
-            $returnData["status"]=0;
-            $returnData["tip"]="修改失败!";
-            return $returnData;
+            return $this->returnData(0,"修改失败!","");
         }
-        $returnData["status"]=1;
-        $returnData["data"]=I("post.id");
-        return $returnData;
+        return $this->returnData(1,"修改成功!",I("post.id"));
     }
-
-
     public  function  categoryDelete(){
-
-        $returnData=array();
-        $returnData["status"]=1;
-        $returnData["tip"]="";
-        $returnData["data"]="";
         $rules = array(
-            array("member_id", "require","会员编号不能为空!")
+            array("category_id", "require","分类编号不能为空!")
         );
         $data = array(
-            "member_id" => I("get.member_id","")
+            "category_id" => I("get.category_id","")
         );
         if (!$this->validate($rules)->create($data)) {
-            $returnData["status"]=0;
-            $returnData["tip"]=$this->getError();
-            return $returnData;
+            return $this->returnData(0,$this->getError(),"");
         }
         $map = array();
-        $map["member_id"] = I("get.member_id");
+        $map["category_id"] = I("get.category_id");
         $result = $this->where($map)->delete();
         if (!$result) {
-            $returnData["status"]=0;
-            $returnData["tip"]="册除失败!";
-            return $returnData;
+            return $this->returnData(0,"册除失败!","");
         }
-        $returnData["status"]=1;
-        $returnData["data"]=I("get.member_id");
-        return $returnData;
+        return $this->returnData(1,"册除成功!",I("get.category_id"));
     }
 
 }
