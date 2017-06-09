@@ -55,9 +55,9 @@ class CategoryModel extends Model {
     public  function  getInfoById($id){
 
         $map=array();
-        $map["member_id"]=$id;
-        $memberInfo=$this->where($map)->find();
-        return $memberInfo;
+        $map["category_id"]=$id;
+        $categoryInfo=$this->where($map)->find();
+        return $categoryInfo;
     }
 
 

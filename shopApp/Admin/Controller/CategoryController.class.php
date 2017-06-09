@@ -16,7 +16,7 @@ class CategoryController extends BaseController {
             foreach($returnList as $r) {
                 $r["id"]=$r["category_id"];
                 $r["parentId"]=$r["category_parent_id"];
-                $r['str_manage'] = '<a  class="btn btn-warning btn-sm update" title="会员修改" data-url="'.U('Category/add').'"?category_id="'.$r['id'].'"><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                $r['str_manage'] = '<a  class="btn btn-warning btn-sm update" title="会员修改" data-url="'.U('Category/update').'?category_id='.$r['id'].'"><i class="fa fa-edit" aria-hidden="true"></i> </a>
                                     <a  class="btn btn-danger btn-sm delete"  title="会员删除" data-id="'.$r['id'].'" data-url="'.U('Category/delete').'?category_id='.$r['id'].'"> <i class="fa fa-trash-o fa-lg"></i></a>';
                 $array[] = $r;
             }
@@ -103,10 +103,10 @@ class CategoryController extends BaseController {
                 }
             }
             else{
-                if(!I("get.member_id",0)){
+                if(!I("get.category_id",0)){
                     E("修改的编号不存在!");
                 }
-                $categoryInfo=D("category")->getInfoById(I("get.member_id"));
+                $categoryInfo=D("category")->getInfoById(I("get.category_id"));
                 $this->assign("categoryInfo",$categoryInfo);
                 $this->display();
             }
