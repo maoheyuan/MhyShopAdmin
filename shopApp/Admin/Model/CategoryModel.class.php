@@ -128,9 +128,9 @@ class CategoryModel extends Model {
             return $this->returnData(0,$this->getError(),"");
         }
         $map=array();
-        $map["category_id"]=I("post.id");
+        $map["category_id"]=I("post.category_id");
         $result=$this->where($map)->save($data);
-        if($result){
+        if(!$result){
             return $this->returnData(0,"修改失败!","");
         }
         return $this->returnData(1,"修改成功!",I("post.id"));

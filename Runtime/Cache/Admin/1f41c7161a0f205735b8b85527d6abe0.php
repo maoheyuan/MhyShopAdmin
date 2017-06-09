@@ -129,7 +129,7 @@
             </label>
         </div>
     </div>
-    <input type="hidden" name="member_id" value="<?php echo ($categoryInfo['category_id']); ?>">
+    <input type="hidden" name="category_id" value="<?php echo ($categoryInfo['category_id']); ?>">
     <div class="form-group">
         <div class="col-sm-2"></div>
         <div class=" col-sm-8">

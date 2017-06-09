@@ -3890,3 +3890,572 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2017-06-09T17:47:35+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:50:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-06-09T17:50:36+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabb' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:50:40+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:50:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabb' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_category` SET `category_id`='0',`category_name`='aaaabb',`category_parent_id`='0',`category_sort`='10',`category_status`='1',`category_edit_time`='1497001843' WHERE `category_id` = 0 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-09T17:50:45+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:51:14+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbb' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:51:18+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:51:21+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbb' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_category` SET `category_id`='0',`category_name`='aaaabbb',`category_parent_id`='0',`category_sort`='10',`category_status`='1',`category_edit_time`='1497001881' WHERE `category_id` = 0 [ RunTime:0.0000s ]
+
+[ 2017-06-09T17:51:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:52:16+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbb' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_category` SET `category_id`='0',`category_name`='aaaabbb',`category_parent_id`='0',`category_sort`='10',`category_status`='1',`category_edit_time`='1497001936' WHERE `category_id` = 0 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:52:18+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:52:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbbb' AND `category_id` <> '56' LIMIT 1   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-09T17:52:27+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:52:29+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:52:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbbb' AND `category_id` <> '56' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:52:37+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:52:39+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbbb' AND `category_id` <> '56' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_category` SET `category_id`='56',`category_name`='aaaabbbb',`category_parent_id`='0',`category_sort`='10',`category_status`='1',`category_edit_time`='1497001959' WHERE `category_id` = 56 [ RunTime:0.1070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-06-09T17:52:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:53:07+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:53:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_name` = 'aaaabbbbdd' AND `category_id` <> '56' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_category` SET `category_id`='56',`category_name`='aaaabbbbdd',`category_parent_id`='0',`category_sort`='10',`category_status`='1',`category_edit_time`='1497001991' WHERE `category_id` = 56 [ RunTime:0.1200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:53:13+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/update.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-09T17:53:17+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\CategoryController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` ORDER BY category_sort desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-09T17:53:29+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/delete.html?category_id=56
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: DELETE FROM `mhy_category` WHERE `category_id` = 56 [ RunTime:0.0480s ]
+
