@@ -71,42 +71,70 @@
 </div>
 -->
 
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Category/add');?>">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Goods/add');?>">
+
 
 
     <div class="form-group">
-        <label for="category_parent_id" class="col-sm-2 control-label">上级分类：<span aria-hidden="true">&times;</span></label>
+        <label for="category_id" class="col-sm-2 control-label">所属分类：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <select class="form-control" name="category_parent_id" id="category_parent_id">
-
-                <option value="">请选择分类</option>
-                <option value="0">一级分类</option>
-
+            <select class="form-control" name="category_id" id="category_id">
+                <option value="" >请选择分类</option>
+                <?php if(is_array($categoryList)): $i = 0; $__LIST__ = $categoryList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['category_id']); ?>" ><?php echo ($vo['category_name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
             </select>
         </div>
     </div>
 
-
     <div class="form-group">
-        <label for="category_name" class="col-sm-2 control-label">分类名称：<span aria-hidden="true">&times;</span></label>
+        <label for="goods_name" class="col-sm-2 control-label text-muted">商品名称：</label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="category_name" name="category_name" placeholder="名称">
+            <input type="text" class="form-control" id="goods_name"  name="goods_name" placeholder="商品名称">
         </div>
     </div>
 
 
+    <div class="form-group">
+        <label for="spec_name" class="col-sm-2 control-label">规格名称：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="spec_name" name="spec_name" placeholder="规格名称">
+        </div>
+    </div>
 
+    <div class="form-group">
+        <label for="goods_spec" class="col-sm-2 control-label">规格值：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="goods_spec" name="goods_spec" placeholder="规格名称">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="goods_serial" class="col-sm-2 control-label">商品货号：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="goods_serial" name="goods_serial" placeholder="商品货号">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">商品状态：</label>
+        <div class="col-sm-8">
+            <label class="radio-inline">
+                <input type="radio" name="goods_state"  value="0" checked> 开启
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="goods_state"  value="1"> 下架
+            </label>
+        </div>
+    </div>
 
 
     <div class="form-group">
-        <label  class="col-sm-2 control-label">分类图片：</label>
+        <label  class="col-sm-2 control-label">商品图片：</label>
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="member_avatar" style="display: none" type="hidden" name="category_image_path">
+            <input id="goods_images" style="display: none" type="hidden" name="goods_images">
         </div>
     </div>
-
     <div class="form-group">
         <label  class="col-sm-2 control-label"></label>
         <div class="col-sm-8">
@@ -118,26 +146,32 @@
         </div>
     </div>
 
-
     <div class="form-group">
-        <label for="category_sort" class="col-sm-2 control-label">排序：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+
+        <label for="goods_starttime" class="col-sm-2 control-label">发布时间：</label>
+        <div class="col-sm-4">
+            <input type="text" id="goods_starttime" name="goods_starttime" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+        </div>
+        <div class="col-sm-4">
+            <input type="text" id="goods_endtime" name="goods_endtime" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
     </div>
 
     <div class="form-group">
-        <label  class="col-sm-2 control-label">状态：</label>
+
+        <label for="goods_body" class="col-sm-2 control-label">详细内容：</label>
         <div class="col-sm-8">
-            <label class="radio-inline">
-                <input type="radio" name="category_status"  value="1" checked> 启用
-            </label>
-            <label class="radio-inline">
-                <input type="radio" name="category_status"  value="2"> 禁用
-            </label>
+            <textarea  id="editor" type="text/plain" style="width:100%;height:500px;" name="goods_body" id="goods_body"></textarea>
         </div>
+
     </div>
 
+    <div class="form-group">
+        <label for="goods_sort" class="col-sm-2 control-label">排序：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="goods_sort" placeholder="排序" value="10">
+        </div>
+    </div>
     <div class="form-group">
         <div class="col-sm-2"></div>
         <div class=" col-sm-8">
@@ -148,7 +182,15 @@
 </form>
 
 <script src="/MhyShopAdmin/Public/admin/js/ajaxfileupload.js"></script>
+<script type="text/javascript" charset="utf-8" src="/MhyShopAdmin/Public/Admin/plug/ueditor1_4_3_3/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/MhyShopAdmin/Public/Admin/plug/ueditor1_4_3_3/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="/MhyShopAdmin/Public/Admin/plug/ueditor1_4_3_3/lang/zh-cn/zh-cn.js"></script>
+<script type="application/javascript">
+    var ue = UE.getEditor('editor');
+</script>
+
 <script type="text/javascript">
+
     $("#body").addClass("create-page");
     $(function(){
         //点击打开文件选择器
