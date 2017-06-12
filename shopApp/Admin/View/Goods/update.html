@@ -1,51 +1,70 @@
 <include file="Public/header" />
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="{:U('Member/update')}">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="{:U('Goods/add')}">
+
+
 
     <div class="form-group">
-        <label for="member_name" class="col-sm-2 control-label"><span aria-hidden="true">&times;</span>名称：</label>
+        <label for="category_id" class="col-sm-2 control-label">所属分类：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_name" name="member_name" placeholder="名称" value="{$memberInfo['member_name']}">
+            <select class="form-control" name="category_id" id="category_id">
+                <option value="" >请选择分类</option>
+                <volist name="categoryList" id="vo">
+                    <option value="{$vo['category_id']}" <if condition="$goodsInfo['category_id'] eq ''">selected </if> >{$vo['category_name']}</option>
+                </volist>
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="goods_name" class="col-sm-2 control-label text-muted">商品名称：</label>
+        <div class="col-sm-8">
+            <input type="text" class="form-control" id="goods_name"  name="goods_name" value="{$goodsInfo['goods_name']}" placeholder="商品名称">
         </div>
     </div>
 
 
     <div class="form-group">
-        <label for="member_truename" class="col-sm-2 control-label text-muted">真实姓名：</label>
+        <label for="spec_name" class="col-sm-2 control-label">规格名称：</label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="member_truename"  name="member_truename" placeholder="真实姓名" value="{$memberInfo['member_truename']}">
-        </div>
-    </div>
-
-
-    <div class="form-group">
-        <label for="member_money" class="col-sm-2 control-label">会员密码：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" type="password" id="member_passwd" name="member_passwd" placeholder="会员密码"  value="{$memberInfo['member_passwd']}">
+            <input  class="form-control" id="spec_name" name="spec_name" placeholder="规格名称"  value="{$goodsInfo['spec_name']}">
         </div>
     </div>
 
     <div class="form-group">
-        <label class="col-sm-2 control-label">性别：</label>
+        <label for="goods_spec" class="col-sm-2 control-label">规格值：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="goods_spec" name="goods_spec" placeholder="规格名称" value="{$goodsInfo['goods_spec']}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="goods_serial" class="col-sm-2 control-label">商品货号：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="goods_serial" name="goods_serial" placeholder="商品货号"  value="{$goodsInfo['goods_serial']}">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">商品状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="member_sex"  value="1" <if condition="$memberInfo['member_sex'] eq 1">checked </if> > 女
+                <input type="radio" name="goods_state"  value="0"  <if condition="$goodsInfo['goods_state'] eq 0">checked </if>> 开启
             </label>
             <label class="radio-inline">
-                <input type="radio" name="member_sex"  value="2" <if condition="$memberInfo['member_sex'] eq 2">checked </if>> 男
+                <input type="radio" name="goods_state"  value="1"  <if condition="$goodsInfo['goods_state'] eq 1">checked </if>> 下架
             </label>
         </div>
     </div>
 
 
     <div class="form-group">
-        <label  class="col-sm-2 control-label">图片：</label>
+        <label  class="col-sm-2 control-label">商品图片：</label>
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="member_avatar"  type="hidden" name="member_avatar" value="{$memberInfo['member_avatar']}">
+            <input id="goods_images" style="display: none" type="hidden" name="goods_images">
         </div>
     </div>
-
     <div class="form-group">
         <label  class="col-sm-2 control-label"></label>
         <div class="col-sm-8">
@@ -57,48 +76,36 @@
         </div>
     </div>
 
-
     <div class="form-group">
-        <label for="member_mobile" class="col-sm-2 control-label">手机号：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="member_mobile" name="member_mobile" placeholder="手机号" value="{$memberInfo['member_mobile']}">
+
+        <label for="goods_starttime" class="col-sm-2 control-label">发布时间：</label>
+        <div class="col-sm-4">
+            <input type="text" value="{$goodsInfo['goods_starttime']}" id="goods_starttime" name="goods_starttime" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+        </div>
+        <div class="col-sm-4">
+            <input type="text" value="{$goodsInfo['goods_endtime']}" id="goods_endtime" name="goods_endtime" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
     </div>
 
     <div class="form-group">
-        <label for="member_qq" class="col-sm-2 control-label"> 	QQ：</label>
+
+        <label for="goods_body" class="col-sm-2 control-label">详细内容：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_qq"  name="member_qq" placeholder="QQ"  value="{$memberInfo['member_qq']}">
+            <textarea  id="editor" type="text/plain" style="width:100%;height:500px;" name="goods_body" id="goods_body">
+                {$goodsInfo['goods_body']}
+
+            </textarea>
         </div>
+
     </div>
 
     <div class="form-group">
-        <label for="member_mobile" class="col-sm-2 control-label">Email：</label>
+        <label for="goods_sort" class="col-sm-2 control-label">排序：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="member_email" name="member_email" placeholder="Email"  value="{$memberInfo['member_email']}">
+            <input  class="form-control" id="goods_sort" placeholder="排序" value=" {$goodsInfo['goods_sort']}">
         </div>
     </div>
-
-    <div class="form-group">
-        <label for="member_money" class="col-sm-2 control-label">金额：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="member_money" name="member_money" placeholder="金额" value="{$memberInfo['member_money']}" >
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label  class="col-sm-2 control-label">状态：</label>
-        <div class="col-sm-8">
-            <label class="radio-inline">
-                <input type="radio" name="member_state"  value="0" <if condition="$memberInfo['member_state'] eq 0">checked </if> > 启用
-            </label>
-            <label class="radio-inline">
-                <input type="radio" name="member_state"  value="1" <if condition="$memberInfo['member_state'] eq 1">checked </if> > 禁用
-            </label>
-        </div>
-    </div>
-
-    <input type="hidden" name="member_id" value="{$memberInfo['member_id']}">
+    <input type="hidden" value="{$goodsInfo['goods_id']}" name="goods_id">
     <div class="form-group">
         <div class="col-sm-2"></div>
         <div class=" col-sm-8">
@@ -109,7 +116,15 @@
 </form>
 
 <script src="__PUBLIC__/admin/js/ajaxfileupload.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Admin/plug/ueditor1_4_3_3/ueditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Admin/plug/ueditor1_4_3_3/ueditor.all.min.js"> </script>
+<script type="text/javascript" charset="utf-8" src="__PUBLIC__/Admin/plug/ueditor1_4_3_3/lang/zh-cn/zh-cn.js"></script>
+<script type="application/javascript">
+    var ue = UE.getEditor('editor');
+</script>
+
 <script type="text/javascript">
+
     $("#body").addClass("create-page");
     $(function(){
         //点击打开文件选择器
@@ -135,7 +150,7 @@
                     }
                 },
                 error: function (data, status, e) {
-                        alert(e);
+                    alert(e);
                 }
             });
         });

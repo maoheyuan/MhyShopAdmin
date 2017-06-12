@@ -123,7 +123,7 @@ class GoodsController extends BaseController {
                 }
             }
             else{
-                if(!I("get.member_id",0)){
+                if(!I("get.goods_id",0)){
                     E("修改的编号不存在!");
                 }
                 $goodsInfo=D("goods")->getInfoById(I("get.goods_id"));
