@@ -149,7 +149,6 @@ class GoodsModel extends Model {
         }
         return $data;
     }
-
     /***
      * 返回新增 修改 删除 操作数据
      * @param $status
@@ -189,9 +188,9 @@ class GoodsModel extends Model {
             return $this->returnData(0,$this->getError(),"");
         }
         $map=array();
-        $map["member_id"]=I("post.id");
+        $map["goods_id"]=I("post.goods_id");
         $result=$this->where($map)->save($data);
-        if($result){
+        if(!$result){
             return $this->returnData(0,"修改失败!","");
         }
         return $this->returnData(1,"修改成功!",I("post.id"));

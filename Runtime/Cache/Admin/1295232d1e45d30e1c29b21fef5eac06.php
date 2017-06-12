@@ -71,7 +71,7 @@
 </div>
 -->
 
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Goods/add');?>">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Goods/update');?>">
 
 
 
@@ -80,7 +80,7 @@
         <div class="col-sm-8">
             <select class="form-control" name="category_id" id="category_id">
                 <option value="" >请选择分类</option>
-                <?php if(is_array($categoryList)): $i = 0; $__LIST__ = $categoryList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['category_id']); ?>" <?php if($goodsInfo['category_id'] == ''): ?>selected<?php endif; ?> ><?php echo ($vo['category_name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                <?php if(is_array($categoryList)): $i = 0; $__LIST__ = $categoryList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['category_id']); ?>" <?php if($goodsInfo['category_id'] == $vo['category_id']): ?>selected<?php endif; ?> ><?php echo ($vo['category_name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
             </select>
         </div>
     </div>

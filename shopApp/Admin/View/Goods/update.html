@@ -1,5 +1,5 @@
 <include file="Public/header" />
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="{:U('Goods/add')}">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="{:U('Goods/update')}">
 
 
 
@@ -9,7 +9,7 @@
             <select class="form-control" name="category_id" id="category_id">
                 <option value="" >请选择分类</option>
                 <volist name="categoryList" id="vo">
-                    <option value="{$vo['category_id']}" <if condition="$goodsInfo['category_id'] eq ''">selected </if> >{$vo['category_name']}</option>
+                    <option value="{$vo['category_id']}" <if condition="$goodsInfo['category_id'] eq $vo['category_id']">selected </if> >{$vo['category_name']}</option>
                 </volist>
             </select>
         </div>

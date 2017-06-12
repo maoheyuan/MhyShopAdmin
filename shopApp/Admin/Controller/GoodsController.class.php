@@ -128,6 +128,16 @@ class GoodsController extends BaseController {
                 }
                 $goodsInfo=D("goods")->getInfoById(I("get.goods_id"));
                 $this->assign("goodsInfo",$goodsInfo);
+
+
+                $categoryList=D("category")->getList();
+                foreach($categoryList as $key=>$value){
+                    if($value["category_parent_id"]==0){
+                        unset($categoryList[$key]);
+                    }
+                }
+
+                $this->assign("categoryList",$categoryList);
                 $this->display();
             }
         }
