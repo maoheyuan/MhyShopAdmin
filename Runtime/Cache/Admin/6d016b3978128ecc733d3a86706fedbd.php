@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hello MUI</title>
+    <title>mhy电商系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -112,7 +112,7 @@
 </div>
 
 <ol class="breadcrumb">
-    <li>主页</li>
+    <li><a href="<?php echo U('Index/index');?>">主页</a></li>
     <li>会员管理</li>
     <li class="active">会员列表</li>
     <div class="quit">

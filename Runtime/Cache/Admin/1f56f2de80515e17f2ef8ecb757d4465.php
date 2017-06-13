@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hello MUI</title>
+    <title>mhy电商系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -179,12 +179,12 @@
             <th >支付类型</th>
             <th >支付状态</th>
             <th >订单状态</th>
-            <th>账户金额</th>
             <th>优惠价格</th>
             <th>优惠券金额</th>
             <th>账户金额</th>
-            <th>支付类型金额</th>
             <th>运费</th>
+            <th>支付类型金额</th>
+
             <th>退货状态</th>
             <th>配送时间</th>
             <th>账户金额</th>
@@ -205,14 +205,14 @@
                     <td><?php echo ($vo["order_pay_type_name"]); ?></td>
                     <td><?php echo ($vo["order_pay_status_name"]); ?></td>
                     <td><?php echo ($vo["order_status_name"]); ?></td>
-                    <td><?php echo ($vo["order_account_money"]); ?></td>
                     <td><?php echo ($vo["order_preferential_privilege"]); ?></td>
                     <td><?php echo ($vo["order_coupon_money"]); ?></td>
                     <td><?php echo ($vo["order_account_money"]); ?></td>
-                    <td><?php echo ($vo["order_pay_type_money"]); ?></td>
                     <td><?php echo ($vo["order_freight"]); ?></td>
+                    <td><?php echo ($vo["order_pay_type_money"]); ?></td>
+
                     <td><?php echo ($vo["order_return_status_name"]); ?></td>
-                    <td><?php echo ($vo["order_distribution"]); ?></td>
+                    <td><?php echo ($vo["order_delivery_time_name"]); ?></td>
                     <td><?php echo ($vo["order_account_money"]); ?></td>
                     <td><?php echo ($vo["order_preferential_privilege"]); ?></td>
                     <td><?php echo ($vo["order_consignee_address"]); ?></td>
@@ -221,8 +221,8 @@
                     <td><?php echo ($vo["order_add_time_name"]); ?></td>
                     <td>
                         <a  class="btn btn-warning  btn-sm update" title="会员修改" data-url="<?php echo U('member/update');?>?member_id=<?php echo ($vo['member_id']); ?>"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                        <a  class="btn btn-danger   btn-sm delete"  title="会员删除" data-id="<?php echo ($vo['member_id']); ?>" data-url="<?php echo U('member/delete');?>?member_id=<?php echo ($vo['member_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
-                    </td>
+<!--                        <a  class="btn btn-danger   btn-sm delete"  title="会员删除" data-id="<?php echo ($vo['member_id']); ?>" data-url="<?php echo U('member/delete');?>?member_id=<?php echo ($vo['member_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
+                    --></td>
                 </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>

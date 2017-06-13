@@ -33,8 +33,8 @@ class OrderModel extends Model {
     const  ORDER_STATUS_SEND=5;
     const  ORDER_STATUS_OVER=6;
 
-    const  ORDER_RETURN_STATUS_NO=1;
-    const  ORDER_RETURN_STATUS_PART=2;
+    const  ORDER_RETURN_STATUS_NO=0;
+    const  ORDER_RETURN_STATUS_PART=1;
     const  ORDER_RETURN_STATUS_ALL=2;
 
 
@@ -172,6 +172,10 @@ class OrderModel extends Model {
 
         if(isset($data["order_return_status"])){
             $data["order_return_status_name"]=$this->returnStatusFormat($data["order_return_status"]);
+        }
+
+        if(isset($data["order_delivery_time"])){
+            $data["order_delivery_time_name"]=unixtime_to_date($data["order_delivery_time"]);
         }
         return $data;
     }

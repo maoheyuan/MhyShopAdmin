@@ -62,7 +62,7 @@
 </div>
 
 <ol class="breadcrumb">
-    <li >主页</li>
+    <li ><a href="<?php echo U('Index/index');?>">主页</a></li>
     <li class="active">首页统计</li>
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
@@ -70,7 +70,7 @@
     </div>
 </ol>
 
-<div id="container" style="height: 80%"></div>
+<div id="container" style="height: 80%;width: 80%;margin: 10px auto;"></div>
 <script src="/MhyShopAdmin/Public/Admin/plug/echarts/echarts.min.js"></script>
 <script type="text/javascript">
 
