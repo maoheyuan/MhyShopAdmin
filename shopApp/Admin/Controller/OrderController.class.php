@@ -23,15 +23,20 @@ class OrderController extends BaseController {
             $endTime=strtotime($endTime);
             $map["goods_add_time"]=array("elt",$endTime);
         }
+        $order_status=trim($request["order_status"]);
+        if($order_status){
+            $map["order_status"]=$order_status;
+        }
         $content=trim($request["content"]);
         if($content){
-            if($request["key"]=="goods_id"){
+            if($request["key"]=="order_id"){
                 $map[$request["key"]]=$content;
             }
             else{
                 $map[$request["key"]]=array("like","%".$content."%");
             }
         }
+
         if($request["submit"]=="export"){
             $this->export($map);
         }

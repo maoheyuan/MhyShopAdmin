@@ -26,6 +26,22 @@
                     <input type="text" class="form-control laydate-icon" placeholder="结束时间"
                            onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="endTime" value="{$request['endTime']}">
                 </div>
+
+                <div class="form-group">
+                    <select name="order_status" class="form-control">
+                        <option value=""  >请选择</option>
+                        <option value="1" <if condition="$request['order_status'] eq 1 ">selected</if> >未支付</option>
+                        <option value="2" <if condition="$request['order_status'] eq 2 ">selected</if> >已取消</option>
+                        <option value="3" <if condition="$request['order_status'] eq 3 ">selected</if> >已支付</option>
+
+                        <option value="4" <if condition="$request['order_status'] eq 4 ">selected</if> >已分拣</option>
+                        <option value="5" <if condition="$request['order_status'] eq 5 ">selected</if> >已配送</option>
+                        <option value="6" <if condition="$request['order_status'] eq 6 ">selected</if> >已完成</option>
+                    </select>
+
+                </div>
+
+
                 <div class="form-group">
                     <select name="limit" class="form-control">
                         <option value=""  >请选择</option>
@@ -38,9 +54,10 @@
                 <div class="form-group">
                     <select name="key" class="form-control">
                         <option value="">请选择</option>
-                        <option value="member_id"     <if condition="$request['key'] eq 'member_id' ">selected</if>  >会员编号</option>
-                        <option value="member_name"   <if condition="$request['key'] eq 'member_name' ">selected</if> >会员名称</option>
-                        <option value="member_mobile" <if condition="$request['key'] eq 'member_mobile' ">selected</if>>会员手机号</option>
+                        <option value="order_sn"     <if condition="$request['key'] eq 'order_sn' ">selected</if>  >订单编号</option>
+                        <option value="order_consignee_mobile"   <if condition="$request['key'] eq 'order_consignee_mobile' ">selected</if> >收货人手机号</option>
+                        <option value="order_consignee_name" <if condition="$request['key'] eq 'order_consignee_name' ">selected</if>>收货人姓名</option>
+                        <option value="order_consignee_address" <if condition="$request['key'] eq 'order_consignee_address' ">selected</if>>收货人地址</option>
                     </select>
 
                 </div>
@@ -101,7 +118,6 @@
                     <td>{$vo["order_account_money"]}</td>
                     <td>{$vo["order_freight"]}</td>
                     <td>{$vo["order_pay_type_money"]}</td>
-
                     <td>{$vo["order_return_status_name"]}</td>
                     <td>{$vo["order_delivery_time_name"]}</td>
                     <td>{$vo["order_account_money"]}</td>

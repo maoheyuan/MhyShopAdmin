@@ -136,6 +136,22 @@
                     <input type="text" class="form-control laydate-icon" placeholder="结束时间"
                            onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="endTime" value="<?php echo ($request['endTime']); ?>">
                 </div>
+
+                <div class="form-group">
+                    <select name="order_status" class="form-control">
+                        <option value=""  >请选择</option>
+                        <option value="1" <?php if($request['order_status'] == 1 ): ?>selected<?php endif; ?> >未支付</option>
+                        <option value="2" <?php if($request['order_status'] == 2 ): ?>selected<?php endif; ?> >已取消</option>
+                        <option value="3" <?php if($request['order_status'] == 3 ): ?>selected<?php endif; ?> >已支付</option>
+
+                        <option value="4" <?php if($request['order_status'] == 4 ): ?>selected<?php endif; ?> >已分拣</option>
+                        <option value="5" <?php if($request['order_status'] == 5 ): ?>selected<?php endif; ?> >已配送</option>
+                        <option value="6" <?php if($request['order_status'] == 6 ): ?>selected<?php endif; ?> >已完成</option>
+                    </select>
+
+                </div>
+
+
                 <div class="form-group">
                     <select name="limit" class="form-control">
                         <option value=""  >请选择</option>
@@ -148,9 +164,10 @@
                 <div class="form-group">
                     <select name="key" class="form-control">
                         <option value="">请选择</option>
-                        <option value="member_id"     <?php if($request['key'] == 'member_id' ): ?>selected<?php endif; ?>  >会员编号</option>
-                        <option value="member_name"   <?php if($request['key'] == 'member_name' ): ?>selected<?php endif; ?> >会员名称</option>
-                        <option value="member_mobile" <?php if($request['key'] == 'member_mobile' ): ?>selected<?php endif; ?>>会员手机号</option>
+                        <option value="order_sn"     <?php if($request['key'] == 'order_sn' ): ?>selected<?php endif; ?>  >订单编号</option>
+                        <option value="order_consignee_mobile"   <?php if($request['key'] == 'order_consignee_mobile' ): ?>selected<?php endif; ?> >收货人手机号</option>
+                        <option value="order_consignee_name" <?php if($request['key'] == 'order_consignee_name' ): ?>selected<?php endif; ?>>收货人姓名</option>
+                        <option value="order_consignee_address" <?php if($request['key'] == 'order_consignee_address' ): ?>selected<?php endif; ?>>收货人地址</option>
                     </select>
 
                 </div>
@@ -210,7 +227,6 @@
                     <td><?php echo ($vo["order_account_money"]); ?></td>
                     <td><?php echo ($vo["order_freight"]); ?></td>
                     <td><?php echo ($vo["order_pay_type_money"]); ?></td>
-
                     <td><?php echo ($vo["order_return_status_name"]); ?></td>
                     <td><?php echo ($vo["order_delivery_time_name"]); ?></td>
                     <td><?php echo ($vo["order_account_money"]); ?></td>
