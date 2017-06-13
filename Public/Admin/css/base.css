@@ -69,6 +69,11 @@ body {
 
     padding: 10px !important;
 }
+
+.navLeftBar .web_log img{
+
+    width: 150px;
+}
 .navLeftBar .list-group .part-line{
 
     margin-top: 10px;
