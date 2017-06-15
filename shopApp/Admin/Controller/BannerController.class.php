@@ -95,7 +95,8 @@ class BannerController extends BaseController {
             }
         }
         else{
-
+            $categoryList=D("category")->getTopCategory();
+            $this->assign("categoryList",$categoryList);
             $this->display();
         }
     }
@@ -118,8 +119,9 @@ class BannerController extends BaseController {
                     E("修改的编号不存在!");
                 }
                 $bannerInfo=D("banner")->getInfoById(I("get.banner_id"));
-                $this->assign("goodsInfo",$bannerInfo);
-
+                $this->assign("bannerInfo",$bannerInfo);
+                $categoryList=D("category")->getTopCategory();
+                $this->assign("categoryList",$categoryList);
                 $this->display();
             }
         }

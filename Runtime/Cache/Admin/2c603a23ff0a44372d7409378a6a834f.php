@@ -137,17 +137,26 @@
 
 <nav class="navbar navbar-default">
     <div class="container-fluid pdl0">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pdl0" id="bs-example-navbar-collapse-1">
             <form class="navbar-form navbar-left pdl2">
+
                 <div class="btn-group form-group" >
-                    <button type="button" class="btn btn-primary create" title="轮播新增" data-url="<?php echo U('Banner/add');?>"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <!-- Standard button -->
+                    <button type="button" class="btn btn-primary create" title="分类新增" data-url="<?php echo U('Category/add');?>"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <!-- <button type="button" class="btn btn-warning edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
+                     &lt;!&ndash; Indicates a successful or positive action &ndash;&gt;
+                     <button type="button" class="btn btn-danger"> <i class="fa fa-trash-o fa-lg"></i></button>-->
+
                 </div>
                 <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
             </form>
 
 
-        </div>
-    </div>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
 </nav>
 
 
@@ -155,48 +164,18 @@
     <table class="table table-bordered table-hover ">
         <thead>
         <tr class="info">
-            <th >排序</th>
-            <th >编号</th>
-            <th>名称</th>
-
-            <th >图片</th>
-            <th >状态</th>
-
-            <th >产品分类</th>
-            <th >有效开始时间</th>
-
-            <th >有效结束时间</th>
-
-            <th >新增时间</th>
-
-            <th >修改时间</th>
-
+            <th width="40">排序</th>
+            <th width="60">编号</th>
+            <th>分类名称</th>
+            <th width="100">分类状态</th>
+            <th width="150">新增时间</th>
             <th width="150">操作</th>
         </tr>
         </thead>
         <tbody>
-        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="row<?php echo ($vo['banner_id']); ?>">
-                <td><?php echo ($vo["banner_sort"]); ?></td>
-                <td><?php echo ($vo["banner_id"]); ?></td>
-                <td><?php echo ($vo["banner_name"]); ?></td>
-
-                <td><?php echo ($vo["banner_image"]); ?></td>
-                <td><?php echo ($vo["banner_status_name"]); ?></td>
-                <td><?php echo ($vo["banner_category_name"]); ?></td>
-                <td><?php echo ($vo["banner_start_time_name"]); ?></td>
-                <td><?php echo ($vo["banner_end_time_name"]); ?></td>
-                <td><?php echo ($vo["banner_add_time_name"]); ?></td>
-                <td><?php echo ($vo["banner_edit_time_name"]); ?></td>
-                  <td>
-                      <a  class="btn btn-warning  btn-sm update" title="轮播修改" data-url="<?php echo U('Banner/update');?>?banner_id=<?php echo ($vo['banner_id']); ?>"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                      <a  class="btn btn-danger   btn-sm delete"  title="轮播删除" data-id="<?php echo ($vo['banner_id']); ?>" data-url="<?php echo U('member/delete');?>?banner_id=<?php echo ($vo['banner_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
-                  </td>
-            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+            <?php echo ($list); ?>
         </tbody>
     </table>
-    <nav class="Page textRight" aria-label="Page navigation">
-        <?php echo ($page); ?>
-    </nav>
 </div>
 
 </body>

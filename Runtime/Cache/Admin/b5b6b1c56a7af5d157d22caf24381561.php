@@ -71,22 +71,31 @@
 </div>
 -->
 
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Banner/add');?>">
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Category/add');?>">
+
+
     <div class="form-group">
-        <label for="banner_category" class="col-sm-2 control-label">所属产品分类：<span aria-hidden="true">&times;</span></label>
+        <label for="category_parent_id" class="col-sm-2 control-label">上级分类：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <select class="form-control" name="banner_category" id="banner_category">
-                <option value="0">请选择分类</option>
-                <?php if(is_array($categoryList)): $i = 0; $__LIST__ = $categoryList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['category_id']); ?>"><?php echo ($vo['category_name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+            <select class="form-control" name="category_parent_id" id="category_parent_id">
+
+                <option value="">请选择分类</option>
+                <option value="0">一级分类</option>
+
             </select>
         </div>
     </div>
+
+
     <div class="form-group">
-        <label for="banner_name" class="col-sm-2 control-label">名称：<span aria-hidden="true">&times;</span></label>
+        <label for="category_name" class="col-sm-2 control-label">分类名称：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="banner_name" name="banner_name" placeholder="名称">
+            <input type="text" class="form-control" id="category_name" name="category_name" placeholder="名称">
         </div>
     </div>
+
+
+
 
 
     <div class="form-group">
@@ -94,32 +103,26 @@
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="banner_image"  type="hidden" name="banner_image">
+            <input id="member_avatar" style="display: none" type="hidden" name="category_image_path">
         </div>
     </div>
 
     <div class="form-group">
         <label  class="col-sm-2 control-label"></label>
         <div class="col-sm-8">
-            <img id="uploadImage" class="img-rounded" alt="140x140" src="/MhyShopAdmin/Public/Admin/image/no_image.png" style="width: 140px;height: 140px;">
+            <img    id="uploadImage"
+                    class="img-rounded" alt="140x140"
+                    src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgdmlld0JveD0iMCAwIDE0MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjwhLS0KU291cmNlIFVSTDogaG9sZGVyLmpzLzE0MHgxNDAKQ3JlYXRlZCB3aXRoIEhvbGRlci5qcyAyLjYuMC4KTGVhcm4gbW9yZSBhdCBodHRwOi8vaG9sZGVyanMuY29tCihjKSAyMDEyLTIwMTUgSXZhbiBNYWxvcGluc2t5IC0gaHR0cDovL2ltc2t5LmNvCi0tPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PCFbQ0RBVEFbI2hvbGRlcl8xNWMxZjlmNGQzNiB0ZXh0IHsgZmlsbDojQUFBQUFBO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1mYW1pbHk6QXJpYWwsIEhlbHZldGljYSwgT3BlbiBTYW5zLCBzYW5zLXNlcmlmLCBtb25vc3BhY2U7Zm9udC1zaXplOjEwcHQgfSBdXT48L3N0eWxlPjwvZGVmcz48ZyBpZD0iaG9sZGVyXzE1YzFmOWY0ZDM2Ij48cmVjdCB3aWR0aD0iMTQwIiBoZWlnaHQ9IjE0MCIgZmlsbD0iI0VFRUVFRSIvPjxnPjx0ZXh0IHg9IjQ1IiB5PSI3NC44Ij4xNDB4MTQwPC90ZXh0PjwvZz48L2c+PC9zdmc+"
+                    data-holder-rendered="true"
+                    style="width: 140px;height: 140px;">
         </div>
-    </div>
-    <div class="form-group">
-
-        <label for="banner_start_time" class="col-sm-2 control-label">发布开始时间：</label>
-        <div class="col-sm-8">
-            <input type="text" id="banner_start_time" name="banner_start_time" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
-        </div>
-
     </div>
 
 
     <div class="form-group">
-
-        <label for="banner_end_time" class="col-sm-2 control-label">发布结束时间：</label>
-
+        <label for="category_sort" class="col-sm-2 control-label">排序：</label>
         <div class="col-sm-8">
-            <input type="text" id="banner_end_time" name="banner_end_time" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+            <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
         </div>
     </div>
 
@@ -127,18 +130,11 @@
         <label  class="col-sm-2 control-label">状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="banner_status"  value="1" checked> 启用
+                <input type="radio" name="category_status"  value="1" checked> 启用
             </label>
             <label class="radio-inline">
-                <input type="radio" name="banner_status"  value="2"> 禁用
+                <input type="radio" name="category_status"  value="2"> 禁用
             </label>
-        </div>
-    </div>
-
-    <div class="form-group">
-        <label for="banner_sort" class="col-sm-2 control-label">排序：</label>
-        <div class="col-sm-8">
-            <input  class="form-control" id="banner_sort" name="banner_sort" placeholder="排序" value="10">
         </div>
     </div>
 
@@ -171,14 +167,14 @@
                     //把图片替换
                     if(data.status==1){
                         $("#uploadImage").attr("src", "/MhyShopAdmin/Public/Uploads/"+data.fileName);
-                        $("#banner_image").val(data.fileName);
+                        $("#member_avatar").val(data.fileName);
                     }
                     else{
                         alert(data.msg);
                     }
                 },
                 error: function (data, status, e) {
-                    alert(e);
+                        alert(e);
                 }
             });
         });

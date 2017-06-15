@@ -31,21 +31,21 @@
     <table class="table table-bordered table-hover ">
         <thead>
         <tr class="info">
-
-            <th width="60">编号</th>
+            <th >排序</th>
+            <th >编号</th>
             <th>名称</th>
-            <th width="40">排序</th>
-            <th width="100">图片</th>
-            <th width="150">状态</th>
 
-            <th width="100">产品分类</th>
-            <th width="150">有效开始时间</th>
+            <th >图片</th>
+            <th >状态</th>
 
-            <th width="100">有效结束时间</th>
+            <th >产品分类</th>
+            <th >有效开始时间</th>
 
-            <th width="150">新增时间</th>
+            <th >有效结束时间</th>
 
-            <th width="100">修改时间</th>
+            <th >新增时间</th>
+
+            <th >修改时间</th>
 
             <th width="150">操作</th>
         </tr>
@@ -53,19 +53,20 @@
         <tbody>
         <volist name="list" id="vo">
             <tr id="row{$vo['banner_id']}">
+                <td>{$vo["banner_sort"]}</td>
                 <td>{$vo["banner_id"]}</td>
                 <td>{$vo["banner_name"]}</td>
-                <td>{$vo["banner_sort"]}</td>
+
                 <td>{$vo["banner_image"]}</td>
-                <td>{$vo["banner_status"]}</td>
-                <td>{$vo["banner_category"]}</td>
-                <td>{$vo["banner_start_time"]}</td>
-                <td>{$vo["banner_end_time"]}</td>
-                <td>{$vo["banner_add_time"]}</td>
-                <td>{$vo["banner_edit_time"]}</td>
+                <td>{$vo["banner_status_name"]}</td>
+                <td>{$vo["banner_category_name"]}</td>
+                <td>{$vo["banner_start_time_name"]}</td>
+                <td>{$vo["banner_end_time_name"]}</td>
+                <td>{$vo["banner_add_time_name"]}</td>
+                <td>{$vo["banner_edit_time_name"]}</td>
                   <td>
                       <a  class="btn btn-warning  btn-sm update" title="轮播修改" data-url="{:U('Banner/update')}?banner_id={$vo['banner_id']}"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                      <a  class="btn btn-danger   btn-sm delete"  title="轮播删除" data-id="{$vo['banner_id']}" data-url="{:U('member/delete')}?banner_id={$vo['banner_id']}"> <i class="fa fa-trash-o fa-lg"></i></a>
+                      <a  class="btn btn-danger   btn-sm delete"  title="轮播删除" data-id="{$vo['banner_id']}" data-url="{:U('Banner/delete')}?banner_id={$vo['banner_id']}"> <i class="fa fa-trash-o fa-lg"></i></a>
                   </td>
             </tr>
         </volist>

@@ -85,6 +85,19 @@ class BannerModel extends Model {
             $data["banner_edit_time_name"]=unixtime_to_date($data["banner_edit_time"]);
 
         }
+
+
+        if(isset($data["banner_category"])){
+
+            $categoryInfo=D("category")->getInfoById($data["banner_category"]);
+            if(!$categoryInfo["category_name"]){
+                $categoryInfo["category_name"]="/";
+            }
+            $data["banner_category_name"]=$categoryInfo["category_name"];
+
+        }
+
+
         return $data;
     }
 
@@ -101,10 +114,10 @@ class BannerModel extends Model {
        $rules = array(
            array('banner_id'      ,  'require'   ,   '编号不能为空!', self::MODEL_UPDATE),
            array('banner_name'    ,  'require'   ,   '名称不能为空!', self::MODEL_BOTH),
-           array('banner_image'    ,  ''          ,   '图片不能为空!', self::MODEL_BOTH,'unique'),
+           array('banner_image'    ,  'require' ,   '图片不能为空!', self::MODEL_BOTH),
            array('banner_status',  'require'   ,   '状态不能为空!', self::MODEL_BOTH),
            array('banner_category'  ,  'require'   ,   '产品分类不能为空!', self::MODEL_BOTH),
-           array('banner_start_time'     ,   array(1,2) ,   '有效开始时间不能为空' , self::MODEL_BOTH,'in'),
+           array('banner_start_time'     ,  'require' ,   '有效开始时间不能为空' , self::MODEL_BOTH),
            array('banner_end_time'  ,  'require'   ,   '有效结束时间不能为空!', self::MODEL_BOTH),
        );
        return $rules;
@@ -116,8 +129,8 @@ class BannerModel extends Model {
             'banner_image'   =>  I("post.banner_image",""),
             'banner_status'     =>  I("post.banner_status",""),
             'banner_category'        =>  I("post.banner_category",""),
-            'banner_start_time'   =>  I("post.banner_start_time",""),
-            'banner_end_time'     =>  I("post.banner_end_time",""),
+            'banner_start_time'   =>  strtotime(I("post.banner_start_time","")),
+            'banner_end_time'     =>   strtotime(I("post.banner_end_time","")),
         );
         if($type=="add"){
             unset($data["banner_id"]);

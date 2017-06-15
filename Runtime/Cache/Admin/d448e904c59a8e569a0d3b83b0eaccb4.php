@@ -77,14 +77,14 @@
         <div class="col-sm-8">
             <select class="form-control" name="banner_category" id="banner_category">
                 <option value="0">请选择分类</option>
-                <?php if(is_array($categoryList)): $i = 0; $__LIST__ = $categoryList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['category_id']); ?>"><?php echo ($vo['category_name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                <?php if(is_array($categoryList)): $i = 0; $__LIST__ = $categoryList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vo['category_id']); ?>" <?php if($bannerInfo['banner_category'] == $vo['category_id']): ?>selected<?php endif; ?> ><?php echo ($vo['category_name']); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
             </select>
         </div>
     </div>
     <div class="form-group">
         <label for="banner_name" class="col-sm-2 control-label">名称：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="banner_name" name="banner_name" placeholder="名称">
+            <input type="text" class="form-control" id="banner_name" name="banner_name" placeholder="名称" value="<?php echo ($bannerInfo['banner_name']); ?>">
         </div>
     </div>
 
@@ -94,21 +94,21 @@
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="banner_image"  type="hidden" name="banner_image">
+            <input id="banner_image"  type="hidden" name="banner_image"  value="<?php echo ($bannerInfo['banner_image']); ?>">
         </div>
     </div>
 
     <div class="form-group">
         <label  class="col-sm-2 control-label"></label>
         <div class="col-sm-8">
-            <img id="uploadImage" class="img-rounded" alt="140x140" src="/MhyShopAdmin/Public/Admin/image/no_image.png" style="width: 140px;height: 140px;">
+            <img id="uploadImage" class="img-rounded" alt="140x140" src="/MhyShopAdmin/Public/Uploads/<?php echo ($bannerInfo['banner_image']); ?>" style="width: 140px;height: 140px;">
         </div>
     </div>
     <div class="form-group">
 
         <label for="banner_start_time" class="col-sm-2 control-label">发布开始时间：</label>
         <div class="col-sm-8">
-            <input type="text" id="banner_start_time" name="banner_start_time" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+            <input type="text" value="<?php echo ($bannerInfo['banner_start_time']); ?>" id="banner_start_time" name="banner_start_time" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
 
     </div>
@@ -119,7 +119,7 @@
         <label for="banner_end_time" class="col-sm-2 control-label">发布结束时间：</label>
 
         <div class="col-sm-8">
-            <input type="text" id="banner_end_time" name="banner_end_time" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+            <input type="text"  value="<?php echo ($bannerInfo['banner_end_time']); ?>" id="banner_end_time" name="banner_end_time" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
     </div>
 
@@ -127,10 +127,10 @@
         <label  class="col-sm-2 control-label">状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="banner_status"  value="1" checked> 启用
+                <input type="radio" name="banner_status"  value="1" <?php if($bannerInfo['banner_status'] == 1): ?>checked<?php endif; ?>> 启用
             </label>
             <label class="radio-inline">
-                <input type="radio" name="banner_status"  value="2"> 禁用
+                <input type="radio" name="banner_status"  value="2" <?php if($bannerInfo['banner_status'] == 2): ?>checked<?php endif; ?>> 禁用
             </label>
         </div>
     </div>
@@ -138,7 +138,7 @@
     <div class="form-group">
         <label for="banner_sort" class="col-sm-2 control-label">排序：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="banner_sort" name="banner_sort" placeholder="排序" value="10">
+            <input  class="form-control" id="banner_sort" name="banner_sort" placeholder="排序" value="<?php echo ($bannerInfo['banner_sort']); ?>">
         </div>
     </div>
 

@@ -157,4 +157,13 @@ class CategoryModel extends Model {
         return $this->returnData(1,"册除成功!",I("get.category_id"));
     }
 
+
+
+    public  function  getTopCategory(){
+        $map=array();
+        $map["category_parent_id"]=0;
+        $categoryList=$this->where($map)->select();
+        return $categoryList;
+    }
+
 }
