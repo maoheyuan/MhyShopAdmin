@@ -27,7 +27,6 @@ class AddTestDataController extends Controller {
             $data["member_time"]=time();
             D("member")->add($data);
         }
-
     }
 
 

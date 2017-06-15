@@ -80,8 +80,11 @@
    <!--     <a class="list-group-item part-line " href="<?php echo U('Index/index');?>">
             <i class="fa fa-reorder pd5" aria-hidden="true"></i> 仪表盘
         </a>-->
+        <a class="list-group-item part-line" href="<?php echo U('Index/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>我的首页
+        </a>
 
-        <a class="list-group-item part-line" href="<?php echo U('Member/index');?>">
+        <a class="list-group-item " href="<?php echo U('Member/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>会员管理
         </a>
 
@@ -95,18 +98,29 @@
             <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
         </a>
 
+
+        <a class="list-group-item" href="<?php echo U('Area/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地区管理
+        </a>
+        <a class="list-group-item" href="<?php echo U('MemberAddress/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
+        </a>
+        <a class="list-group-item" href="<?php echo U('Banner/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>轮播管理
+        </a>
+
+        <a class="list-group-item" href="<?php echo U('Config/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>常用设置
+        </a>
         <a class="list-group-item" href="<?php echo U('Order/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
         </a>
 
-        <a class="list-group-item" href="<?php echo U('Address/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
-        </a>
     </div >
 
     <ul class="list-group">
         <li class="list-group-item ">
-            <i class="fa fa-user" aria-hidden="true"></i> 会员中心
+            <i class="fa fa-user" aria-hidden="true"></i> 我的中心
         </li>
     </ul>
 </div>

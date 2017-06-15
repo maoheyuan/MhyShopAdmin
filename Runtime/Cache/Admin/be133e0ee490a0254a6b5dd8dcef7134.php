@@ -80,8 +80,11 @@
    <!--     <a class="list-group-item part-line " href="<?php echo U('Index/index');?>">
             <i class="fa fa-reorder pd5" aria-hidden="true"></i> 仪表盘
         </a>-->
+        <a class="list-group-item part-line" href="<?php echo U('Index/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>我的首页
+        </a>
 
-        <a class="list-group-item part-line" href="<?php echo U('Member/index');?>">
+        <a class="list-group-item " href="<?php echo U('Member/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>会员管理
         </a>
 
@@ -95,18 +98,29 @@
             <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
         </a>
 
+
+        <a class="list-group-item" href="<?php echo U('Area/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地区管理
+        </a>
+        <a class="list-group-item" href="<?php echo U('MemberAddress/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
+        </a>
+        <a class="list-group-item" href="<?php echo U('Banner/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>轮播管理
+        </a>
+
+        <a class="list-group-item" href="<?php echo U('Config/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>常用设置
+        </a>
         <a class="list-group-item" href="<?php echo U('Order/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
         </a>
 
-        <a class="list-group-item" href="<?php echo U('Address/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
-        </a>
     </div >
 
     <ul class="list-group">
         <li class="list-group-item ">
-            <i class="fa fa-user" aria-hidden="true"></i> 会员中心
+            <i class="fa fa-user" aria-hidden="true"></i> 我的中心
         </li>
     </ul>
 </div>
@@ -123,26 +137,17 @@
 
 <nav class="navbar navbar-default">
     <div class="container-fluid pdl0">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse pdl0" id="bs-example-navbar-collapse-1">
             <form class="navbar-form navbar-left pdl2">
-
                 <div class="btn-group form-group" >
-                    <!-- Standard button -->
-                    <button type="button" class="btn btn-primary create" title="分类新增" data-url="<?php echo U('Category/add');?>"><i class="fa fa-plus" aria-hidden="true"></i></button>
-                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <!-- <button type="button" class="btn btn-warning edit"><i class="fa fa-edit" aria-hidden="true"></i></button>
-                     &lt;!&ndash; Indicates a successful or positive action &ndash;&gt;
-                     <button type="button" class="btn btn-danger"> <i class="fa fa-trash-o fa-lg"></i></button>-->
-
+                    <button type="button" class="btn btn-primary create" title="轮播新增" data-url="<?php echo U('Banner/add');?>"><i class="fa fa-plus" aria-hidden="true"></i></button>
                 </div>
                 <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
             </form>
 
 
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+        </div>
+    </div>
 </nav>
 
 
@@ -150,18 +155,47 @@
     <table class="table table-bordered table-hover ">
         <thead>
         <tr class="info">
-            <th width="40">排序</th>
+
             <th width="60">编号</th>
-            <th>分类名称</th>
-            <th width="100">分类状态</th>
+            <th>名称</th>
+            <th width="40">排序</th>
+            <th width="100">图片</th>
+            <th width="150">状态</th>
+
+            <th width="100">产品分类</th>
+            <th width="150">有效开始时间</th>
+
+            <th width="100">有效结束时间</th>
+
             <th width="150">新增时间</th>
+
+            <th width="100">修改时间</th>
+
             <th width="150">操作</th>
         </tr>
         </thead>
         <tbody>
-            <?php echo ($list); ?>
+        <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="row<?php echo ($vo['banner_id']); ?>">
+                <td><?php echo ($vo["banner_id"]); ?></td>
+                <td><?php echo ($vo["banner_name"]); ?></td>
+                <td><?php echo ($vo["banner_sort"]); ?></td>
+                <td><?php echo ($vo["banner_image"]); ?></td>
+                <td><?php echo ($vo["banner_status"]); ?></td>
+                <td><?php echo ($vo["banner_category"]); ?></td>
+                <td><?php echo ($vo["banner_start_time"]); ?></td>
+                <td><?php echo ($vo["banner_end_time"]); ?></td>
+                <td><?php echo ($vo["banner_add_time"]); ?></td>
+                <td><?php echo ($vo["banner_edit_time"]); ?></td>
+                  <td>
+                      <a  class="btn btn-warning  btn-sm update" title="轮播修改" data-url="<?php echo U('Banner/update');?>?banner_id=<?php echo ($vo['banner_id']); ?>"><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                      <a  class="btn btn-danger   btn-sm delete"  title="轮播删除" data-id="<?php echo ($vo['banner_id']); ?>" data-url="<?php echo U('member/delete');?>?banner_id=<?php echo ($vo['banner_id']); ?>"> <i class="fa fa-trash-o fa-lg"></i></a>
+                  </td>
+            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
     </table>
+    <nav class="Page textRight" aria-label="Page navigation">
+        <?php echo ($page); ?>
+    </nav>
 </div>
 
 </body>

@@ -127,7 +127,7 @@
                     <td>{$vo["order_consignee_name"]}</td>
                     <td>{$vo["order_add_time_name"]}</td>
                     <td>
-                        <a  class="btn btn-warning  btn-sm update" title="会员修改" data-url="{:U('member/update')}?member_id={$vo['member_id']}"><i class="fa fa-book" aria-hidden="true"></i> </a>
+                        <a  class="btn btn-warning  btn-sm update" title="订单详细" data-url="{:U('order/info')}?order_id={$vo['order_id']}"><i class="fa fa-book" aria-hidden="true"></i> </a>
 <!--                        <a  class="btn btn-danger   btn-sm delete"  title="会员删除" data-id="{$vo['member_id']}" data-url="{:U('member/delete')}?member_id={$vo['member_id']}"> <i class="fa fa-trash-o fa-lg"></i></a>
                     --></td>
                 </tr>
@@ -143,8 +143,13 @@
         $("#reset").click(function(){
             $('input[name="startTime"]').attr('value',"");
             $('input[name="endTime"]').attr('value',"");
+
+            $('select[name="order_status"] option').each(function(){
+                $(this).removeAttr("selected");
+            });
+
             $('select[name="limit"] option').each(function(){
-                    $(this).removeAttr("selected");
+                $(this).removeAttr("selected");
             });
             $('select[name="key"] option').each(function(){
                     $(this).removeAttr("selected");

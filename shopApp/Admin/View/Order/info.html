@@ -1,0 +1,123 @@
+<include file="Public/header" />
+
+<div class="ml5">
+    <table class="table table-bordered table-hover ">
+        <thead>
+        <tr class="info">
+            <th >编号ID</th>
+            <th>订单编号</th>
+            <th>订单价格</th>
+            <th >支付类型</th>
+            <th >支付状态</th>
+            <th >订单状态</th>
+            <th>优惠价格</th>
+            <th>优惠券金额</th>
+            <th>账户金额</th>
+            <th>运费</th>
+            <th>支付类型金额</th>
+
+            <th>退货状态</th>
+            <th>配送时间</th>
+            <th>账户金额</th>
+            <th>优惠价格</th>
+            <th>收货人地址</th>
+            <th>收货人手机</th>
+            <th>收货人名称</th>
+            <th>下单时间</th>
+
+        </tr>
+        </thead>
+        <tbody>
+
+                <tr id="row{$orderInfo['order_id']}">
+
+                    <td>{$orderInfo["order_id"]}</td>
+                    <td>{$orderInfo["order_sn"]}</td>
+                    <td>{$orderInfo["order_money"]}</td>
+                    <td>{$orderInfo["order_pay_type_name"]}</td>
+                    <td>{$orderInfo["order_pay_status_name"]}</td>
+                    <td>{$orderInfo["order_status_name"]}</td>
+                    <td>{$orderInfo["order_preferential_privilege"]}</td>
+                    <td>{$orderInfo["order_coupon_money"]}</td>
+                    <td>{$orderInfo["order_account_money"]}</td>
+                    <td>{$orderInfo["order_freight"]}</td>
+                    <td>{$orderInfo["order_pay_type_money"]}</td>
+                    <td>{$orderInfo["order_return_status_name"]}</td>
+                    <td>{$orderInfo["order_delivery_time_name"]}</td>
+                    <td>{$orderInfo["order_account_money"]}</td>
+                    <td>{$orderInfo["order_preferential_privilege"]}</td>
+                    <td>{$orderInfo["order_consignee_address"]}</td>
+                    <td>{$orderInfo["order_consignee_mobile"]}</td>
+                    <td>{$orderInfo["order_consignee_name"]}</td>
+                    <td>{$orderInfo["order_add_time_name"]}</td>
+                    <td>
+                </tr>
+
+        </tbody>
+    </table>
+
+
+
+    <table class="table table-bordered table-hover ">
+        <thead>
+        <tr class="info">
+            <th >编号ID</th>
+            <th>商品名称</th>
+            <th>商品数量</th>
+            <th >下单时间</th>
+            <th >会员名称</th>
+            <th >规格/单位</th>
+            <th>已退货数量</th>
+            <th>优惠价格</th>
+            <th>实付金额</th>
+            <th>进货价</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        <volist name="orderGoodsList" id="vo">
+
+            <tr id="row1{$orderInfo['order_id']}">
+
+                <td>{$vo["ogoods_id"]}</td>
+                <td>{$vo["ogoods_goods_name"]}</td>
+                <td>{$vo["ogoods_num"]}</td>
+                <td>{$vo["ogoods_add_time"]}</td>
+                <td>{$vo["ogoods_member_id"]}</td>
+                <td>{$vo["ogoods_unit"]}</td>
+                <td>{$vo["ogoods_return_num"]}</td>
+                <td>{$vo["ogoods__money"]}</td>
+                <td>{$vo["ogoods_real_pay_money"]}</td>
+                <td>{$vo["ogoods_buying_price"]}</td>
+            </tr>
+
+
+        </volist>
+
+
+        </tbody>
+    </table>
+</div>
+<script type="application/javascript">
+    $("#body").addClass("create-page");
+    (function($){
+        $("#reset").click(function(){
+            $('input[name="startTime"]').attr('value',"");
+            $('input[name="endTime"]').attr('value',"");
+
+            $('select[name="order_status"] option').each(function(){
+                $(this).removeAttr("selected");
+            });
+
+            $('select[name="limit"] option').each(function(){
+                $(this).removeAttr("selected");
+            });
+            $('select[name="key"] option').each(function(){
+                    $(this).removeAttr("selected");
+            });
+            $('input[name="content"]').attr('value',"");
+        });
+    })(jQuery)
+</script>
+<include file="Public/footer" />

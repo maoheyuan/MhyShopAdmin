@@ -3,7 +3,8 @@ namespace Admin\Controller;
 use Think\Controller;
 use Think\Exception;
 
-class OrderController extends BaseController {
+class MemberAddressController extends BaseController {
+
     public function index(){
 
         $request=I("request.");
@@ -42,7 +43,7 @@ class OrderController extends BaseController {
         }
         else{
             $limit=trim($request["limit"])?trim($request["limit"]):20;
-            $returnList=D("order")->getList($map,"order_id desc",$limit);
+            $returnList=D("member_address")->getList($map,"maddress_id desc",$limit);
             //echo M()->_sql();
             //print_r($returnList["list"]);
             $this->assign("list",$returnList["list"]);

@@ -95,6 +95,7 @@ class MemberModel extends Model {
         $map=array();
         $map["member_id"]=$id;
         $memberInfo=$this->where($map)->find();
+
         return $memberInfo;
     }
 

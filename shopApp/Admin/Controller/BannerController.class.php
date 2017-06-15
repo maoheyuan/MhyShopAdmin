@@ -3,7 +3,7 @@ namespace Admin\Controller;
 use Think\Controller;
 use Think\Exception;
 
-class OrderController extends BaseController {
+class BannerController extends BaseController {
     public function index(){
 
         $request=I("request.");
@@ -13,36 +13,31 @@ class OrderController extends BaseController {
         if($starTime&&$endTime){
             $starTime=strtotime($starTime);
             $endTime=strtotime($endTime);
-            $map["goods_add_time"]=array(array("egt",$starTime),array("elt",$endTime));
+            $map["banner_add_time"]=array(array("egt",$starTime),array("elt",$endTime));
         }
         if($starTime&&!$endTime){
             $starTime=strtotime($starTime);
-            $map["goods_add_time"]=array("egt",$starTime);
+            $map["banner_add_time"]=array("egt",$starTime);
         }
         if($endTime &&!$starTime){
             $endTime=strtotime($endTime);
-            $map["goods_add_time"]=array("elt",$endTime);
-        }
-        $order_status=trim($request["order_status"]);
-        if($order_status){
-            $map["order_status"]=$order_status;
+            $map["banner_add_time"]=array("elt",$endTime);
         }
         $content=trim($request["content"]);
         if($content){
-            if($request["key"]=="order_id"){
+            if($request["key"]=="goods_id"){
                 $map[$request["key"]]=$content;
             }
             else{
                 $map[$request["key"]]=array("like","%".$content."%");
             }
         }
-
         if($request["submit"]=="export"){
             $this->export($map);
         }
         else{
             $limit=trim($request["limit"])?trim($request["limit"]):20;
-            $returnList=D("order")->getList($map,"order_id desc",$limit);
+            $returnList=D("banner")->getList($map,"banner_id desc",$limit);
             //echo M()->_sql();
             //print_r($returnList["list"]);
             $this->assign("list",$returnList["list"]);
@@ -81,40 +76,13 @@ class OrderController extends BaseController {
 
 
 
-    public  function  info(){
-        C('TOKEN_ON',false);
-        try{
-            if(!I("request.order_id")){
-                E("订单编号不能为空!");
-            }
-            $orderInfo=D("order")->getInfoById(I("request.order_id"));
-
-
-            if(!$orderInfo){
-                E("订单不存在!");
-            }
-            $orderGoodsList=D("order_goods")->getAllByOrderSn($orderInfo["order_sn"]);
-
-
-            $this->assign("orderInfo",$orderInfo);
-
-            $this->assign("orderGoodsList",$orderGoodsList);
-            $this->display();
-        }
-        catch(\Exception $e){
-            $this->error($e->getMessage());
-        }
-
-    }
-
-
 
     public  function  add(){
 
         C('TOKEN_ON',false);
         if(IS_POST){
             try{
-                $returnData=D("goods")->goodsAdd();
+                $returnData=D("banner")->bannerAdd();
                 if($returnData["status"]==1){
                     $this->success("新增成功!");
                 }
@@ -128,13 +96,6 @@ class OrderController extends BaseController {
         }
         else{
 
-            $categoryList=D("category")->getList();
-            foreach($categoryList as $key=>$value){
-                if($value["category_parent_id"]==0){
-                    unset($categoryList[$key]);
-                }
-            }
-            $this->assign("categoryList",$categoryList);
             $this->display();
         }
     }
@@ -144,7 +105,7 @@ class OrderController extends BaseController {
         C('TOKEN_ON',false);
         try{
             if(IS_POST){
-                $returnData=D("goods")->goodsEdit();
+                $returnData=D("banner")->bannerEdit();
                 if($returnData["status"]==1){
                     $this->success("修改成功!");
                 }
@@ -153,21 +114,12 @@ class OrderController extends BaseController {
                 }
             }
             else{
-                if(!I("get.goods_id",0)){
+                if(!I("get.banner_id",0)){
                     E("修改的编号不存在!");
                 }
-                $goodsInfo=D("goods")->getInfoById(I("get.goods_id"));
-                $this->assign("goodsInfo",$goodsInfo);
+                $bannerInfo=D("banner")->getInfoById(I("get.banner_id"));
+                $this->assign("goodsInfo",$bannerInfo);
 
-
-                $categoryList=D("category")->getList();
-                foreach($categoryList as $key=>$value){
-                    if($value["category_parent_id"]==0){
-                        unset($categoryList[$key]);
-                    }
-                }
-
-                $this->assign("categoryList",$categoryList);
                 $this->display();
             }
         }
@@ -179,7 +131,7 @@ class OrderController extends BaseController {
     public  function  delete(){
         C('TOKEN_ON',false);
         try {
-            $returnData=D("goods")->memberDelete();
+            $returnData=D("banner")->bannerDelete();
             if($returnData["status"]==1){
                 $this->success("册除成功!");
             }

@@ -187,6 +187,8 @@ class OrderModel extends Model {
         $map=array();
         $map["order_id"]=$id;
         $goodsInfo=$this->where($map)->find();
+
+        $goodsInfo=$this->dataFormat($goodsInfo);
         return $goodsInfo;
     }
 

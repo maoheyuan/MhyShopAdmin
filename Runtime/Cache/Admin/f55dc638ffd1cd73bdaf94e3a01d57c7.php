@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hello MUI</title>
+    <title>mhy电商系统</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -71,35 +71,33 @@
 </div>
 -->
 
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Category/update');?>">
-
-
-
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Banner/add');?>">
     <div class="form-group">
-        <label for="category_parent_id" class="col-sm-2 control-label">上级分类：<span aria-hidden="true">&times;</span></label>
+        <label for="area_parent_id" class="col-sm-2 control-label">所属产品分类：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <select class="form-control" name="category_parent_id" id="category_parent_id">
-                <option value="" <?php if($categoryInfo['category_parent_id'] == ''): ?>selected<?php endif; ?>>请选择分类</option>
-                <option value="0" <?php if($categoryInfo['category_parent_id'] == 0): ?>selected<?php endif; ?>>一级分类</option>
+            <select class="form-control" name="area_parent_id" id="area_parent_id">
+                <option value="0">一级地址</option>
+               <?php echo ($areaTree); ?>
             </select>
         </div>
     </div>
-
     <div class="form-group">
-        <label for="category_name" class="col-sm-2 control-label">分类名称：<span aria-hidden="true">&times;</span></label>
+        <label for="area_name" class="col-sm-2 control-label">名称：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
-            <input type="text" class="form-control" id="category_name" name="category_name" placeholder="名称" value="<?php echo ($categoryInfo['category_name']); ?>">
+            <input type="text" class="form-control" id="area_name" name="area_name" placeholder="名称">
         </div>
     </div>
+
 
     <div class="form-group">
         <label  class="col-sm-2 control-label">分类图片：</label>
         <div class="col-sm-8">
             <button type="button" class="btn btn-primary" id="upload">上传</button>
             <input id="fileToUpload" style="display: none" type="file" name="upfile">
-            <input id="member_avatar" style="display: none" type="hidden" name="category_image_path" value="<?php echo ($categoryInfo['category_image_path']); ?>">
+            <input id="member_avatar" style="display: none" type="hidden" name="category_image_path">
         </div>
     </div>
+
     <div class="form-group">
         <label  class="col-sm-2 control-label"></label>
         <div class="col-sm-8">
@@ -112,24 +110,45 @@
     </div>
 
     <div class="form-group">
-        <label for="category_sort" class="col-sm-2 control-label">排序：</label>
+
+        <label for="goods_starttime" class="col-sm-2 control-label">发布开始时间：</label>
         <div class="col-sm-8">
-            <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序"  value="<?php echo ($categoryInfo['category_sort']); ?>">
+            <input type="text" id="goods_starttime" name="goods_starttime" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+        </div>
+
+    </div>
+
+
+    <div class="form-group">
+
+        <label for="goods_starttime" class="col-sm-2 control-label">发布结束时间：</label>
+
+        <div class="col-sm-8">
+            <input type="text" id="goods_endtime" name="goods_endtime" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
     </div>
+
+
 
     <div class="form-group">
         <label  class="col-sm-2 control-label">状态：</label>
         <div class="col-sm-8">
             <label class="radio-inline">
-                <input type="radio" name="category_status"  value="1" <?php if($categoryInfo['category_status'] == 1): ?>checked<?php endif; ?> > 启用
+                <input type="radio" name="category_status"  value="1" checked> 启用
             </label>
             <label class="radio-inline">
-                <input type="radio" name="category_status"  value="2" <?php if($categoryInfo['category_status'] == 2): ?>checked<?php endif; ?>> 禁用
+                <input type="radio" name="category_status"  value="2"> 禁用
             </label>
         </div>
     </div>
-    <input type="hidden" name="category_id" value="<?php echo ($categoryInfo['category_id']); ?>">
+
+    <div class="form-group">
+        <label for="area_sort" class="col-sm-2 control-label">排序：</label>
+        <div class="col-sm-8">
+            <input  class="form-control" id="area_sort" name="area_sort" placeholder="排序" value="10">
+        </div>
+    </div>
+
     <div class="form-group">
         <div class="col-sm-2"></div>
         <div class=" col-sm-8">
@@ -137,41 +156,10 @@
             <button type="reset" class="btn btn-default">重置</button>
         </div>
     </div>
-
 </form>
-
-<script src="/MhyShopAdmin/Public/admin/js/ajaxfileupload.js"></script>
 <script type="text/javascript">
     $("#body").addClass("create-page");
-    $(function(){
-        //点击打开文件选择器
-        $("#upload").on('click', function() {
-            $('#fileToUpload').click();
-        });
-        //选择文件之后执行上传
-        $('#fileToUpload').live('change', function() {
-            $.ajaxFileUpload({
-                url:'<?php echo U("Member/JqueryAjaxUpload");?>',
-                secureuri:false,
-                fileElementId:'fileToUpload',//file标签的id
-                dataType: 'json',//返回数据的类型
-                data:{name:'logan'},//一同上传的数据
-                success: function (data, status) {
-                    //把图片替换
-                    if(data.status==1){
-                        $("#uploadImage").attr("src", "/MhyShopAdmin/Public/Uploads/"+data.fileName);
-                        $("#member_avatar").val(data.fileName);
-                    }
-                    else{
-                        alert(data.msg);
-                    }
-                },
-                error: function (data, status, e) {
-                        alert(e);
-                }
-            });
-        });
-    });
+
 </script>
 </body>
 

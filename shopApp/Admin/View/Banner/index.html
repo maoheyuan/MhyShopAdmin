@@ -1,0 +1,79 @@
+<include file="Public/header" />
+
+<include file="Public/navLeft" />
+<ol class="breadcrumb">
+    <li>主页</li>
+    <li>分类管理</li>
+    <li class="active">分类列表</li>
+    <div class="quit">
+        <span type="button" >管理员:毛何远</span>
+        <a href="#">[退出]</a>
+    </div>
+</ol>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid pdl0">
+        <div class="collapse navbar-collapse pdl0" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left pdl2">
+                <div class="btn-group form-group" >
+                    <button type="button" class="btn btn-primary create" title="轮播新增" data-url="{:U('Banner/add')}"><i class="fa fa-plus" aria-hidden="true"></i></button>
+                </div>
+                <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
+            </form>
+
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="ml5">
+    <table class="table table-bordered table-hover ">
+        <thead>
+        <tr class="info">
+
+            <th width="60">编号</th>
+            <th>名称</th>
+            <th width="40">排序</th>
+            <th width="100">图片</th>
+            <th width="150">状态</th>
+
+            <th width="100">产品分类</th>
+            <th width="150">有效开始时间</th>
+
+            <th width="100">有效结束时间</th>
+
+            <th width="150">新增时间</th>
+
+            <th width="100">修改时间</th>
+
+            <th width="150">操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <volist name="list" id="vo">
+            <tr id="row{$vo['banner_id']}">
+                <td>{$vo["banner_id"]}</td>
+                <td>{$vo["banner_name"]}</td>
+                <td>{$vo["banner_sort"]}</td>
+                <td>{$vo["banner_image"]}</td>
+                <td>{$vo["banner_status"]}</td>
+                <td>{$vo["banner_category"]}</td>
+                <td>{$vo["banner_start_time"]}</td>
+                <td>{$vo["banner_end_time"]}</td>
+                <td>{$vo["banner_add_time"]}</td>
+                <td>{$vo["banner_edit_time"]}</td>
+                  <td>
+                      <a  class="btn btn-warning  btn-sm update" title="轮播修改" data-url="{:U('Banner/update')}?banner_id={$vo['banner_id']}"><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                      <a  class="btn btn-danger   btn-sm delete"  title="轮播删除" data-id="{$vo['banner_id']}" data-url="{:U('member/delete')}?banner_id={$vo['banner_id']}"> <i class="fa fa-trash-o fa-lg"></i></a>
+                  </td>
+            </tr>
+        </volist>
+        </tbody>
+    </table>
+    <nav class="Page textRight" aria-label="Page navigation">
+        {$page}
+    </nav>
+</div>
+
+<include file="Public/footer" />
