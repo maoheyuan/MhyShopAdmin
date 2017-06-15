@@ -95,7 +95,7 @@
             <i class="fa fa-database pd5" aria-hidden="true"></i>商品分类
         </a>
         <a class="list-group-item" href="<?php echo U('Goods/index');?>">
-            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
+            <i class="fa fa-recycle pd5" aria-hidden="true"></i>商品管理
         </a>
 
 
