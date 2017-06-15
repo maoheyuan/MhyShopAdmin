@@ -112,7 +112,7 @@
         <a class="list-group-item" href="<?php echo U('Config/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>常用设置
         </a>
-        <a class="list-group-item" href="<?php echo U('Order/index');?>">
+        <a class="list-group-item" href="<?php echo U('chart/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
         </a>
 
@@ -127,8 +127,8 @@
 
 <ol class="breadcrumb">
     <li>主页</li>
-    <li>分类管理</li>
-    <li class="active">分类列表</li>
+    <li>常用设置</li>
+    <li class="active">常用设置列表</li>
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>

@@ -10,15 +10,6 @@
 
     <link rel="stylesheet" href="/MhyShopAdmin/Public/Admin/css/font-awesome.min.css">
     <link rel="stylesheet" href="/MhyShopAdmin/Public/Admin/css/base.css">
-    <style type="text/css">
-        .laydate_box, .laydate_box * {
-            box-sizing:content-box;
-        }
-        .laydate-icon{
-            height: 34px;
-            line-height: 34px;
-        }
-    </style>
 </head>
 <body style="height: 100%; margin: 0">
 
@@ -77,14 +68,15 @@
 
 <ol class="breadcrumb">
     <li ><a href="<?php echo U('Index/index');?>">主页</a></li>
-    <li class="active">首页统计</li>
+    <li class="active">统计管理</li>
+    <li class="active">统计列表</li>
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>
     </div>
 </ol>
 
-<div id="container" style="height: 80%;width: 80%;margin: 10px auto;"></div>
+<div id="container" style="height: 80%;width: 100%;margin: 10px auto;"></div>
 <script src="/MhyShopAdmin/Public/Admin/plug/echarts/echarts.min.js"></script>
 <script type="text/javascript">
 
@@ -94,22 +86,66 @@
     option = null;
     option = {
         title: {
-            text: ''
+            text: '一星期统计'
         },
-        tooltip: {},
+        tooltip: {
+            trigger: 'axis'
+        },
         legend: {
-            data:['常用功能统计']
+            data:['会员','商品','分类','订单','订单商品']
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        toolbox: {
+            feature: {
+                saveAsImage: {}
+            }
         },
         xAxis: {
-            data: ["会员","订单","分类","商品","管理员","袜子"]
+            type: 'category',
+            boundaryGap: false,
+            data: ['周一','周二','周三','周四','周五','周六','周日']
         },
-        yAxis: {},
-        series: [{
-            name: '常用功能统计',
-            type: 'bar',
-            data: [52, 21, 36, 14, 67, 90]
-        }]
-    };;
+        yAxis: {
+            type: 'value'
+        },
+        series: [
+            {
+                name:'会员',
+                type:'line',
+                stack: '总量',
+                data:[120, 132, 101, 134, 90, 230, 210]
+            },
+            {
+                name:'商品',
+                type:'line',
+                stack: '总量',
+                data:[220, 182, 191, 234, 290, 330, 310]
+            },
+            {
+                name:'分类',
+                type:'line',
+                stack: '总量',
+                data:[150, 232, 201, 154, 190, 330, 410]
+            },
+            {
+                name:'订单',
+                type:'line',
+                stack: '总量',
+                data:[320, 332, 301, 334, 390, 330, 320]
+            },
+            {
+                name:'订单商品',
+                type:'line',
+                stack: '总量',
+                data:[820, 932, 901, 934, 1290, 1330, 1320]
+            }
+        ]
+    };
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
     }

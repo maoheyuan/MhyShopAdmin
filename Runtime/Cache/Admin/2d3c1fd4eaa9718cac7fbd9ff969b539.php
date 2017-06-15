@@ -112,7 +112,7 @@
         <a class="list-group-item" href="<?php echo U('Config/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>常用设置
         </a>
-        <a class="list-group-item" href="<?php echo U('Order/index');?>">
+        <a class="list-group-item" href="<?php echo U('chart/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
         </a>
 
