@@ -38,18 +38,16 @@
 
         <label for="banner_start_time" class="col-sm-2 control-label">发布开始时间：</label>
         <div class="col-sm-8">
-            <input type="text" value="{$bannerInfo['banner_start_time']}" id="banner_start_time" name="banner_start_time" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+            <input type="text" value="{$bannerInfo['banner_start_time_name']}" id="banner_start_time" name="banner_start_time" class="col-sm-3 form-control laydate-icon" placeholder="发布开始时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
-
     </div>
-
 
     <div class="form-group">
 
         <label for="banner_end_time" class="col-sm-2 control-label">发布结束时间：</label>
 
         <div class="col-sm-8">
-            <input type="text"  value="{$bannerInfo['banner_end_time']}" id="banner_end_time" name="banner_end_time" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+            <input type="text"  value="{$bannerInfo['banner_end_time_name']}" id="banner_end_time" name="banner_end_time" class="col-sm-3 form-control laydate-icon" placeholder="发布结束时间" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
         </div>
     </div>
 
@@ -72,6 +70,7 @@
         </div>
     </div>
 
+    <input type="hidden" name="banner_id" value="{$bannerInfo['banner_id']}">
     <div class="form-group">
         <div class="col-sm-2"></div>
         <div class=" col-sm-8">

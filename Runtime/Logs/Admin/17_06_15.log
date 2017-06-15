@@ -1402,3 +1402,1923 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-06-15T14:30:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:30:29+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-15T14:30:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 3 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:31:41+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:32:00+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:32:03+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:32:05+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-15T14:32:27+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_banner` SET `banner_id`='0',`banner_name`='afdsfdsf',`banner_image`='2017-06-15/594229e38efb1.jpg',`banner_status`='1',`banner_category`='11',`banner_start_time`='1496246400',`banner_end_time`='1497456000',`banner_edit_time`='1497508347' WHERE `banner_id` = 0 [ RunTime:0.0240s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:32:29+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:32:33+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-15T14:32:36+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:32:41+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_banner` SET `banner_id`='0',`banner_name`='afdsfdsf',`banner_image`='2017-06-15/59422a046a930.jpg',`banner_status`='1',`banner_category`='11',`banner_start_time`='1496592000',`banner_end_time`='1498579200',`banner_edit_time`='1497508361' WHERE `banner_id` = 0 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-15T14:32:44+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:32:48+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:32:51+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 2 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:32:55+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:33:45+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:33:49+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:33:54+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:34:48+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-15T14:35:44+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:35:48+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:35:50+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-15T14:36:27+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-15T14:37:10+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:37:13+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:37:17+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_banner` SET `banner_id`='0',`banner_name`='afdsfdsf',`banner_image`='2017-06-15/59422b190bcde.jpg',`banner_status`='1',`banner_category`='11',`banner_start_time`='1456825428',`banner_end_time`='1456825428',`banner_sort`='1497492000',`banner_edit_time`='1497508637' WHERE `banner_id` = 0 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:37:19+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:38:28+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:38:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:38:34+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-15T14:38:38+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:38:42+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-06-15T14:38:46+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:39:05+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:39:10+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:39:13+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_banner` SET `banner_id`='1',`banner_name`='afdsfdsf',`banner_image`='2017-06-15/59422b8edc3ca.jpg',`banner_status`='1',`banner_category`='11',`banner_start_time`='1456825428',`banner_end_time`='1456825428',`banner_sort`='1497492000',`banner_edit_time`='1497508753' WHERE `banner_id` = 0 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:39:15+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:39:21+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:43:00+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:43:02+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:43:07+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-06-15T14:43:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:43:57+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:43:59+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:44:05+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_banner` SET `banner_id`='1',`banner_name`='afdsfdsf',`banner_image`='2017-06-15/59422caf14675.jpg',`banner_status`='1',`banner_category`='11',`banner_start_time`='1456825428',`banner_end_time`='1456825428',`banner_sort`='100',`banner_edit_time`='1497509045' WHERE `banner_id` = 1 [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-06-15T14:44:09+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:44:30+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0100s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_banner` SET `banner_id`='1',`banner_name`='afdsfdsf',`banner_image`='2017-06-15/59422caf14675.jpg',`banner_status`='1',`banner_category`='11',`banner_start_time`='1456825428',`banner_end_time`='1456825428',`banner_sort`='200',`banner_edit_time`='1497509070' WHERE `banner_id` = 1 [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:44:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/update.html?banner_id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_banner` WHERE `banner_id` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:44:37+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:44:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_parent_id` = 0  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:45:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:45:14+08:00 ] ::1 /MhyShopAdmin/admin.php/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Config
+
+[ 2017-06-15T14:45:19+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:45:21+08:00 ] ::1 /MhyShopAdmin/admin.php/MemberAddress/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 12 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 13 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 27 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 31 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 41 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 45 行.
+SQL: SHOW COLUMNS FROM `mhy_member_address` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member_address` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member_address` ORDER BY maddress_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 88 LIMIT 1   [ RunTime:0.0310s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 98 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 71 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 66 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 46 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 43 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 145 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 149 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 154 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 155 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 156 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 163 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 164 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 170 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:45:34+08:00 ] ::1 /MhyShopAdmin/admin.php/MemberAddress/index.html?startTime=2017-06-01&endTime=2017-06-16&limit=&key=&content=&submit=submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberAddressController.class.php 第 27 行.
+SQL: SHOW COLUMNS FROM `mhy_member_address` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member_address` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member_address` ORDER BY maddress_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 88 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 98 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 94 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 71 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 66 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 58 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 57 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 54 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 56 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 53 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 46 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 47 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 41 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 22 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 43 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 33 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 75 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 76 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 79 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 23 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 200 行.
+NOTIC: [8] Undefined index: maddress_edit_time_name D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 209 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 211 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\2d3c1fd4eaa9718cac7fbd9ff969b539.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:45:39+08:00 ] ::1 /MhyShopAdmin/admin.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_goods` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_goods` LEFT JOIN mhy_category  ON mhy_goods.category_id=mhy_category.category_id  ORDER BY goods_id desc LIMIT 0,20   [ RunTime:0.0220s ]
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: allNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 45 行.
+NOTIC: [8] Undefined index: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 157 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 158 行.
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 164 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 168 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 173 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 174 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 175 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 182 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 183 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 184 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:45:54+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: allNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 45 行.
+NOTIC: [8] Undefined index: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 156 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 160 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 165 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 166 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 167 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 174 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 175 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 176 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:46:00+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: allNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 45 行.
+NOTIC: [8] Undefined index: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 156 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 160 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 165 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 166 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 167 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 174 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 175 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 176 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-06-15T14:46:01+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:46:04+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/JqueryAjaxUpload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-06-15T14:46:10+08:00 ] ::1 /MhyShopAdmin/admin.php/member/update.html?member_id=357
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_member` WHERE `member_id` = 357 LIMIT 1   [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-06-15T14:46:19+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
