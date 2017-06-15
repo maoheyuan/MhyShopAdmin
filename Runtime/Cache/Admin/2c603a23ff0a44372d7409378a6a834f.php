@@ -112,7 +112,7 @@
         <a class="list-group-item" href="<?php echo U('Config/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>常用设置
         </a>
-        <a class="list-group-item" href="<?php echo U('Order/index');?>">
+        <a class="list-group-item" href="<?php echo U('chart/index');?>">
             <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
         </a>
 
@@ -132,6 +132,7 @@
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>
+        <a type="button" href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
     </div>
 </ol>
 

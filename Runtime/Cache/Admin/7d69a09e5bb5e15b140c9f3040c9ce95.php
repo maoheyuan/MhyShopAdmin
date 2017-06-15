@@ -132,6 +132,7 @@
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>
+        <a type="button" href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
     </div>
 </ol>
 <form class="form-horizontal  ml10" style="width: auto" enctype="multipart/form-data" method="post" action="<?php echo U('Category/add');?>">
