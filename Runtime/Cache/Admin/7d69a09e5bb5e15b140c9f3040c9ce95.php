@@ -141,54 +141,23 @@
 </div>
 
 
-<form class="form-horizontal  ml10" style="width: auto" enctype="multipart/form-data" method="post" action="<?php echo U('Category/add');?>">
 
+<form class="form-horizontal  ml10" style="width: auto" enctype="multipart/form-data" method="post" action="<?php echo U('Config/index');?>">
+
+<?php if($tip != '' ): ?><p  style="color: #fff;background-color: #d9534f;border-color: #d43f3a; padding: 8px;margin-right: 5px;margin-top: 15px;border-radius: 3px;display: block"><?php echo ($tip); ?></p><?php endif; ?>
 <fieldset>
         <legend>基本设置</legend>
         <table class="table   ">
 
-            <tr>
-                <td width="120">底部版权信息:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo['config_type'] == 'site' ): ?><tr>
+                        <td width="120"><?php echo ($vo["config_name"]); ?><span aria-hidden="true">&times;</span></td>
+                        <td>
+                            <input  class="form-control" id="<?php echo ($vo['config_key']); ?>" name="config[<?php echo ($vo['config_id']); ?>]" placeholder="排序" value="<?php echo ($vo['config_value']); ?>">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">备案号:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                        </td>
+                    </tr><?php endif; endforeach; endif; else: echo "" ;endif; ?>
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">统计代码:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">排序:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
-            <tr>
-                <td>排序:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
-            <tr>
-                <td>排序:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
         </table>
 </fieldset>
 
@@ -197,48 +166,13 @@
         <legend>邮件设置</legend>
         <table class="table   ">
 
-            <tr>
-                <td width="120">邮件发送模式:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo['config_type'] == 'email' ): ?><tr>
+                        <td width="120"><?php echo ($vo["config_name"]); ?><span aria-hidden="true">&times;</span></td>
+                        <td>
+                            <input  class="form-control" id="<?php echo ($vo['config_key']); ?>" name="config[<?php echo ($vo['config_id']); ?>]" placeholder="排序" value="<?php echo ($vo['config_value']); ?>">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">SMTP服务器:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
-            <tr>
-                <td width="120">SMTP 端口:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
-            <tr>
-                <td width="120">邮箱帐号:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
-            <tr>
-                <td width="120">邮箱密码:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
-            <tr>
-                <td width="120">收件邮箱地址:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
+                        </td>
+                    </tr><?php endif; endforeach; endif; else: echo "" ;endif; ?>
         </table>
     </fieldset>
 

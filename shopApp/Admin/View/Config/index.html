@@ -17,54 +17,33 @@
 </div>
 
 
-<form class="form-horizontal  ml10" style="width: auto" enctype="multipart/form-data" method="post" action="{:U('Category/add')}">
 
+<form class="form-horizontal  ml10" style="width: auto" enctype="multipart/form-data" method="post" action="{:U('Config/index')}">
+
+<if condition="$tip neq '' ">
+    <p  style="color: #fff;background-color: #d9534f;border-color: #d43f3a; padding: 8px;margin-right: 5px;margin-top: 15px;border-radius: 3px;display: block">{$tip}</p>
+</if>
 <fieldset>
         <legend>基本设置</legend>
         <table class="table   ">
 
-            <tr>
-                <td width="120">底部版权信息:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+            <volist name="list" id="vo">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">备案号:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                <if condition="$vo['config_type'] eq 'site' ">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">统计代码:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                    <tr>
+                        <td width="120">{$vo["config_name"]}<span aria-hidden="true">&times;</span></td>
+                        <td>
+                            <input  class="form-control" id="{$vo['config_key']}" name="config[{$vo['config_id']}]" placeholder="排序" value="{$vo['config_value']}">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">排序:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                        </td>
+                    </tr>
+                </if>
 
-                </td>
-            </tr>
-            <tr>
-                <td>排序:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
 
-                </td>
-            </tr>
-            <tr>
-                <td>排序:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+            </volist>
 
-                </td>
-            </tr>
+
         </table>
 </fieldset>
 
@@ -73,48 +52,21 @@
         <legend>邮件设置</legend>
         <table class="table   ">
 
-            <tr>
-                <td width="120">邮件发送模式:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+            <volist name="list" id="vo">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">SMTP服务器:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                <if condition="$vo['config_type'] eq 'email' ">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">SMTP 端口:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                    <tr>
+                        <td width="120">{$vo["config_name"]}<span aria-hidden="true">&times;</span></td>
+                        <td>
+                            <input  class="form-control" id="{$vo['config_key']}" name="config[{$vo['config_id']}]" placeholder="排序" value="{$vo['config_value']}">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">邮箱帐号:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
+                        </td>
+                    </tr>
+                </if>
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">邮箱密码:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
 
-                </td>
-            </tr>
-            <tr>
-                <td width="120">收件邮箱地址:<span aria-hidden="true">&times;</span></td>
-                <td>
-                    <input  class="form-control" id="category_sort" name="category_sort" placeholder="排序" value="10">
-
-                </td>
-            </tr>
+            </volist>
         </table>
     </fieldset>
 
