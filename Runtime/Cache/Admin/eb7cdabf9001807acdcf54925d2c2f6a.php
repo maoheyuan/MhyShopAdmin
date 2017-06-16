@@ -123,31 +123,35 @@
                 name:'会员',
                 type:'line',
                 stack: '总量',
-                data:[120, 132, 101, 134, 90, 230, 210]
+
+                //data:[120, 112, 111, 214, 210, 130, 10]
+                data:[<?php echo ($charList['memberNum']); ?>]
             },
             {
                 name:'商品',
                 type:'line',
                 stack: '总量',
-                data:[220, 182, 191, 234, 290, 330, 310]
+               // data:[220, 182, 191, 234, 290, 330, 310]
+
+                data:[<?php echo ($charList['goodsNum']); ?>]
             },
             {
                 name:'分类',
                 type:'line',
                 stack: '总量',
-                data:[150, 232, 201, 154, 190, 330, 410]
+                data:[<?php echo ($charList['categoryNum']); ?>]
             },
             {
                 name:'订单',
                 type:'line',
                 stack: '总量',
-                data:[320, 332, 301, 334, 390, 330, 320]
+                data:[<?php echo ($charList['orderNum']); ?>]
             },
             {
                 name:'订单商品',
                 type:'line',
                 stack: '总量',
-                data:[820, 932, 901, 934, 1290, 1330, 1320]
+                data:[<?php echo ($charList['orderGoodsNum']); ?>]
             }
         ]
     };

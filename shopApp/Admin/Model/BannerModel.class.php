@@ -204,4 +204,13 @@ class BannerModel extends Model {
         }
         return $this->returnData(1,"册除成功!",I("get.banner_id"));
     }
+
+
+    public  function  getOneDayCountByTime($day){
+        $map=array();
+
+        $map["banner_add_time"]=array(array("egt",$day),array("lt",$day+86400));
+        $count=$this->where($map)->count();
+        return $count;
+    }
 }

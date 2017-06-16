@@ -107,4 +107,13 @@ class OrderGoodsModel extends Model {
         return $returnData;
     }
 
+
+    public  function  getOneDayCountByTime($day){
+        $map=array();
+
+        $map["ogoods_add_time"]=array(array("egt",$day),array("lt",$day+86400));
+        $count=$this->where($map)->count();
+        return $count;
+    }
+
 }

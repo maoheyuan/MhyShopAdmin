@@ -166,4 +166,14 @@ class CategoryModel extends Model {
         return $categoryList;
     }
 
+
+
+    public  function  getOneDayCountByTime($day){
+        $map=array();
+
+        $map["category_add_time"]=array(array("egt",$day),array("lt",$day+86400));
+        $count=$this->where($map)->count();
+        return $count;
+    }
+
 }

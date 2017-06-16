@@ -297,4 +297,12 @@ class OrderModel extends Model {
         }
         return $this->returnData(1,"册除成功!",I("get.order_id"));
     }
+
+    public  function  getOneDayCountByTime($day){
+        $map=array();
+
+        $map["order_add_time"]=array(array("egt",$day),array("lt",$day+86400));
+        $count=$this->where($map)->count();
+        return $count;
+    }
 }
