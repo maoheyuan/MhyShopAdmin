@@ -126,51 +126,90 @@
 
 <ol class="breadcrumb">
     <li>主页</li>
-    <li>分类管理</li>
-    <li class="active">分类列表</li>
+    <li>常用设置</li>
+    <li class="active">常用设置列表</li>
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>
-
     </div>
 </ol>
 
-<nav class="navbar navbar-default">
-    <div class="container-fluid pdl0">
-        <div class="collapse navbar-collapse pdl0" id="bs-example-navbar-collapse-1">
-            <form class="navbar-form navbar-left pdl2">
-                <div class="btn-group form-group" >
-                    <button type="button" class="btn btn-primary create" title="分类新增" data-url="<?php echo U('area/add');?>"><i class="fa fa-plus" aria-hidden="true"></i></button>
-                </div>
-                <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
+<div style="background-color: #f8f8f8;border:1px solid #e7e7e7; text-align: right;padding-right:10px; ">
 
-                <a  href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
-            </form>
-
-
-        </div>
-
-    </div>
-</nav>
-
-
-<div class="ml5">
-    <table class="table table-bordered table-hover ">
-        <thead>
-        <tr class="info">
-            <th width="40">排序</th>
-            <th width="60">编号</th>
-            <th>地区名称</th>
-            <th width="100">地区级别</th>
-            <th width="150">新增时间</th>
-            <th width="150">操作</th>
-        </tr>
-        </thead>
-        <tbody>
-            <?php echo ($list); ?>
-        </tbody>
-    </table>
+    <a  href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
 </div>
+
+
+
+<form class="form-horizontal  ml10" style="width: auto" enctype="multipart/form-data" method="post" action="<?php echo U('Admin/self');?>">
+
+    <fieldset>
+        <legend>基本设置</legend>
+        <table class="table   ">
+
+            <tbody><tr>
+                <td width="120">角色<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="admin_role" name="admin_role" placeholder="角色" value="<?php echo ($adminInfo['admin_role']); ?>">
+
+                </td>
+            </tr><tr>
+                <td width="120">名称<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="admin_name" name="admin_name" placeholder="名称" value="<?php echo ($adminInfo['admin_name']); ?>">
+
+                </td>
+            </tr><tr>
+                <td width="120">手机号<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="admin_mobile" name="admin_mobile" placeholder="手机号" value="<?php echo ($adminInfo['admin_mobile']); ?>">
+
+                </td>
+            </tr><tr>
+                <td width="120">QQ<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="admin_qq" name="admin_qq" placeholder="QQ" value="<?php echo ($adminInfo['admin_qq']); ?>">
+
+                </td>
+            </tr>
+
+            </tbody></table>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>密码修改</legend>
+        <table class="table   ">
+
+            <tbody><tr>
+                <td width="120">原密码<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="admin_password" name="admin_password" placeholder="原密码" >
+
+                </td>
+            </tr><tr>
+                <td width="120">新秘密码<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="new_password" name="new_password" placeholder="新秘密码" >
+
+                </td>
+            </tr><tr>
+                <td width="120">确认密码<span aria-hidden="true">×</span></td>
+                <td>
+                    <input class="form-control" id="r_new_password" name="r_new_password" placeholder="确认密码" >
+
+                </td>
+            </tr>   </tbody></table>
+    </fieldset>
+
+    <div style="background-color: #f5f5f5; text-align: right;padding-right:10px ">
+
+        <button type="submit" class="btn btn-primary">提交</button>
+        <button type="reset" class="btn btn-default">重置</button>
+    </div>
+
+
+</form>
 
 </body>
 
