@@ -115,4 +115,9 @@ class MemberAddressModel extends Model {
         return $goodsInfo;
     }
 
+    public  function  getCountByMap($map=array()){
+        $count=$this->where($map)->count();
+        return $count;
+    }
+
 }

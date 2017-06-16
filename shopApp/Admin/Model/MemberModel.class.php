@@ -215,4 +215,9 @@ class MemberModel extends Model {
 
         return $count;
     }
+
+    public  function  getCountByMap($map=array()){
+        $count=$this->where($map)->count();
+        return $count;
+    }
 }

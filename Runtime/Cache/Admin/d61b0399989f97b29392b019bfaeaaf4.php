@@ -106,13 +106,13 @@
             data:['常用功能统计']
         },
         xAxis: {
-            data: ["会员","订单","分类","商品","管理员","袜子"]
+            data: ["会员","订单","分类","商品","管理员","订单商品"]
         },
         yAxis: {},
         series: [{
             name: '常用功能统计',
             type: 'bar',
-            data: [52, 21, 36, 14, 67, 90]
+            data: [<?php echo ($memberCount); ?>, <?php echo ($orderCount); ?>, <?php echo ($categoryCount); ?>, <?php echo ($goodsCount); ?>, <?php echo ($adminCount); ?>, <?php echo ($orderGoodsCount); ?>]
         }]
     };;
     if (option && typeof option === "object") {

@@ -32,4 +32,8 @@ class AdminModel extends Model {
     }
 
 
+    public  function  getCountByMap($map=array()){
+        $count=$this->where($map)->count();
+        return $count;
+    }
 }

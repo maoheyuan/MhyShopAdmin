@@ -166,4 +166,9 @@ class AreaModel extends Model {
     }
 
 
+    public  function  getCountByMap($map=array()){
+        $count=$this->where($map)->count();
+        return $count;
+    }
+
 }
