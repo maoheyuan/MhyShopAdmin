@@ -92,28 +92,28 @@
             <i class="fa fa-reorder pd5" aria-hidden="true"></i>订单管理
         </a>
         <a class="list-group-item" href="<?php echo U('Category/index');?>">
-            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品分类
+            <i class="fa fa-database pd5" aria-hidden="true"></i>商品分类
         </a>
         <a class="list-group-item" href="<?php echo U('Goods/index');?>">
-            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
+            <i class="fa fa-recycle pd5" aria-hidden="true"></i>商品管理
         </a>
 
 
         <a class="list-group-item" href="<?php echo U('Area/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>地区管理
+            <i class="fa fa-area-chart pd5" aria-hidden="true"></i>地区管理
         </a>
         <a class="list-group-item" href="<?php echo U('MemberAddress/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
+            <i class="fa fa-university pd5" aria-hidden="true"></i>地址管理
         </a>
         <a class="list-group-item" href="<?php echo U('Banner/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>轮播管理
+            <i class="fa fa-history pd5" aria-hidden="true"></i>轮播管理
         </a>
 
         <a class="list-group-item" href="<?php echo U('Config/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>常用设置
+            <i class="fa fa-cog fa-fw pd5" aria-hidden="true"></i>常用设置
         </a>
         <a class="list-group-item" href="<?php echo U('chart/index');?>">
-            <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
+            <i class="fa fa-calendar pd5" aria-hidden="true"></i>统计管理
         </a>
 
     </div >
@@ -132,7 +132,6 @@
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>
-        <a type="button" href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
     </div>
 </ol>
 
@@ -185,6 +184,7 @@
                 <button type="submit" name="submit" value="submit" class="btn btn-primary">查找</button>
                 <button id="reset" type="button" class="btn btn-default">重置</button>
                 <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
+                <a  href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
             </form>
 
 

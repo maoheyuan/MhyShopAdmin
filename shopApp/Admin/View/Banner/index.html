@@ -8,7 +8,6 @@
     <div class="quit">
         <span type="button" >管理员:毛何远</span>
         <a href="#">[退出]</a>
-        <a type="button" href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
     </div>
 </ol>
 
@@ -19,7 +18,41 @@
                 <div class="btn-group form-group" >
                     <button type="button" class="btn btn-primary create" title="轮播新增" data-url="{:U('Banner/add')}"><i class="fa fa-plus" aria-hidden="true"></i></button>
                 </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control laydate-icon" placeholder="开始时间"
+                           onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="startTime" value="{$request['startTime']}">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control laydate-icon" placeholder="结束时间"
+                           onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="endTime" value="{$request['endTime']}">
+                </div>
+                <div class="form-group">
+                    <select name="limit" class="form-control">
+                        <option value=""  >请选择</option>
+                        <option value="20" <if condition="$request['limit'] eq 20 ">selected</if> >20条</option>
+                        <option value="30" <if condition="$request['limit'] eq 30 ">selected</if> >30条</option>
+                        <option value="50" <if condition="$request['limit'] eq 50 ">selected</if> >50条</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <select name="key" class="form-control">
+                        <option value="">请选择</option>
+                        <option value="goods_id"     <if condition="$request['key'] eq 'goods_id' ">selected</if>  >商品编号</option>
+                        <option value="goods_name"   <if condition="$request['key'] eq 'goods_name' ">selected</if> >商品名称</option>
+                        <option value="category_name" <if condition="$request['key'] eq 'category_name' ">selected</if>>分类名称</option>
+                    </select>
+
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" name="content" placeholder="内容" value="{$request['content']}">
+                </div>
+                <button type="submit" name="submit" value="submit" class="btn btn-primary">查找</button>
+                <button id="reset" type="button" class="btn btn-default">重置</button>
                 <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
+                <a  href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
             </form>
 
 
