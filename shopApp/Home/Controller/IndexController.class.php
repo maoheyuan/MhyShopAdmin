@@ -36,26 +36,17 @@ class IndexController extends Controller {
 
         var_dump($response);
 
-
-
         exit;*/
-
-
-
-
 
         $coreName = 'mytest';
         Solr::setCore($coreName);
 
         //查询
         $qwhere = array(
-           /* "username" => "si sheng chao",*/
+           "username" => "si sheng chao",
         );
         print_r(Solr::selectQuery($qwhere));
 
-
-
-        exit;
 
         for($i=0;$i<=10;$i++){
 
