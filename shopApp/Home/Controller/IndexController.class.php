@@ -2,6 +2,7 @@
 namespace Home\Controller;
 use Think\Controller;
 use Home\Helper\Solr;
+use Home\Helper\RabbitMQ;
 class IndexController extends Controller {
     public function index(){
 
@@ -61,6 +62,35 @@ class IndexController extends Controller {
            Solr::addDocument($fieldArr);
 
         }
+
+    }
+
+
+    public  function sendMq(){
+
+        for($i=0;$i<=10;$i++){
+
+            sleep(1);
+            RabbitMQ::sendMsg("maoheyuan".$i,"maoheyuan","maoheyuan","maoheyuan");
+        }
+
+
+
+    }
+
+
+    public  function getMq(){
+
+
+
+        while(true){
+
+           RabbitMQ::sendMsg("maoheyuan","maoheyuan","maoheyuan");
+
+
+
+        }
+
 
     }
 }

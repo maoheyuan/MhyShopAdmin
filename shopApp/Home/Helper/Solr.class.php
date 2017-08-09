@@ -107,7 +107,7 @@ class Solr {
         }
         catch(\Exception $e){
         }
-        
+
     }
 
     /**
