@@ -12,6 +12,8 @@ namespace Home\Helper;
 class Solr {
 
 
+    private  static $client=null;
+    private  static  $doc=null;
     //solr服务器地址及端口设置
     private static $options = array('hostname' => 'localhost','port' => '8983');
 
@@ -29,14 +31,28 @@ class Solr {
      * @return bool true
      */
     public static function addDocument($fieldArr=array()){
-        $client = new \SolrClient(self::$options);
-        $doc = new \SolrInputDocument();
-        foreach($fieldArr as $k => $v){
-            $doc->addField($k,$v);
+
+        try{
+
+            if(self::$client==null){
+                $client = new \SolrClient(self::$options);
+            }
+            if(self::$doc==null){
+                $doc = new \SolrInputDocument();
+            }
+            foreach($fieldArr as $k => $v){
+                $doc->addField($k,$v);
+
+            }
+
+            $client->addDocument($doc);
+
+            return $client->commit();
         }
-        $client->addDocument($doc);
-        return $client->commit();
-     
+        catch(\Exception $e){
+        }
+
+
     }
 
     /**
@@ -68,12 +84,14 @@ class Solr {
         $query = new \SolrQuery();
         $sel = '';
         foreach($qwhere as $k => $v){
-            $sel .= ' +'.$k.':'.$v;        //对中文分词的field用这行
+            $sel .= ' +'.$k.':'."*".$v."*";        //对中文分词的field用这行
 //        $sel = "{$k} : \"*{$v}*\"";    //对英文貌似$v两侧加*号就能模糊搜索了
+        }
+        if($sel==""){
+            $sel="*:*";
         }
         $query->setQuery($sel);
         //关键字检索
-
         //附加条件，根据范围检索，适用于数值型
         if($fqwhere){
             $query->setFacet(true);
