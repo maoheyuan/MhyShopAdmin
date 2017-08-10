@@ -6,6 +6,24 @@
  * Time: 17:28
  */
 
+
+/* 使用
+public  function sendMq(){
+    for($i=0;$i<=10;$i++){
+        sleep(1);
+        RabbitMQ::sendMsg("maoheyuan".$i,"e_linvo","key_2");
+    }
+}
+public  function getMq(){
+    $rollback=function ($envelope, $queue){
+
+        print_r($envelope->getRoutingKey);
+        $msg = $envelope->getBody();
+        echo $msg."\n"; //处理消息
+    };
+    RabbitMQ::getMsg("e_linvo","q_linvo","key_2",$rollback);
+}*/
+
 namespace Home\Helper;
 
 
@@ -23,55 +41,71 @@ class RabbitMQ {
     //以下代码就构造了一个生产者，并投递了一条消息到rabbitmq中。
     public  static  function sendMsg(
         $msg="",
-        $exchange_name="rabbitMQ",
-        $queue_name="rabbitMQ",
-        $routing_key="rabbitMQ"
+        $exchange_name="e_linvo",
+        $routing_key="key_2"
     ){
 
+        //创建连接和channel
         $conn = new \AMQPConnection(self::$options);
-        if(!$conn->connect()){
-            die('Cannot connect to the broker');
+        if (!$conn->connect()) {
+            die("Cannot connect to the broker!\n");
         }
         $channel = new \AMQPChannel($conn);
-        $exchange = new \AMQPExchange($channel);
-        $exchange->setName($exchange_name);
-        $exchange->setType(AMQP_EX_TYPE_DIRECT);
-        $exchange->setFlags(AMQP_DURABLE);
-        $status = $exchange->declareExchange();  //声明一个新交换机，如果这个交换机已经存在了，就不需要再调用declareExchange()方法了.
-        $queue = new \AMQPQueue($channel);
-        $queue->setName($queue_name);
-        $status = $queue->declareQueue(); //同理如果该队列已经存在不用再调用这个方法了。
-        $exchange->publish($msg, $routing_key);
+        //创建交换机
+        $e_name = $exchange_name; //交换机名
+        $ex = new \AMQPExchange($channel);
+        $ex->setName($e_name);
+        $ex->setType(AMQP_EX_TYPE_DIRECT); //direct类型
+        $ex->setFlags(AMQP_DURABLE); //持久化
+        $ex->declare();
+
+        $ex->publish( $msg, $routing_key);
+        return true;
     }
 
 
     public static function getMsg(
-        $exchange_name="rabbitMQ",
-        $queue_name="rabbitMQ",
-        $routing_key="rabbitMQ"
+        $exchange_name="e_linvo",
+        $queue_name="q_linvo",
+        $routing_key="key_2",
+        $rollback
     ){
-        $conn = new AMQPConnection(self::$options);
-        if(!$conn->connect()){
-            die('Cannot connect to the broker');
+        $e_name = $exchange_name; //交换机名
+        $q_name = $queue_name; //队列名
+        $k_route = $routing_key; //路由key
+
+        //创建连接和channel
+        $conn = new \AMQPConnection(self::$options);
+        if (!$conn->connect()) {
+            die("Cannot connect to the broker!\n");
         }
-        $channel = new AMQPChannel($conn);
-        $exchange = new AMQPExchange($channel);
-        $exchange->setName($exchange_name);
-        $exchange->setType(AMQP_EX_TYPE_DIRECT);
-        $exchange->setFlags(AMQP_DURABLE);
-        $queue = new AMQPQueue($channel);
+        $channel = new \AMQPChannel($conn);
 
-        $queue->setName($queue_name);
-        $queue->bind($exchange_name, $routing_key);
+        //创建交换机
+        $ex = new \AMQPExchange($channel);
+        $ex->setName($e_name);
+        $ex->setType(AMQP_EX_TYPE_DIRECT); //direct类型
+        $ex->setFlags(AMQP_DURABLE); //持久化
+        $ex->declare();
 
-        $arr = $queue->get();
+        //创建队列
+        $q = new \AMQPQueue($channel);
+        $q->setName($q_name);
+        $q->setFlags(AMQP_DURABLE); //持久化
 
-        $res = $queue->ack($arr->getDeliveryTag());
-        $msg = $arr->getBody();
+        //绑定交换机与队列，并指定路由键
+        $q->bind($e_name, $k_route);
 
-
-        echo $msg;
-
+        //阻塞模式接收消息
+ /*       $q->consume(
+            function ($envelope, $queue) {
+                print_r($envelope->getRoutingKey);
+                $msg = $envelope->getBody();
+                echo $msg."\n"; //处理消息
+            }
+            , AMQP_AUTOACK); //自动ACK应答*/
+        $q->consume($rollback,AMQP_AUTOACK); //自动ACK应答
+        $conn->disconnect();
     }
 
 }
