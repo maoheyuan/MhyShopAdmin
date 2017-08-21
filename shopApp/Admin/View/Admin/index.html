@@ -1,0 +1,117 @@
+<include file="Public/header" />
+
+<include file="Public/navLeft" />
+<ol class="breadcrumb">
+    <li><a href="{:U('Index/index')}">主页</a></li>
+    <li>管理员管理</li>
+    <li class="active">管理员列表</li>
+    <div class="quit">
+        <span type="button" >管理员:毛何远</span>
+        <a href="#">[退出]</a>
+    </div>
+</ol>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid pdl0">
+        <div class="collapse navbar-collapse pdl0" id="bs-example-navbar-collapse-1">
+            <form class="navbar-form navbar-left pdl2">
+
+                <div class="btn-group form-group" >
+
+                    <button type="button" class="btn btn-primary create" title="管理员新增" data-url="{:U('admin/add')}"><i class="fa fa-plus" aria-hidden="true"></i></button>
+
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control laydate-icon" placeholder="开始时间"
+                           onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="startTime" value="{$request['startTime']}">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control laydate-icon" placeholder="结束时间"
+                           onclick="laydate({istime: true, format: 'YYYY-MM-DD'})" name="endTime" value="{$request['endTime']}">
+                </div>
+                <div class="form-group">
+                    <select name="limit" class="form-control">
+                        <option value=""  >请选择</option>
+                        <option value="20" <if condition="$request['limit'] eq 20 ">selected</if> >20条</option>
+                        <option value="30" <if condition="$request['limit'] eq 30 ">selected</if> >30条</option>
+                        <option value="50" <if condition="$request['limit'] eq 50 ">selected</if> >50条</option>
+                    </select>
+
+                </div>
+                <div class="form-group">
+                    <select name="key" class="form-control">
+                        <option value="">请选择</option>
+                        <option value="admin_id"     <if condition="$request['key'] eq 'admin_id' ">selected</if>  >管理员编号</option>
+                        <option value="admin_name"   <if condition="$request['key'] eq 'admin_name' ">selected</if> >管理员名称</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" name="content" placeholder="内容" value="{$request['content']}">
+                </div>
+                <button type="submit" name="submit" value="submit" class="btn btn-primary">查找</button>
+                <button id="reset" type="button" class="btn btn-default">重置</button>
+                <button type="submit" name="submit" value="export" class="btn btn-default">导出</button>
+                <a  href="" class="btn btn-primary"><i class="fa fa-refresh" aria-hidden="true"></i></a>
+            </form>
+
+
+        </div>
+    </div>
+</nav>
+
+
+<div class="ml5">
+    <table class="table table-bordered table-hover ">
+        <thead>
+        <tr class="info">
+            <th><input id="select-all" type="checkbox"></th>
+            <th >编号</th>
+            <th>管理员名称</th>
+            <th >登录时间</th>
+            <th >登录次数</th>
+            <th >是否超级管理员</th>
+            <th>新增时间</th>
+            <th>修改时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+            <volist name="list" id="vo">
+                <tr id="row{$vo['member_id']}">
+                    <td><input  type="checkbox"></td>
+                    <td>{$vo["admin_id"]}</td>
+                    <td>{$vo["admin_name"]}</td>
+                    <td>{$vo["admin_login_time"]}</td>
+                    <td>{$vo["admin_login_num"]}</td>
+                    <td>{$vo["admin_is_super"]}</td>
+                    <td>{$vo["admin_add_time"]}</td>
+                    <td>{$vo["admin_eidt_time"]}</td>
+                    <td>
+                        <a  class="btn btn-warning  btn-sm update" title="管理员修改" data-url="{:U('admin/update')}?admin_id={$vo['admin_id']}"><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                        <a  class="btn btn-danger   btn-sm delete"  title="管理员删除" data-id="{$vo['admin_id']}" data-url="{:U('admin/delete')}?admin_id={$vo['admin_id']}"> <i class="fa fa-trash-o fa-lg"></i></a>
+                    </td>
+                </tr>
+            </volist>
+        </tbody>
+    </table>
+    <nav class="Page textRight" aria-label="Page navigation">
+        {$page}
+    </nav>
+</div>
+<script type="application/javascript">
+    (function($){
+        $("#reset").click(function(){
+            $('input[name="startTime"]').attr('value',"");
+            $('input[name="endTime"]').attr('value',"");
+            $('select[name="limit"] option').each(function(){
+                    $(this).removeAttr("selected");
+            });
+            $('select[name="key"] option').each(function(){
+                    $(this).removeAttr("selected");
+            });
+            $('input[name="content"]').attr('value',"");
+        });
+    })(jQuery)
+</script>
+<include file="Public/footer" />

@@ -15,6 +15,14 @@ use Think\Exception;
 
 class BaseController extends Controller {
 
+    public  function _initialize(){
+
+        if(!session('adminInfo')){
+           $this->redirect(U("Public/login"));
+        }
+        
+    }
+
 
 
     public function JqueryAjaxUpLoad(){

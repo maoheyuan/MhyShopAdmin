@@ -3,8 +3,6 @@ namespace Admin\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-
-
         $memberCount=D("member")->getCountByMap();
         $orderCount=D("order")->getCountByMap();
         $goodsCount=D("goods")->getCountByMap();
@@ -19,6 +17,5 @@ class IndexController extends Controller {
         $this->assign("adminCount",$adminCount);
         $this->display();
     }
-
 
 }

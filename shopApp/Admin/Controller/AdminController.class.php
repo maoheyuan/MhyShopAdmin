@@ -5,7 +5,6 @@ use Think\Exception;
 
 class AdminController extends BaseController {
     public function index(){
-
         $request=I("request.");
         $map=array();
         $starTime=trim($request["startTime"]);
@@ -38,16 +37,12 @@ class AdminController extends BaseController {
         else{
             $limit=trim($request["limit"])?trim($request["limit"]):20;
             $returnList=D("admin")->getList($map,"admin_id desc",$limit);
-            //echo M()->_sql();
-            //print_r($returnList["list"]);
             $this->assign("list",$returnList["list"]);
             $this->assign("page",$returnList["page"]);
             $this->assign("request",$request);
-
             C('TOKEN_ON',false);
             $this->display();
         }
-
     }
 
 
@@ -87,7 +82,7 @@ class AdminController extends BaseController {
                 }
             }
             else{
-                if(!I("get.member_id",0)){
+                if(!I("get.admin_id",0)){
                     E("修改的编号不存在!");
                 }
                 $adminInfo=D("admin")->getInfoById(I("get.admin_id"));
@@ -117,9 +112,8 @@ class AdminController extends BaseController {
     }
 
 
-
-
     public  function self(){
+
         $adminInfo=session("adminInfo");
         $this->assign("adminInfo",$adminInfo);
         $this->display();
