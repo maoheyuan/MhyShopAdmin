@@ -193,36 +193,103 @@ class OrderModel extends Model {
     }
 
 
-   public function goodsAddOrEditRules(){
+   public function goodsAddRules(){
        $rules = array(
-           array('order_id'      ,  'require'   ,   '商品编号不能为空!', self::MODEL_UPDATE),
-           array('goods_name'    ,  'require'   ,   '商品名称不能为空!', self::MODEL_BOTH),
-           array('category_id',  'require'   ,   '商品分类不能为空!', self::MODEL_BOTH),
-           array('spec_name'  ,  'require'   ,   '商品规格名称不能为空!', self::MODEL_BOTH),
-           array('goods_image'      ,  'require'   ,   '商品封面图片不能为空!'   , self::MODEL_BOTH),
-           array('goods_serial'      ,  'require'   ,   '商品货号不能为空!', self::MODEL_UPDATE),
-           array('goods_state'    ,  'require'   ,   '商品状态不能为空!', self::MODEL_BOTH),
-           array('goods_body'  ,  'require'   ,   '商品详细内容不能为空!', self::MODEL_BOTH),
+           array('order_sn'      ,  'require'   ,   '订单编号不能为空!'),
+           array('order_member_id'    ,  'require'   ,   '会员编号不能为空!'),
+           array('order_money',  'require'   ,   '订单价格不能为空!'),
+           array('order_pay_type'  ,  'require'   ,   '支付类型不能为空!'),
+           array('order_pay_status'  ,  'require'   ,   '支付状态不能为空!'),
+           array('order_pay_time'  ,  'require'   ,   '支付时间不能为空!'),
+           array('order_status'  ,  'require'   ,   '订单状态不能为空!'),
+           array('order_add_time'  ,  'require'   ,   '新增时间不能为空!'),
+           array('order_preferential_privilege'  ,  'require'   ,   '优惠价格不能为空!'),
+           array('order_coupon_money'  ,  'require'   ,   '优惠券金额不能为空!'),
+           array('order_account_money'  ,  'require'   ,   '账户金额不能为空!'),
+           array('order_pay_type_money'  ,  'require'   ,   '支付类型金额不能为空!'),
+           array('order_freight'  ,  'require'   ,   '运费不能为空!'),
+           array('order_return_status'  ,  'require'   ,   '退货状态不能为空!'),
+           array('order_distribution_start_time_period'  ,  'require'   ,   '配送开始时间不能为空!'),
+           array('order_distribution_end_time_period'  ,  'require'   ,   '配送结束时间不能为空!'),
+           array('order_transaction_id'  ,  'require'   ,   '支付流水号不能为空!'),
+           array('order_out_trade_no'  ,  'require'   ,   '支付客户单号不能为空!'),
+           array('order_notes'  ,  'require'   ,   '客户下单备注信息不能为空!'),
+           array('order_consignee_mobile'  ,  'require'   ,   '收货人手机号不能为空!'),
+           array('order_consignee_name'  ,  'require'   ,   '收货人姓名不能为空!'),
+           array('order_consignee_province_id'      ,  'require'   ,   '收货人所在省不能为空!'),
+           array('order_consignee_city_id'      ,  'require'   ,   '收货人所在市不能为空!'),
+           array('order_consignee_area_id'    ,  'require'   ,   '收货人所在区不能为空!'),
+           array('order_consignee_cell_id'  ,  'require'   ,   '收货人小区不能为空!'),
+           array('order_consignee_address'  ,  'require'   ,   '收货人地址不能为空!'),
+           array('order_delivery_time'  ,  'require'   ,   '配送时间不能为空!'),
        );
        return $rules;
    }
+
+
+    public function goodsEditRules(){
+        $rules = array(
+            array('order_id'      ,  'require'   ,   '订单ID不能为空!'),
+            array('order_sn'      ,  'require'   ,   '订单编号不能为空!'),
+            array('order_member_id'    ,  'require'   ,   '会员编号不能为空!'),
+            array('order_money',  'require'   ,   '订单价格不能为空!'),
+            array('order_pay_type'  ,  'require'   ,   '支付类型不能为空!'),
+            array('order_pay_status'  ,  'require'   ,   '支付状态不能为空!'),
+            array('order_pay_time'  ,  'require'   ,   '支付时间不能为空!'),
+            array('order_status'  ,  'require'   ,   '订单状态不能为空!'),
+            array('order_add_time'  ,  'require'   ,   '新增时间不能为空!'),
+            array('order_preferential_privilege'  ,  'require'   ,   '优惠价格不能为空!'),
+            array('order_coupon_money'  ,  'require'   ,   '优惠券金额不能为空!'),
+            array('order_account_money'  ,  'require'   ,   '账户金额不能为空!'),
+            array('order_pay_type_money'  ,  'require'   ,   '支付类型金额不能为空!'),
+            array('order_freight'  ,  'require'   ,   '运费不能为空!'),
+            array('order_return_status'  ,  'require'   ,   '退货状态不能为空!'),
+            array('order_distribution_start_time_period'  ,  'require'   ,   '配送开始时间不能为空!'),
+            array('order_distribution_end_time_period'  ,  'require'   ,   '配送结束时间不能为空!'),
+            array('order_transaction_id'  ,  'require'   ,   '支付流水号不能为空!'),
+            array('order_out_trade_no'  ,  'require'   ,   '支付客户单号不能为空!'),
+            array('order_notes'  ,  'require'   ,   '客户下单备注信息不能为空!'),
+            array('order_consignee_mobile'  ,  'require'   ,   '收货人手机号不能为空!'),
+            array('order_consignee_name'  ,  'require'   ,   '收货人姓名不能为空!'),
+            array('order_consignee_province_id'      ,  'require'   ,   '收货人所在省不能为空!'),
+            array('order_consignee_city_id'      ,  'require'   ,   '收货人所在市不能为空!'),
+            array('order_consignee_area_id'    ,  'require'   ,   '收货人所在区不能为空!'),
+            array('order_consignee_cell_id'  ,  'require'   ,   '收货人小区不能为空!'),
+            array('order_consignee_address'  ,  'require'   ,   '收货人地址不能为空!'),
+            array('order_delivery_time'  ,  'require'   ,   '配送时间不能为空!'),
+        );
+        return $rules;
+    }
+
+
     public  function  goodsAddOrEditData($type){
         $data = array(
-            'order_id'       =>  I("post.goods_id",""),
-            'goods_name'       =>  I("post.goods_name",""),
-            'category_id'   =>  I("post.category_id",""),
-            'gc_name'     =>  I("post.gc_name",""),
-            'spec_name'        =>  I("post.spec_name",""),
-            //'goods_image'   =>  I("post.goods_image",""),
-            //'goods_image_more'     =>  I("post.goods_image_more",""),
-            'goods_serial'     =>  I("post.goods_serial",""),
-            'goods_state'      =>  I("post.goods_state",""),
-            'goods_commend'         =>  I("post.goods_commend",""),
-            'goods_body'     =>  I("post.goods_body",0),
-            'goods_spec'      =>  I("post.goods_spec",1),
-            'goods_starttime'     =>  I("post.goods_starttime",0),
-            'goods_endtime'     =>  I("post.goods_endtime",0),
-            'goods_close_reason' =>  I("post.goods_close_reason",0)
+            'order_sn'       =>  I("post.order_sn",""),
+            'order_member_id'       =>  I("post.order_member_id",""),
+            'order_money'   =>  I("post.order_money",""),
+            'order_pay_type'     =>  I("post.order_pay_type",""),
+            'order_pay_status'        =>  I("post.order_pay_status",""),
+            'order_pay_time'     =>  I("post.order_pay_time",""),
+            'order_status'      =>  I("post.order_status",""),
+            'order_add_time'         =>  I("post.order_add_time",""),
+            'order_preferential_privilege'     =>  I("post.order_preferential_privilege",0),
+            'order_coupon_money'      =>  I("post.order_coupon_money",1),
+            'order_account_money'     =>  I("post.order_account_money",0),
+            'order_pay_type_money'     =>  I("post.order_pay_type_money",0),
+            'order_freight' =>  I("post.order_freight",0),
+            'order_distribution_start_time_period'      =>  I("post.order_distribution_start_time_period",""),
+            'order_distribution_end_time_period'         =>  I("post.order_distribution_end_time_period",""),
+            'order_transaction_id'     =>  I("post.order_transaction_id",0),
+            'order_out_trade_no'      =>  I("post.order_out_trade_no",1),
+            'order_notes'     =>  I("post.order_notes",0),
+            'order_consignee_mobile'     =>  I("post.order_consignee_mobile",0),
+            'order_consignee_name' =>  I("post.order_consignee_name",0),
+            'order_consignee_province_id'      =>  I("post.order_consignee_province_id",1),
+            'order_consignee_city_id'     =>  I("post.order_consignee_city_id",0),
+            'order_consignee_area_id'     =>  I("post.order_consignee_area_id",0),
+            'order_consignee_cell_id' =>  I("post.order_consignee_cell_id",0),
+            'order_consignee_address'     =>  I("post.order_consignee_address",0),
+            'order_delivery_time'     =>  I("post.order_delivery_time",0),
         );
         if($type=="add"){
             unset($data["goods_id"]);
@@ -250,12 +317,8 @@ class OrderModel extends Model {
         return $returnData;
     }
      public  function goodsAdd(){
-        $rules=$this->goodsAddOrEditRules();
+        $rules=$this->goodsAddRules();
         $data=$this->goodsAddOrEditData("add");
-
-       /*  var_dump($data);
-
-         exit;*/
         if (!$this->validate($rules)->create($data)){
             return  $this->returnData(0,$this->getError(),"");
         }
@@ -266,7 +329,7 @@ class OrderModel extends Model {
         return $this->returnData(1,"新增成功!",$result);
     }
     public  function  goodsEdit(){
-        $rules=$this->goodsAddOrEditRules();
+        $rules=$this->goodsEditRules();
         $data=$this->goodsAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
             return $this->returnData(0,$this->getError(),"");

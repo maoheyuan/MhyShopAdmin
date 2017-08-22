@@ -54,26 +54,72 @@ class OrderController extends BaseController {
 
 
     public function  export($map){
-        $exportList=D("goods")->exportList($map);
-        $memberTitle=array("会员编号","会员名称","真实姓名","会员性别","手机号","QQ","账户金额","新增时间");
-        $rowHeader = implode(",",$memberTitle)."\n";
+        $exportList=D("order")->exportList($map);
+        $orderTitle=array(
+            "订单编号",
+            "会员名称",
+            "订单价格",
+            "支付类型",
+            "支付状态",
+            "支付时间",
+            "订单状态",
+            "新增时间",
+            "优惠价格",
+            "使用优惠券金额",
+            "使用账户金额",
+            "支付类型金额",
+            "运费",
+            "退货状态",
+            "配送开始时间段",
+            "配送结束时间段",
+            "支付流水号",
+            "客户下单备注信息",
+            "收货人手机号",
+            "收货人姓名",
+            "收货人所在省",
+            "收货人所在市",
+            "收货人所在区",
+            "收货人小区",
+            "订单收货人地址",
+            "配送时间"
+
+        );
+        $rowHeader = implode(",",$orderTitle)."\n";
         $data = iconv('utf-8','gb2312',$rowHeader);
         foreach($exportList as $key=>$value){
             $rowData=array();
-            $rowData[]=$value["member_id"];
-            $rowData[]=$value["member_name"];
-            $rowData[]=$value["member_truename"];
-            $rowData[]=$value["member_sex_name"];
-            $rowData[]=$value["member_mobile"];
-            $rowData[]=$value["member_qq"];
-            $rowData[]=$value["member_money"];
-            $rowData[]=$value["member_time_name"];
+            $rowData[]=$value["order_sn"];
+            $rowData[]=$value["order_member_id_name"];
+            $rowData[]=$value["order_money"];
+            $rowData[]=$value["order_pay_type"];
+            $rowData[]=$value["order_pay_status_name"];
+            $rowData[]=$value["order_pay_time_name"];
+            $rowData[]=$value["order_status_name"];
+            $rowData[]=$value["order_add_time_name"];
+            $rowData[]=$value["order_preferential_privilege"];
+            $rowData[]=$value["order_coupon_money"];
+            $rowData[]=$value["order_account_money"];
+            $rowData[]=$value["order_pay_type_money"];
+            $rowData[]=$value["order_freight"];
+            $rowData[]=$value["order_return_status_name"];
+            $rowData[]=$value["order_distribution_start_time_period_name"];
+            $rowData[]=$value["order_distribution_end_time_period_name"];
+            $rowData[]=$value["order_transaction_id"];
+            $rowData[]=$value["order_notes"];
+            $rowData[]=$value["order_consignee_mobile"];
+            $rowData[]=$value["order_consignee_name"];
+            $rowData[]=$value["order_consignee_province_id_name"];
+            $rowData[]=$value["order_consignee_city_id_name"];
+            $rowData[]=$value["order_consignee_area_id_name"];
+            $rowData[]=$value["order_consignee_cell_id_name"];
+            $rowData[]=$value["order_consignee_address"];
+            $rowData[]=$value["order_delivery_time_name"];
             $rowString="";
             $rowString=implode(",",$rowData)."\n";
             $rowString=iconv('utf-8','gb2312',$rowString);
             $data.=$rowString;
         }
-        $filename = "会员数据".date('YmdHis').'.csv'; //设置文件名
+        $filename = "订单数据".date('YmdHis').'.csv'; //设置文件名
         export_csv($filename,$data); //导出
     }
 
@@ -137,7 +183,7 @@ class OrderController extends BaseController {
         C('TOKEN_ON',false);
         try{
             if(IS_POST){
-                $returnData=D("goods")->goodsEdit();
+                $returnData=D("order")->goodsEdit();
                 if($returnData["status"]==1){
                     $this->success("修改成功!");
                 }
@@ -149,7 +195,7 @@ class OrderController extends BaseController {
                 if(!I("get.goods_id",0)){
                     E("修改的编号不存在!");
                 }
-                $goodsInfo=D("goods")->getInfoById(I("get.goods_id"));
+                $goodsInfo=D("order")->getInfoById(I("get.order_id"));
                 $this->assign("goodsInfo",$goodsInfo);
 
 
@@ -172,7 +218,7 @@ class OrderController extends BaseController {
     public  function  delete(){
         C('TOKEN_ON',false);
         try {
-            $returnData=D("goods")->memberDelete();
+            $returnData=D("order")->memberDelete();
             if($returnData["status"]==1){
                 $this->success("册除成功!");
             }

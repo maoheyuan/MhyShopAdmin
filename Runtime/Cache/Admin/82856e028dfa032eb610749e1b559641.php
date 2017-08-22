@@ -211,7 +211,7 @@
         </tr>
         </thead>
         <tbody>
-            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="row<?php echo ($vo['member_id']); ?>">
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr id="row<?php echo ($vo['admin_id']); ?>">
                     <td><input  type="checkbox"></td>
                     <td><?php echo ($vo["admin_id"]); ?></td>
                     <td><?php echo ($vo["admin_name"]); ?></td>
