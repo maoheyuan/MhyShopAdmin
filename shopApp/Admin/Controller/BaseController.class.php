@@ -20,6 +20,9 @@ class BaseController extends Controller {
         if(!session('adminInfo')){
            $this->redirect(U("Public/login"));
         }
+
+
+
         
     }
 

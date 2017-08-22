@@ -157,11 +157,11 @@
                 </div>
                 <div class="form-group">
                     <input type="text" class="Wdate form-control  laydate-icon " placeholder="开始时间"
-                           onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})" name="startTime" value="<?php echo ($request['startTime']); ?>">
+                           onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd'})" name="startTime" value="<?php echo ($request['startTime']); ?>">
                 </div>
                 <div class="form-group">
                     <input type="text" class="Wdate form-control  laydate-icon " placeholder="结束时间"
-                           onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd HH:mm:ss'})" name="endTime" value="<?php echo ($request['endTime']); ?>">
+                           onClick="WdatePicker({el:this,dateFmt:'yyyy-MM-dd'})" name="endTime" value="<?php echo ($request['endTime']); ?>">
                 </div>
                 <div class="form-group">
                     <select name="limit" class="form-control">
