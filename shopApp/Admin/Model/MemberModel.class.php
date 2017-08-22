@@ -100,22 +100,39 @@ class MemberModel extends Model {
     }
 
 
-   public function memberAddOrEditRules(){
+   public function memberAddRules(){
        $rules = array(
-           array('member_id'      ,  'require'   ,   '会员编号不能为空!', self::MODEL_UPDATE),
-           array('member_name'    ,  'require'   ,   '会员名称不能为空!', self::MODEL_BOTH),
-           array('member_name'    ,  ''          ,   '会员名称已经存在!', self::MODEL_BOTH,'unique'),
-           array('member_truename',  'require'   ,   '真实姓名不能为空!', self::MODEL_BOTH),
-           array('member_passwd'  ,  'require'   ,   '会员密码不能为空!', self::MODEL_BOTH),
-           array('member_sex'     ,   array(1,2) ,   '值的范围不正确！' , self::MODEL_BOTH,'in'),
-           array('member_avatar'  ,  'require'   ,   '会员头像不能为空!', self::MODEL_BOTH),
-           array('member_mobile'  ,  'require'   ,   '手机号不能为空!'  , self::MODEL_BOTH ),
-           array('member_qq'      ,  'require'   ,   'QQ号不能为空!'   , self::MODEL_BOTH),
-           array('member_email'   ,  'require'   ,   '电子邮件不能为空!', self::MODEL_BOTH ),
+           array('member_name'    ,  'require'   ,   '会员名称不能为空!' ),
+           array('member_name'    ,  ''          ,   '会员名称已经存在!'),
+           array('member_truename',  'require'   ,   '真实姓名不能为空!' ),
+           array('member_passwd'  ,  'require'   ,   '会员密码不能为空!' ),
+           array('member_sex'     ,   array(1,2) ,   '值的范围不正确！' ),
+           array('member_avatar'  ,  'require'   ,   '会员头像不能为空!' ),
+           array('member_mobile'  ,  'require'   ,   '手机号不能为空!'  ),
+           array('member_qq'      ,  'require'   ,   'QQ号不能为空!' ),
+           array('member_email'   ,  'require'   ,   '电子邮件不能为空!'),
 
        );
        return $rules;
    }
+
+    public function memberEditRules(){
+        $rules = array(
+            array('member_id'      ,  'require'   ,   '会员编号不能为空!'),
+            array('member_name'    ,  'require'   ,   '会员名称不能为空!'),
+            array('member_name'    ,  ''          ,   '会员名称已经存在!'),
+            array('member_truename',  'require'   ,   '真实姓名不能为空!'),
+            array('member_passwd'  ,  'require'   ,   '会员密码不能为空!'),
+            array('member_sex'     ,   array(1,2) ,   '值的范围不正确！' ),
+            array('member_avatar'  ,  'require'   ,   '会员头像不能为空!'),
+            array('member_mobile'  ,  'require'   ,   '手机号不能为空!'  ),
+            array('member_qq'      ,  'require'   ,   'QQ号不能为空!'   ),
+            array('member_email'   ,  'require'   ,   '电子邮件不能为空!'),
+
+        );
+        return $rules;
+    }
+
     public  function  memberAddOrEditData($type){
         $data = array(
             'member_id'       =>  I("post.member_id",""),
@@ -160,7 +177,7 @@ class MemberModel extends Model {
         return $returnData;
     }
      public  function memberAdd(){
-        $rules=$this->memberAddOrEditRules();
+        $rules=$this->memberAddRules();
         $data=$this->memberAddOrEditData("add");
         if (!$this->validate($rules)->create($data)){
             return  $this->returnData(0,$this->getError(),"");
@@ -172,7 +189,7 @@ class MemberModel extends Model {
         return $this->returnData(1,"新增成功!",$result);
     }
     public  function  memberEdit(){
-        $rules=$this->memberAddOrEditRules();
+        $rules=$this->memberEditRules();
         $data=$this->memberAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
             return $this->returnData(0,$this->getError(),"");
