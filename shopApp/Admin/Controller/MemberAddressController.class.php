@@ -57,20 +57,42 @@ class MemberAddressController extends BaseController {
 
 
     public function  export($map){
-        $exportList=D("goods")->exportList($map);
-        $memberTitle=array("会员编号","会员名称","真实姓名","会员性别","手机号","QQ","账户金额","新增时间");
+        $exportList=D("member_address")->exportList($map);
+        $memberTitle=array(
+            "地址编号",
+            "会员名称",
+            "省",
+            "市",
+            "区/县",
+            "小区",
+            "自提点",
+            "详细地址",
+            "收货人",
+            "收货人手机",
+            "默认地址",
+            "新增时间",
+            "修改时间",
+        );
         $rowHeader = implode(",",$memberTitle)."\n";
         $data = iconv('utf-8','gb2312',$rowHeader);
         foreach($exportList as $key=>$value){
             $rowData=array();
-            $rowData[]=$value["member_id"];
-            $rowData[]=$value["member_name"];
-            $rowData[]=$value["member_truename"];
-            $rowData[]=$value["member_sex_name"];
-            $rowData[]=$value["member_mobile"];
-            $rowData[]=$value["member_qq"];
-            $rowData[]=$value["member_money"];
-            $rowData[]=$value["member_time_name"];
+            $rowData[]=$value["maddress_id"];
+            $rowData[]=$value["maddress_member_id_name"];
+            $rowData[]=$value["maddress_province_id_name"];
+            $rowData[]=$value["maddress_city_id_name"];
+            $rowData[]=$value["maddress_area_id_name"];
+            $rowData[]=$value["maddress_cell_id_name"];
+            $rowData[]=$value["maddress_pickup_id"];
+            $rowData[]=$value["maddress_consignee_address"];
+
+            $rowData[]=$value["maddress_consignee_name"];
+            $rowData[]=$value["maddress_consignee_mobile"];
+            $rowData[]=$value["maddress_default_name"];
+            $rowData[]=$value["maddress_edit_time_name"];
+            $rowData[]=$value["maddress_add_time_name"];
+
+
             $rowString="";
             $rowString=implode(",",$rowData)."\n";
             $rowString=iconv('utf-8','gb2312',$rowString);
