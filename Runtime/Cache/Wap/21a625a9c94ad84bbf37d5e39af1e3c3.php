@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Hello MUI</title>
+		<title>mhy商城-分类</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -41,7 +41,7 @@
 	<body>
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<h1 class="mui-title">侧面选项卡-div模式</h1>
+			<h1 class="mui-title">mhy商城-分类</h1>
 		</header>
 
 
@@ -49,13 +49,158 @@
 
         <div class="mui-content mui-row mui-fullscreen">
 			<div class="mui-col-xs-3">
-				<div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
-				</div>
+                <div id="segmentedControls" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-vertical">
+                    <a class="mui-control-item" data-index="0" href="#content1">选项1</a>
+                    <a class="mui-control-item" data-index="1" href="#content2">选项2</a>
+                    <a class="mui-control-item" data-index="2" href="#content3">选项3</a>
+                    <a class="mui-control-item" data-index="3" href="#content4">选项4</a>
+                    <a class="mui-control-item mui-active" data-index="4" href="#content5">选项5</a>
+                    <a class="mui-control-item" data-index="5" href="#content6">选项6</a>
+                    <a class="mui-control-item" data-index="6" href="#content7">选项7</a>
+                    <a class="mui-control-item" data-index="7" href="#content8">选项8</a>
+                    <a class="mui-control-item" data-index="8" href="#content9">选项9</a>
+                    <a class="mui-control-item" data-index="9" href="#content10">选项10</a>
+                    <a class="mui-control-item" data-index="10" href="#content11">选项11</a>
+                    <a class="mui-control-item" data-index="11" href="#content12">选项12</a>
+                    <a class="mui-control-item" data-index="12" href="#content13">选项13</a>
+                    <a class="mui-control-item" data-index="13" href="#content14">选项14</a>
+                    <a class="mui-control-item" data-index="14" href="#content15">选项15</a>
+                </div>
 			</div>
 			<div id="segmentedControlContents" class="mui-col-xs-9" style="border-left: 1px solid #c8c7cc;">
+                <ul class="mui-table-view">
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="mui-table-view-cell mui-media">
+                        <a href="javascript:;">
+                            <img class="mui-media-object mui-pull-left" src="/MhyShopAdmin/Public/Wap/images/cbd.jpg">
+                            <div class="mui-media-body">
+                                CBD
+                                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="mui-table-view-cell">第5个选项卡子项-2</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-3</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-4</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-5</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-6</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-7</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-8</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-9</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-10</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-11</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-12</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-13</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-14</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-15</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-16</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-17</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-18</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-19</li>
+                    <li class="mui-table-view-cell">第5个选项卡子项-20</li>
+                </ul>
 			</div>
 		</div>
-
         <nav class="mui-bar mui-bar-tab" id="bottom-bar">
             <a class="mui-tab-item mui-active" href="<?php echo U('Index/index');?>">
                 <span class="mui-icon mui-icon-home"></span>
@@ -79,118 +224,7 @@
                 window.top.location.href=this.href;
             });
         </script>
-		<script>
-			mui.init({
-				swipeBack: true //启用右滑关闭功能
-			});
-			var controls = document.getElementById("segmentedControls");
-			var contents = document.getElementById("segmentedControlContents");
-			var html = [];
-			var i = 1,
-				j = 1,
-				m = 16, //左侧选项卡数量+1
-				n = 21; //每个选项卡列表数量+1
-			for (; i < m; i++) {
-				html.push('<a class="mui-control-item" data-index="' + (i - 1) + '" href="#content' + i + '">选项' + i + '</a>');
-			}
-			controls.innerHTML = html.join('');
-			html = [];
-			for (i = 1; i < m; i++) {
-				html.push('<div id="content' + i + '" class="mui-control-content"><ul class="mui-table-view">');
-				for (j = 1; j < n; j++) {
-					html.push('<li class="mui-table-view-cell">第' + i + '个选项卡子项-' + j + '</li>');
-				}
-				html.push('</ul></div>');
-			}
-			contents.innerHTML = html.join('');
-			//默认选中第一个
-			controls.querySelector('.mui-control-item').classList.add('mui-active');
-//			contents.querySelector('.mui-control-content').classList.add('mui-active');
-			(function() {
-				var controlsElem = document.getElementById("segmentedControls");
-				var contentsElem = document.getElementById("segmentedControlContents");
-				var controlListElem = controlsElem.querySelectorAll('.mui-control-item');
-				var contentListElem = contentsElem.querySelectorAll('.mui-control-content');
-				var controlWrapperElem = controlsElem.parentNode;
-				var controlWrapperHeight = controlWrapperElem.offsetHeight;
-				var controlMaxScroll = controlWrapperElem.scrollHeight - controlWrapperHeight;//左侧类别最大可滚动高度
-				var maxScroll = contentsElem.scrollHeight - contentsElem.offsetHeight;//右侧内容最大可滚动高度
-				var controlHeight = controlListElem[0].offsetHeight;//左侧类别每一项的高度
-				var controlTops = []; //存储control的scrollTop值
-				var contentTops = [0]; //存储content的scrollTop值
-				var length = contentListElem.length;
-				for (var i = 0; i < length; i++) {
-					controlTops.push(controlListElem[i].offsetTop + controlHeight);
-				}
-				for (var i = 1; i < length; i++) {
-					var offsetTop = contentListElem[i].offsetTop;
-					if (offsetTop + 100 >= maxScroll) {
-						var height = Math.max(offsetTop + 100 - maxScroll, 100);
-						var totalHeight = 0;
-						var heights = [];
-						for (var j = i; j < length; j++) {
-							var offsetHeight = contentListElem[j].offsetHeight;
-							totalHeight += offsetHeight;
-							heights.push(totalHeight);
-						}
-						for (var m = 0, len = heights.length; m < len; m++) {
-							contentTops.push(parseInt(maxScroll - (height - heights[m] / totalHeight * height)));
-						}
-						break;
-					} else {
-						contentTops.push(parseInt(offsetTop));
-					}
-				}
-				contentsElem.addEventListener('scroll', function() {
-					var scrollTop = contentsElem.scrollTop;
-					for (var i = 0; i < length; i++) {
-						var offsetTop = contentTops[i];
-						var offset = Math.abs(offsetTop - scrollTop);
-//						console.log("i:"+i+",scrollTop:"+scrollTop+",offsetTop:"+offsetTop+",offset:"+offset);
-						if (scrollTop < offsetTop) {
-							if (scrollTop >= maxScroll) {
-								onScroll(length - 1);
-							} else {
-								onScroll(i - 1);
-							}
-							break;
-						} else if (offset < 20) {
-							onScroll(i);
-							break;
-						}else if(scrollTop >= maxScroll){
-							onScroll(length - 1);
-							break;
-						}
-					}
-				});
-				var lastIndex = 0;
-				//监听content滚动
-				var onScroll = function(index) {
-					if (lastIndex !== index) {
-						lastIndex = index;
-						var lastActiveElem = controlsElem.querySelector('.mui-active');
-						lastActiveElem && (lastActiveElem.classList.remove('mui-active'));
-						var currentElem = controlsElem.querySelector('.mui-control-item:nth-child(' + (index + 1) + ')');
-						currentElem.classList.add('mui-active');
-						//简单处理左侧分类滚动，要么滚动到底，要么滚动到顶
-						var controlScrollTop = controlWrapperElem.scrollTop;
-						if (controlScrollTop + controlWrapperHeight < controlTops[index]) {
-							controlWrapperElem.scrollTop = controlMaxScroll;
-						} else if (controlScrollTop > controlTops[index] - controlHeight) {
-							controlWrapperElem.scrollTop = 0;
-						}
-					}
-				};
-				//滚动到指定content
-				var scrollTo = function(index) {
-					contentsElem.scrollTop = contentTops[index];
-				};
-				mui(controlsElem).on('tap', '.mui-control-item', function(e) {
-					scrollTo(this.getAttribute('data-index'));
-					return false;
-				});
-			})();
-		</script>
+
 
 	</body>
 

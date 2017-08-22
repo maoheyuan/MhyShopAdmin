@@ -1,0 +1,627 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>mhy商城-购物车</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <script src="/MhyShopAdmin/Public/Wap/plug/mui-master/dist/js/mui.min.js"></script>
+        <!--标准mui.css-->
+        <link rel="stylesheet" href="/MhyShopAdmin/Public/Wap/plug/mui-master/dist/css/mui.min.css">
+        <!--App自定义的css-->
+        <link rel="stylesheet" type="text/css" href="/MhyShopAdmin/Public/Wap/plug/mui-master/dist/css/app.css" />
+        <style>
+
+            .mui-content>.mui-table-view:first-child {
+                 margin-top: 0px;
+            }
+        </style>
+
+	</head>
+
+	<body>
+        <header class="mui-bar mui-bar-nav">
+            <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+            <h1 class="mui-title">mhy商城-购物车</h1>
+        </header>
+
+
+
+
+
+
+        <div class="mui-content">
+
+
+
+
+        <ul class="mui-table-view">
+            <li class="mui-table-view-cell">
+                <a class="mui-navigate-right">
+                    地址
+                </a>
+            </li>
+        </ul>
+
+        <ul class="mui-table-view" style="margin-top: 5px;">
+            <li class="mui-table-view-cell">
+                <a class="mui-navigate-right">次日达</a>
+            </li>
+
+
+            <li class="mui-table-view-cell " style="padding:4px;">
+                <div class="mui-table ">
+                    <div class=" mui-table-cell mui-checkbox" style="  width: 30px; vertical-align: middle; ">
+                        <input name="checkbox" value="Item 1" type="checkbox" style="left:0px;top:25px">
+                    </div>
+                    <div class=" mui-table-cell" style="  width: 90px; position: relative;">
+                        <img style="width: 82px; height: 82px; position: absolute;top:0;left: 0" src="http://192.168.1.149/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+                    </div>
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+                        <div class="oa-contact-email mui-h6">
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+
+
+
+            <li class="mui-table-view-cell " style="padding:4px;">
+                <div class="mui-table ">
+                    <div class=" mui-table-cell mui-checkbox" style="  width: 30px; vertical-align: middle; ">
+                        <input name="checkbox" value="Item 1" type="checkbox" style="left:0px;top:25px">
+                    </div>
+                    <div class=" mui-table-cell" style="  width: 90px; position: relative;">
+                        <img style="width: 82px; height: 82px; position: absolute;top:0;left: 0" src="http://192.168.1.149/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+                    </div>
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+                        <div class="oa-contact-email mui-h6">
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+
+
+            <li class="mui-table-view-cell " style="padding:4px;">
+                <div class="mui-table ">
+                    <div class=" mui-table-cell mui-checkbox" style="  width: 30px; vertical-align: middle; ">
+                        <input name="checkbox" value="Item 1" type="checkbox" style="left:0px;top:25px">
+                    </div>
+                    <div class=" mui-table-cell" style="  width: 90px; position: relative;">
+                        <img style="width: 82px; height: 82px; position: absolute;top:0;left: 0" src="http://192.168.1.149/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+                    </div>
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+                        <div class="oa-contact-email mui-h6">
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+
+
+
+            <!--<li class="mui-table-view-cell " style="padding:4px;">
+                <div class="mui-table ">
+                    <div class=" mui-table-cell mui-checkbox" style="  width: 30px; vertical-align: middle; ">
+                        <input name="checkbox" value="Item 1" type="checkbox" style="left:0px;top:25px">
+                    </div>
+                    <div class=" mui-table-cell" style="  width: 90px;">
+                        <img style="width: 82px; height: 82px;" src="http://192.168.1.149/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+                    </div>
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+                        <div class="oa-contact-email mui-h6">
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+                    </div>
+                </div>
+
+            </li>
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell  mui-checkbox" style="  width: 30px; vertical-align: middle; ">
+
+                        <div class="mui-checkbox" style="position: relative;width: 30px;height: 30px;">
+                            <input name="checkbox" value="Item 1" type="checkbox" style="right: 0">
+                        </div>
+
+                    </div>
+                    <div class=" mui-table-cell" style="  width: 90px;">
+                        <img style="width: 82px; height: 82px;" src="http://192.168.1.149/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+                    </div>
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+            <li class="mui-table-view-cell">
+
+
+                    <div class="mui-table">
+                        <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 130px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                            <img style="width: 82px; height: 82px;" src="http://192.168.1.149/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+                        </div>
+
+                        <div class=" mui-table-cell">
+                            <div class="mui-clearfix">
+                                <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                                <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                                <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                            </div>
+
+                            <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+            </li>
+
+
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+-->
+           <!-- <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-table">
+                    <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;  width: 110px;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                        <img style="width: 82px; height: 82px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                    </div>
+
+                    <div class=" mui-table-cell">
+                        <div class="mui-clearfix">
+                            <h4 class="oa-contact-name" style="    font-size: 14px;">流心饮薯组合</h4>
+                            <p class="oa-contact-position mui-h6">爽点可口，好吃得不得了</p>
+                            <p class="oa-contact-position mui-h6">优惠卷价￥100</p>
+                        </div>
+
+                        <div class="oa-contact-email mui-h6">
+
+                                    <span style="color: red;">
+                                         舌尖会员价￥120
+                                    </span>
+
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='1' data-numbox-min='0' data-numbox-max='99'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </li>
+
+            <li class="mui-table-view-cell">
+
+
+                <div class="mui-slider-cell">
+                    <div class=" mui-table">
+                        <div class=" mui-table-cell mui-checkbox mui-left" style="padding-left: 20px;position: relative;">
+                                <span  class="mui-checkbox mui-left" style="position: absolute;left: -30px;top: 15px;">
+                                    <input name="checkbox" value="Item 1" type="checkbox">
+                                </span>
+                            <img style="width: 100px;" src="http://localhost/mui-3.4.0/examples/hello-mui/images/shuijiao.jpg" />
+
+                        </div>
+                        <div class="oa-contact-content mui-table-cell">
+                            <div class="mui-clearfix">
+                                <h4 class="oa-contact-name">艾AAbbb总经理</h4>
+                                <span class="oa-contact-position mui-h6">总经理</span>
+                            </div>
+
+                            <div class="oa-contact-email mui-h6">
+
+                                    <span>
+                                         aaaaaaa
+                                    </span>
+                                    <span class="mui-numbox" style=" display: inline-block;width: 68px;height: 20px;  padding: 0 20px;  float: right;" data-numbox-step='10' data-numbox-min='0' data-numbox-max='100'>
+                                        <button class="mui-btn mui-numbox-btn-minus" type="button" style="width: 19px;">-</button>
+                                        <input class="mui-numbox-input" type="number"  style="font-size: 10px;"/>
+                                        <button class="mui-btn mui-numbox-btn-plus" type="button" style="width: 19px;">+</button>
+                                    </span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>-->
+
+
+        </ul>
+
+
+        <ul class="mui-table-view" style="margin-top: 5px;">
+            <li class="mui-table-view-cell">会员价：<span class="mui-badge mui-badge-danger">14元</span></li>
+            <li class="mui-table-view-cell">实价：<span class="mui-badge mui-badge-danger">14元</span></li>
+            <li class="mui-table-view-cell">运费：<span class="mui-badge mui-badge-danger">14元</span></li>
+        </ul>
+
+
+        <div style="height: 100px"></div>
+
+            <div  style="position: fixed;left: 0;bottom:50px; width: 100%; background-color: #ffffff; height: auto">
+                <div class="mui-row ">
+                    <div class="mui-col-sm-5 mui-col-xs-5">
+                        <div class=" mui-checkbox" style="padding-left:40px; height: 50px;line-height: 50px;">
+                            <input name="checkbox" value="Item 1" type="checkbox" style="left: 10px;top:6px;">全选
+                        </div>
+                    </div>
+                    <div class="mui-col-sm-4 mui-col-xs-4">
+                        <div class="" style="height: 50px;line-height: 25px;">
+                            <p>合计￥100.01元<br/>舌尖会员价80.00元,运费20元</p>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="mui-col-sm-3 mui-col-xs-3" style="height: 50px;line-height: 50px;background-color: red;text-align: center; color: #ffffff;">
+                        <div class="">
+                            提交
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <nav class="mui-bar mui-bar-tab" id="bottom-bar">
+                <a class="mui-tab-item mui-active" href="<?php echo U('Index/index');?>">
+                    <span class="mui-icon mui-icon-home"></span>
+                    <span class="mui-tab-label">首页</span>
+                </a>
+                <a class="mui-tab-item" href="<?php echo U('Category/index');?>">
+                    <span class="mui-icon mui-icon-email"><span class="mui-badge">9</span></span>
+                    <span class="mui-tab-label">分类</span>
+                </a>
+                <a class="mui-tab-item" href="<?php echo U('Cart/index');?>">
+                    <span class="mui-icon mui-icon-contact"></span>
+                    <span class="mui-tab-label">购物车</span>
+                </a>
+                <a class="mui-tab-item" href="<?php echo U('Member/index');?>">
+                    <span class="mui-icon mui-icon-gear"></span>
+                    <span class="mui-tab-label">我的</span>
+                </a>
+            </nav>
+            <script>
+                mui('#bottom-bar').on('tap','a',function(){
+                    window.top.location.href=this.href;
+                });
+            </script>
+
+
+
+        </div>
+
+
+
+	</body>
+
+</html>

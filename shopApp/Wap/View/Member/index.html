@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Hello MUI</title>
+		<title>mhy商城-我的</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
 		<meta name="apple-mobile-web-app-capable" content="yes">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -190,7 +190,7 @@
                         <button type="button" class="mui-left mui-action-back mui-btn  mui-btn-link mui-btn-nav mui-pull-left">
                             <span class="mui-icon mui-icon-left-nav"></span>
                         </button>
-                        <h1 class="mui-center mui-title">设置</h1>
+                        <h1 class="mui-center mui-title">mhy商城-我的</h1>
                     </div>
                     <!--页面标题栏结束-->
                     <!--页面主内容区开始-->
