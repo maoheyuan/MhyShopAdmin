@@ -38,8 +38,6 @@ class GoodsController extends BaseController {
         else{
             $limit=trim($request["limit"])?trim($request["limit"]):20;
             $returnList=D("goods")->getList($map,"goods_id desc",$limit);
-            //echo M()->_sql();
-            //print_r($returnList["list"]);
             $this->assign("list",$returnList["list"]);
             $this->assign("page",$returnList["page"]);
             $this->assign("allNum",$returnList["allNum"]);
@@ -54,25 +52,48 @@ class GoodsController extends BaseController {
 
     public function  export($map){
         $exportList=D("goods")->exportList($map);
-        $memberTitle=array("会员编号","会员名称","真实姓名","会员性别","手机号","QQ","账户金额","新增时间");
+        $memberTitle=array(
+            "商品编号",
+            "商品分类id",
+            "商品名称",
+            "规格名称",
+            "商品规格",
+            "封面图片",
+            "商品货号",
+            "商品状态",
+            "商品推荐",
+            "发布开始时间",
+            "发布结束时间",
+            "下架原因",
+            "添加时间",
+            "修改时间",
+            "排序",
+        );
         $rowHeader = implode(",",$memberTitle)."\n";
         $data = iconv('utf-8','gb2312',$rowHeader);
         foreach($exportList as $key=>$value){
             $rowData=array();
-            $rowData[]=$value["member_id"];
-            $rowData[]=$value["member_name"];
-            $rowData[]=$value["member_truename"];
-            $rowData[]=$value["member_sex_name"];
-            $rowData[]=$value["member_mobile"];
-            $rowData[]=$value["member_qq"];
-            $rowData[]=$value["member_money"];
-            $rowData[]=$value["member_time_name"];
+            $rowData[]=$value["goods_id"];
+            $rowData[]=$value["category_id"];
+            $rowData[]=$value["goods_name"];
+            $rowData[]=$value["spec_name"];
+            $rowData[]=$value["goods_spec"];
+            $rowData[]=$value["goods_image"];
+            $rowData[]=$value["goods_serial"];
+            $rowData[]=$value["goods_state_name"];
+            $rowData[]=$value["goods_commend_name"];
+            $rowData[]=$value["goods_starttime_name"];
+            $rowData[]=$value["goods_endtime_name"];
+            $rowData[]=$value["goods_close_reason"];
+            $rowData[]=$value["goods_add_time_name"];
+            $rowData[]=$value["goods_add_edit_name"];
+            $rowData[]=$value["goods_sort"];
             $rowString="";
             $rowString=implode(",",$rowData)."\n";
             $rowString=iconv('utf-8','gb2312',$rowString);
             $data.=$rowString;
         }
-        $filename = "会员数据".date('YmdHis').'.csv'; //设置文件名
+        $filename = "商品数据".date('YmdHis').'.csv'; //设置文件名
         export_csv($filename,$data); //导出
     }
 

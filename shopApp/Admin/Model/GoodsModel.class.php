@@ -48,7 +48,7 @@ class GoodsModel extends Model {
         return $returnData;
     }
 
-    public  function exportList($map=array(),$orderBy="member_id desc"){
+    public  function exportList($map=array(),$orderBy="goods_id desc"){
 
         $list = $this->where($map)->order($orderBy)->select();
 
@@ -98,6 +98,10 @@ class GoodsModel extends Model {
         if(isset($data["goods_add_time"])){
             $data["goods_add_time_name"]=unixtime_to_date($data["goods_add_time_name"]);
         }
+
+        if(isset($data["goods_edit_time"])){
+            $data["goods_add_edit_name"]=unixtime_to_date($data["goods_edit_time"]);
+        }
         return $data;
     }
     public  function  getInfoById($id){
@@ -109,19 +113,33 @@ class GoodsModel extends Model {
     }
 
 
-   public function goodsAddOrEditRules(){
+   public function goodsAddRules(){
        $rules = array(
-           array('goods_id'      ,  'require'   ,   '商品编号不能为空!', self::MODEL_UPDATE),
-           array('goods_name'    ,  'require'   ,   '商品名称不能为空!', self::MODEL_BOTH),
-           array('category_id',  'require'   ,   '商品分类不能为空!', self::MODEL_BOTH),
-           array('spec_name'  ,  'require'   ,   '商品规格名称不能为空!', self::MODEL_BOTH),
-           array('goods_image'      ,  'require'   ,   '商品封面图片不能为空!'   , self::MODEL_BOTH),
-           array('goods_serial'      ,  'require'   ,   '商品货号不能为空!', self::MODEL_UPDATE),
-           array('goods_state'    ,  'require'   ,   '商品状态不能为空!', self::MODEL_BOTH),
-           array('goods_body'  ,  'require'   ,   '商品详细内容不能为空!', self::MODEL_BOTH),
+           array('goods_name'    ,  'require'   ,   '商品名称不能为空!'),
+           array('category_id',  'require'   ,   '商品分类不能为空!'),
+           array('spec_name'  ,  'require'   ,   '商品规格名称不能为空!'),
+           array('goods_image'      ,  'require'   ,   '商品封面图片不能为空!' ),
+           array('goods_serial'      ,  'require'   ,   '商品货号不能为空!'),
+           array('goods_state'    ,  'require'   ,   '商品状态不能为空!'),
+           array('goods_body'  ,  'require'   ,   '商品详细内容不能为空!'),
        );
        return $rules;
    }
+
+
+    public function goodsEditRules(){
+        $rules = array(
+            array('goods_id'      ,  'require'   ,   '商品编号不能为空!'),
+            array('goods_name'    ,  'require'   ,   '商品名称不能为空!'),
+            array('category_id',  'require'   ,   '商品分类不能为空!'),
+            array('spec_name'  ,  'require'   ,   '商品规格名称不能为空!'),
+            array('goods_image'      ,  'require'   ,   '商品封面图片不能为空!'  ),
+            array('goods_serial'      ,  'require'   ,   '商品货号不能为空!'),
+            array('goods_state'    ,  'require'   ,   '商品状态不能为空!'),
+            array('goods_body'  ,  'require'   ,   '商品详细内容不能为空!'),
+        );
+        return $rules;
+    }
     public  function  goodsAddOrEditData($type){
         $data = array(
             'goods_id'       =>  I("post.goods_id",""),
@@ -166,7 +184,7 @@ class GoodsModel extends Model {
         return $returnData;
     }
      public  function goodsAdd(){
-        $rules=$this->goodsAddOrEditRules();
+        $rules=$this->goodsAddRules();
         $data=$this->goodsAddOrEditData("add");
 
        /*  var_dump($data);
@@ -182,7 +200,7 @@ class GoodsModel extends Model {
         return $this->returnData(1,"新增成功!",$result);
     }
     public  function  goodsEdit(){
-        $rules=$this->goodsAddOrEditRules();
+        $rules=$this->goodsEditRules();
         $data=$this->goodsAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
             return $this->returnData(0,$this->getError(),"");
