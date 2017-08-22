@@ -68,41 +68,29 @@ class BannerModel extends Model {
         if(isset($data["banner_status"])){
             $data["banner_status_name"]=$this->statusFormat($data["banner_status"]);
         }
-
         if(isset($data["banner_start_time"])){
             $data["banner_start_time_name"]=unixtime_to_date($data["banner_start_time"]);
-
         }
         if(isset($data["banner_end_time"])){
             $data["banner_end_time_name"]=unixtime_to_date($data["banner_end_time"]);
-
         }
         if(isset($data["banner_add_time"])){
             $data["banner_add_time_name"]=unixtime_to_date($data["banner_add_time"]);
-
         }
         if(isset($data["banner_edit_time"])){
             $data["banner_edit_time_name"]=unixtime_to_date($data["banner_edit_time"]);
-
         }
-
-
         if(isset($data["banner_category"])){
-
             $categoryInfo=D("category")->getInfoById($data["banner_category"]);
             if(!$categoryInfo["category_name"]){
                 $categoryInfo["category_name"]="/";
             }
             $data["banner_category_name"]=$categoryInfo["category_name"];
-
         }
-
-
         return $data;
     }
 
     public  function  getInfoById($id){
-
         $map=array();
         $map["banner_id"]=$id;
         $bannerInfo=$this->where($map)->find();
@@ -110,19 +98,32 @@ class BannerModel extends Model {
         return $bannerInfo;
     }
 
-   public function bannerAddOrEditRules(){
-       $rules = array(
-           array('banner_id'      ,  'require'   ,   '编号不能为空!', self::MODEL_UPDATE),
-           array('banner_name'    ,  'require'   ,   '名称不能为空!', self::MODEL_BOTH),
-           array('banner_image'    ,  'require' ,   '图片不能为空!', self::MODEL_BOTH),
-           array('banner_status',  'require'   ,   '状态不能为空!', self::MODEL_BOTH),
-           array('banner_category'  ,  'require'   ,   '产品分类不能为空!', self::MODEL_BOTH),
-           array('banner_start_time'     ,  'require' ,   '有效开始时间不能为空' , self::MODEL_BOTH),
-           array('banner_end_time'  ,  'require'   ,   '有效结束时间不能为空!', self::MODEL_BOTH),
-           array('banner_sort'  ,  'require'   ,   '排序不能为空!', self::MODEL_BOTH),
-       );
-       return $rules;
-   }
+   public function bannerAddRules(){
+        $rules = array(
+            array('banner_name'    ,  'require'   ,   '名称不能为空!'),
+            array('banner_image'    ,  'require' ,   '图片不能为空!'),
+            array('banner_status',  'require'   ,   '状态不能为空!'),
+            array('banner_category'  ,  'require'   ,   '产品分类不能为空!'),
+            array('banner_start_time'     ,  'require' ,   '有效开始时间不能为空' ),
+            array('banner_end_time'  ,  'require'   ,   '有效结束时间不能为空!'),
+            array('banner_sort'  ,  'require'   ,   '排序不能为空!'),
+        );
+        return $rules;
+    }
+
+    public function bannerEditRules(){
+        $rules = array(
+            array('banner_id'      ,  'require'   ,   '编号不能为空!'),
+            array('banner_name'    ,  'require'   ,   '名称不能为空!'),
+            array('banner_image'    ,  'require' ,   '图片不能为空!'),
+            array('banner_status',  'require'   ,   '状态不能为空!'),
+            array('banner_category'  ,  'require'   ,   '产品分类不能为空!'),
+            array('banner_start_time'     ,  'require' ,   '有效开始时间不能为空'),
+            array('banner_end_time'  ,  'require'   ,   '有效结束时间不能为空!'),
+            array('banner_sort'  ,  'require'   ,   '排序不能为空!'),
+        );
+        return $rules;
+    }
     public  function  bannerAddOrEditData($type){
         $data = array(
             'banner_id'       =>  I("post.banner_id",""),
@@ -161,7 +162,7 @@ class BannerModel extends Model {
         return $returnData;
     }
      public  function bannerAdd(){
-        $rules=$this->bannerAddOrEditRules();
+        $rules=$this->bannerAddRules();
         $data=$this->bannerAddOrEditData("add");
         if (!$this->validate($rules)->create($data)){
             return  $this->returnData(0,$this->getError(),"");
@@ -173,7 +174,7 @@ class BannerModel extends Model {
         return $this->returnData(1,"新增成功!",$result);
     }
     public  function  bannerEdit(){
-        $rules=$this->bannerAddOrEditRules();
+        $rules=$this->bannerEditRules();
         $data=$this->bannerAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
             return $this->returnData(0,$this->getError(),"");
@@ -191,7 +192,7 @@ class BannerModel extends Model {
             array("banner_id", "require","会员编号不能为空!")
         );
         $data = array(
-            "banner_id" => I("get.member_id","")
+            "banner_id" => I("get.banner_id","")
         );
         if (!$this->validate($rules)->create($data)) {
             return $this->returnData(0,$this->getError(),"");

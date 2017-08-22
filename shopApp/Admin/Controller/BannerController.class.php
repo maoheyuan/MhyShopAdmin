@@ -38,8 +38,6 @@ class BannerController extends BaseController {
         else{
             $limit=trim($request["limit"])?trim($request["limit"]):20;
             $returnList=D("banner")->getList($map,"banner_id desc",$limit);
-            //echo M()->_sql();
-            //print_r($returnList["list"]);
             $this->assign("list",$returnList["list"]);
             $this->assign("page",$returnList["page"]);
             $this->assign("request",$request);
@@ -51,31 +49,29 @@ class BannerController extends BaseController {
 
 
     public function  export($map){
-        $exportList=D("goods")->exportList($map);
-        $memberTitle=array("会员编号","会员名称","真实姓名","会员性别","手机号","QQ","账户金额","新增时间");
+        $exportList=D("banner")->exportList($map);
+        $memberTitle=array("广告编号","广告名称","广告图片","广告状态","产品分类","有效开始时间","有效结束时间","新增时间","修改时间");
         $rowHeader = implode(",",$memberTitle)."\n";
         $data = iconv('utf-8','gb2312',$rowHeader);
         foreach($exportList as $key=>$value){
             $rowData=array();
-            $rowData[]=$value["member_id"];
-            $rowData[]=$value["member_name"];
-            $rowData[]=$value["member_truename"];
-            $rowData[]=$value["member_sex_name"];
-            $rowData[]=$value["member_mobile"];
-            $rowData[]=$value["member_qq"];
-            $rowData[]=$value["member_money"];
-            $rowData[]=$value["member_time_name"];
+            $rowData[]=$value["banner_id"];
+            $rowData[]=$value["banner_name"];
+            $rowData[]=$value["banner_image"];
+            $rowData[]=$value["banner_status_name"];
+            $rowData[]=$value["banner_category_name"];
+            $rowData[]=$value["banner_start_time_name"];
+            $rowData[]=$value["banner_end_time_name"];
+            $rowData[]=$value["banner_add_time_name"];
+            $rowData[]=$value["banner_edit_time_name"];
             $rowString="";
             $rowString=implode(",",$rowData)."\n";
             $rowString=iconv('utf-8','gb2312',$rowString);
             $data.=$rowString;
         }
-        $filename = "会员数据".date('YmdHis').'.csv'; //设置文件名
+        $filename = "广告数据".date('YmdHis').'.csv'; //设置文件名
         export_csv($filename,$data); //导出
     }
-
-
-
 
     public  function  add(){
 
