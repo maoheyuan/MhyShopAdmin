@@ -46,6 +46,30 @@ class AdminController extends BaseController {
     }
 
 
+    public function  export($map){
+        $exportList=D("admin")->exportList($map);
+        $memberTitle=array("管理员编号","管理员名称","登录时间","登录次数","超级管理员","新增时间","修改时间");
+        $rowHeader = implode(",",$memberTitle)."\n";
+        $data = iconv('utf-8','gb2312',$rowHeader);
+        foreach($exportList as $key=>$value){
+            $rowData=array();
+            $rowData[]=$value["admin_id"];
+            $rowData[]=$value["admin_name"];
+            $rowData[]=$value["admin_login_time"];
+            $rowData[]=$value["admin_login_num"];
+            $rowData[]=$value["admin_is_super"];
+            $rowData[]=$value["admin_add_time"];
+            $rowData[]=$value["admin_eidt_time"];
+            $rowString="";
+            $rowString=implode(",",$rowData)."\n";
+            $rowString=iconv('utf-8','gb2312',$rowString);
+            $data.=$rowString;
+        }
+        $filename = "管理员数据".date('YmdHis').'.csv'; //设置文件名
+        export_csv($filename,$data); //导出
+    }
+
+
     public  function  add(){
 
         C('TOKEN_ON',false);

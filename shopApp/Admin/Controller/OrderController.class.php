@@ -43,8 +43,6 @@ class OrderController extends BaseController {
         else{
             $limit=trim($request["limit"])?trim($request["limit"]):20;
             $returnList=D("order")->getList($map,"order_id desc",$limit);
-            //echo M()->_sql();
-            //print_r($returnList["list"]);
             $this->assign("list",$returnList["list"]);
             $this->assign("page",$returnList["page"]);
             $this->assign("request",$request);
@@ -88,16 +86,11 @@ class OrderController extends BaseController {
                 E("订单编号不能为空!");
             }
             $orderInfo=D("order")->getInfoById(I("request.order_id"));
-
-
             if(!$orderInfo){
                 E("订单不存在!");
             }
             $orderGoodsList=D("order_goods")->getAllByOrderSn($orderInfo["order_sn"]);
-
-
             $this->assign("orderInfo",$orderInfo);
-
             $this->assign("orderGoodsList",$orderGoodsList);
             $this->display();
         }

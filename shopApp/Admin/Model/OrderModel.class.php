@@ -310,4 +310,6 @@ class OrderModel extends Model {
         $count=$this->where($map)->count();
         return $count;
     }
+
+
 }

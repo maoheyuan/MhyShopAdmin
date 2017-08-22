@@ -27,7 +27,7 @@ class PublicController extends Controller {
                 if(!$password){
                     E("密码不能为空!");
                 }
-                $adminInfo=D("admin")->getInfoByUserName($userName);
+                $adminInfo=D("admin")->getInfoByName($userName);
                 if(!$adminInfo){
                     E("用户不存在!");
                 }

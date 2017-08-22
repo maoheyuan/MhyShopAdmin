@@ -220,4 +220,7 @@ class MemberModel extends Model {
         $count=$this->where($map)->count();
         return $count;
     }
+
+
+
 }

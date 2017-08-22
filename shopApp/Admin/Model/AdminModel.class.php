@@ -209,4 +209,13 @@ class AdminModel extends Model {
         return $this->returnData(1,"册除成功!",I("get.admin_id"));
     }
 
+    public  function exportList($map=array(),$orderBy="admin_id desc"){
+
+        $list = $this->where($map)->order($orderBy)->select();
+        foreach($list as $key=>$value){
+            $list[$key]=$this->dataFormat($value);
+        }
+        return $list;
+    }
+
 }

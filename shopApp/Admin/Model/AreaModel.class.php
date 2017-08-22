@@ -171,4 +171,12 @@ class AreaModel extends Model {
         return $count;
     }
 
+    public  function exportList($map=array(),$orderBy="admin_id desc"){
+
+        $list = $this->where($map)->order($orderBy)->select();
+        foreach($list as $key=>$value){
+            $list[$key]=$this->dataFormat($value);
+        }
+        return $list;
+    }
 }
