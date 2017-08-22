@@ -39,18 +39,13 @@ class BaseController extends Controller {
             $returnData=array();
             $returnData["status"]=0;
             $returnData["msg"]="上传出错!".$upload->getError();
-           // $this->error($upload->getError());
         }else{// 上传成功
             $returnData=array();
             $returnData["status"]=1;
             $returnData["msg"]="上传成功!";
             $returnData["fileName"]=$info["upfile"]["savepath"].$info["upfile"]["savename"];
-           // $this->success('上传成功！');
         }
 
-
-       /* print_r($info);
-        exit;*/
         header('Content-type: application/json');
         echo json_encode($returnData);
         exit;

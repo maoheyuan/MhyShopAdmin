@@ -1,16 +1,92 @@
-<include file="Public/header" />
-<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="{:U('Category/add')}">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>mhy电商系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="/MhyShopAdmin/Public/Admin/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/MhyShopAdmin/Public/Admin/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/MhyShopAdmin/Public/Admin/css/base.css">
+    <script src="/MhyShopAdmin/Public/Admin/js/jquery.min.js"></script>
+    <script src="/MhyShopAdmin/Public/Admin/plug/laydate/laydate.js"></script>
+    <script src="/MhyShopAdmin/Public/Admin/plug/layer/layer.js"></script>
+    <script  src="/MhyShopAdmin/Public/Admin/plug/My97DatePicker/WdatePicker.js"></script>
+    <script src="/MhyShopAdmin/Public/Admin/js/base.js"></script>
+
+    <style type="text/css">
+        .laydate_box, .laydate_box * {
+            box-sizing:content-box;
+        }
+        .laydate-icon{
+            height: 34px;
+            line-height: 34px;
+        }
+
+        .Wdate {
+            border: 1px solid #ccc !important;
+        }
+    </style>
+</head>
+
+<body id="body">
+
+
+<!--
+
+<div  class="navLeftBar">
+    <div  class="list-group ">
+        <a class="list-group-item  web_log"><img src="/MhyShopAdmin/Public/Admin/image/web_login.png" width="400%"></a>
+    </div>
+    <div  class="list-group">
+   &lt;!&ndash;     <a class="list-group-item part-line " href="<?php echo U('Index/index');?>">
+            <i class="fa fa-reorder pd5" aria-hidden="true"></i> 仪表盘
+        </a>&ndash;&gt;
+
+        <a class="list-group-item part-line" href="<?php echo U('Member/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>会员管理
+        </a>
+
+        <a class="list-group-item " href="<?php echo U('Order/index');?>">
+            <i class="fa fa-reorder pd5" aria-hidden="true"></i>订单管理
+        </a>
+        <a class="list-group-item" href="<?php echo U('gCate/index');?>">
+            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品分类
+        </a>
+        <a class="list-group-item" href="<?php echo U('Goods/index');?>">
+            <i class="fa fa-tasks pd5" aria-hidden="true"></i>商品管理
+        </a>
+
+        <a class="list-group-item" href="<?php echo U('Order/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>统计管理
+        </a>
+
+        <a class="list-group-item" href="<?php echo U('Address/index');?>">
+            <i class="fa fa-user pd5" aria-hidden="true"></i>地址管理
+        </a>
+    </div >
+
+    <ul class="list-group">
+        <li class="list-group-item ">
+            <i class="fa fa-user" aria-hidden="true"></i> 会员中心
+        </li>
+    </ul>
+
+</div>
+-->
+
+<form class="form-horizontal mt20" enctype="multipart/form-data" method="post" action="<?php echo U('Category/add');?>">
 
 
     <div class="form-group">
         <label for="category_parent_id" class="col-sm-2 control-label">上级分类：<span aria-hidden="true">&times;</span></label>
         <div class="col-sm-8">
             <select class="form-control" name="category_parent_id" id="category_parent_id">
-                <if condition="$categoryInfo neq '' ">
-                    <option value="{$categoryInfo['category_id']}">{$categoryInfo["category_name"]}</option>
-                <else />
-                    <option value="0">一级分类</option>
-                </if>
+                <?php if($categoryInfo != '' ): ?><option value="<?php echo ($categoryInfo['category_id']); ?>"><?php echo ($categoryInfo["category_name"]); ?></option>
+                <?php else: ?>
+                    <option value="0">一级分类</option><?php endif; ?>
 
 
 
@@ -79,7 +155,7 @@
     </div>
 </form>
 
-<script src="__PUBLIC__/admin/js/ajaxfileupload.js"></script>
+<script src="/MhyShopAdmin/Public/admin/js/ajaxfileupload.js"></script>
 <script type="text/javascript">
     $("#body").addClass("create-page");
     $(function(){
@@ -90,7 +166,7 @@
         //选择文件之后执行上传
         $('#fileToUpload').live('change', function() {
             $.ajaxFileUpload({
-                url:'{:U("Member/JqueryAjaxUpload")}',
+                url:'<?php echo U("Member/JqueryAjaxUpload");?>',
                 secureuri:false,
                 fileElementId:'fileToUpload',//file标签的id
                 dataType: 'json',//返回数据的类型
@@ -98,7 +174,7 @@
                 success: function (data, status) {
                     //把图片替换
                     if(data.status==1){
-                        $("#uploadImage").attr("src", "__PUBLIC__/Uploads/"+data.fileName);
+                        $("#uploadImage").attr("src", "/MhyShopAdmin/Public/Uploads/"+data.fileName);
                         $("#member_avatar").val(data.fileName);
                     }
                     else{
@@ -112,4 +188,6 @@
         });
     });
 </script>
-<include file="Public/footer" />
+</body>
+
+</html>

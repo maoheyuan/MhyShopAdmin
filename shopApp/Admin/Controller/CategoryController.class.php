@@ -16,8 +16,16 @@ class CategoryController extends BaseController {
             foreach($returnList as $r) {
                 $r["id"]=$r["category_id"];
                 $r["parentId"]=$r["category_parent_id"];
-                $r['str_manage'] = '<a  class="btn btn-warning btn-sm update" title="会员修改" data-url="'.U('Category/update').'?category_id='.$r['id'].'"><i class="fa fa-edit" aria-hidden="true"></i> </a>
-                                    <a  class="btn btn-danger btn-sm delete"  title="会员删除" data-id="'.$r['id'].'" data-url="'.U('Category/delete').'?category_id='.$r['id'].'"> <i class="fa fa-trash-o fa-lg"></i></a>';
+                if($r["category_parent_id"]==0){
+                    $r['str_manage'] = '<a class="btn btn-primary btn-sm update" title="新增二级" data-url="'.U('Category/add').'?category_id='.$r['id'].'"><i class="fa fa-plus" aria-hidden="true"></i> </a>';
+                }
+                else{
+                    $r['str_manage']  ='<a class="btn btn-primary btn-sm" title="新增二级" disabled="disabled" ><i class="fa fa-plus" aria-hidden="true"></i> </a>';
+                }
+                    $r['str_manage'] .= '<a  class="btn btn-warning btn-sm update" title="会员修改" data-url="'.U('Category/update').'?category_id='.$r['id'].'"><i class="fa fa-edit" aria-hidden="true"></i> </a>
+                                         <a  class="btn btn-danger btn-sm delete"  title="会员删除" data-id="'.$r['id'].'" data-url="'.U('Category/delete').'?category_id='.$r['id'].'"> <i class="fa fa-trash-o fa-lg"></i></a>';
+
+
                 $array[] = $r;
             }
             $str  = "<tr id='row\$id'>
@@ -42,30 +50,25 @@ class CategoryController extends BaseController {
 
     public function  export($map){
         $exportList=D("category")->exportList($map);
-        $memberTitle=array("会员编号","会员名称","真实姓名","会员性别","手机号","QQ","账户金额","新增时间");
+        $memberTitle=array("分类编号","分类名称","父级ID","创建时间","修改时间","状态");
         $rowHeader = implode(",",$memberTitle)."\n";
         $data = iconv('utf-8','gb2312',$rowHeader);
         foreach($exportList as $key=>$value){
             $rowData=array();
-            $rowData[]=$value["member_id"];
-            $rowData[]=$value["member_name"];
-            $rowData[]=$value["member_truename"];
-            $rowData[]=$value["member_sex_name"];
-            $rowData[]=$value["member_mobile"];
-            $rowData[]=$value["member_qq"];
-            $rowData[]=$value["member_money"];
-            $rowData[]=$value["member_time_name"];
+            $rowData[]=$value["category_id"];
+            $rowData[]=$value["category_name"];
+            $rowData[]=$value["category_parent_id"];
+            $rowData[]=$value["category_add_time_name"];
+            $rowData[]=$value["category_edit_time_name"];
+            $rowData[]=$value["category_status_name"];
             $rowString="";
             $rowString=implode(",",$rowData)."\n";
             $rowString=iconv('utf-8','gb2312',$rowString);
             $data.=$rowString;
         }
-        $filename = "会员数据".date('YmdHis').'.csv'; //设置文件名
+        $filename = "商品分类数据".date('YmdHis').'.csv'; //设置文件名
         export_csv($filename,$data); //导出
     }
-
-
-
 
     public  function  add(){
 
@@ -85,6 +88,12 @@ class CategoryController extends BaseController {
             }
         }
         else{
+            $categoryId=I("request.category_id",0);
+            $categoryInfo="";
+            if($categoryId){
+                $categoryInfo=D("category")->getInfoById($categoryId);
+            }
+            $this->assign("categoryInfo",$categoryInfo);
             $this->display();
         }
     }

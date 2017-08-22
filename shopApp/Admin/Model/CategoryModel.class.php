@@ -28,8 +28,6 @@ class CategoryModel extends Model {
     }
 
 
-
-
     public  function  stateFormat($state){
 
         if($state==self::ENABLE){
@@ -50,7 +48,9 @@ class CategoryModel extends Model {
         }
         if(isset($data["category_add_time"])){
             $data["category_add_time_name"]=unixtime_to_date($data["category_add_time"]);
-
+        }
+        if(isset($data["category_edit_time"])){
+            $data["category_edit_time_name"]=unixtime_to_date($data["category_edit_time"]);
         }
         return $data;
     }
@@ -64,14 +64,25 @@ class CategoryModel extends Model {
     }
 
 
-    public function categoryAddOrEditRules(){
+    public function categoryAddRules(){
         $rules = array(
-            array('category_id'      ,  'require'   ,   '分类编号不能为空!', self::MODEL_UPDATE),
-            array('category_name'    ,  'require'   ,   '分类名称不能为空!', self::MODEL_BOTH),
-            array('category_name'    ,  ''          ,   '分类名称已经存在!', self::MODEL_BOTH,'unique'),
-            array('category_parent_id',  'require'   ,   '父级不能为空!', self::MODEL_BOTH),
-            array('category_sort'  ,  'require'   ,   '排序不能为空!', self::MODEL_BOTH),
-            array('category_status'  ,  'require'   ,   '状态不能为空!', self::MODEL_BOTH)
+            array('category_name'    ,  'require'   ,   '分类名称不能为空!'),
+            array('category_name'    ,  ''          ,   '分类名称已经存在!'),
+            array('category_parent_id',  'require'   ,   '父级不能为空!'),
+            array('category_sort'  ,  'require'   ,   '排序不能为空!'),
+            array('category_status'  ,  'require'   ,   '状态不能为空!')
+        );
+        return $rules;
+    }
+
+
+    public function categoryEditRules(){
+        $rules = array(
+            array('category_id'      ,  'require'   ,   '分类编号不能为空!'),
+            array('category_name'    ,  'require'   ,   '分类名称不能为空!'),
+            array('category_parent_id',  'require'   ,   '父级不能为空!'),
+            array('category_sort'  ,  'require'   ,   '排序不能为空!'),
+            array('category_status'  ,  'require'   ,   '状态不能为空!')
         );
         return $rules;
     }
@@ -111,7 +122,7 @@ class CategoryModel extends Model {
         return $returnData;
     }
     public  function categoryAdd(){
-        $rules=$this->categoryAddOrEditRules();
+        $rules=$this->categoryAddRules();
         $data=$this->categoryAddOrEditData("add");
         if (!$this->validate($rules)->create($data)){
             return  $this->returnData(0,$this->getError(),"");
@@ -125,7 +136,7 @@ class CategoryModel extends Model {
 
 
     public  function  categoryEdit(){
-        $rules=$this->categoryAddOrEditRules();
+        $rules=$this->categoryEditRules();
         $data=$this->categoryAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
             return $this->returnData(0,$this->getError(),"");
