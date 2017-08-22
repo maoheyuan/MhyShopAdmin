@@ -26,17 +26,33 @@ class AreaModel extends Model {
         return $list;
     }
 
-
-
+    public  function  areaLevelFormat($data=array()){
+        if($data["area_level"]==0){
+            return "一级";
+        }
+        if($data["area_level"]==1){
+            return "二级";
+        }
+        if($data["area_level"]==2){
+            return "三级";
+        }
+        return "/";
+    }
     public  function  dataFormat($data=array()){
 
-        if(isset($data["area_add_time"])){
+        if($data["area_add_time"]>0){
             $data["area_add_time_name"]=unixtime_to_date($data["area_add_time"]);
         }
-        if(isset($data["area_edit_time"])){
-            $data["area_edit_time_name"]=unixtime_to_date($data["area_edit_time"]);
-
+        else{
+            $data["area_add_time_name"]="/";
         }
+        if($data["area_edit_time"]>0){
+            $data["area_edit_time_name"]=unixtime_to_date($data["area_edit_time"]);
+        }
+        else{
+            $data["area_edit_time_name"]="/";
+        }
+        $data["area_level"]=$this->areaLevelFormat($data);
         return $data;
     }
 
@@ -49,16 +65,27 @@ class AreaModel extends Model {
     }
 
 
-    public function areaAddOrEditRules(){
+    public function areaAddRules(){
         $rules = array(
-            array('area_id'      ,  'require'   ,   '地区编号不能为空!', self::MODEL_UPDATE),
-            array('area_name'    ,  'require'   ,   '地区名称不能为空!', self::MODEL_BOTH),
-            array('area_parent_id' ,'require', '上级不能为空!', self::MODEL_BOTH),
-            array('area_add_id','require',   '创建人不能为空!', self::MODEL_BOTH),
-            array('area_sort'  ,'require',   '排序不能为空!', self::MODEL_BOTH),
-            array('area_level' ,'require',   '级别不能为空!', self::MODEL_BOTH),
-            array('area_edit_time','require',   '修改时间不能为空!', self::MODEL_UPDATE),
-            array('area_add_time','require',   '新增时间不能为空!', self::MODEL_BOTH)
+            array('area_name'    ,  'require'   ,   '地区名称不能为空!'),
+            array('area_parent_id' ,'require', '上级不能为空!'),
+            array('area_add_id','require',   '创建人不能为空!'),
+            array('area_sort'  ,'require',   '排序不能为空!'),
+            array('area_level' ,'require',   '级别不能为空!'),
+            array('area_add_time','require',   '新增时间不能为空!')
+        );
+        return $rules;
+    }
+
+    public function areaEditRules(){
+        $rules = array(
+            array('area_id'      ,  'require'   ,   '地区编号不能为空!'),
+            array('area_name'    ,  'require'   ,   '地区名称不能为空!'),
+            array('area_parent_id' ,'require', '上级不能为空!'),
+            array('area_add_id','require',   '创建人不能为空!'),
+            array('area_sort'  ,'require',   '排序不能为空!'),
+            array('area_level' ,'require',   '级别不能为空!'),
+            array('area_edit_time','require',   '修改时间不能为空!'),
         );
         return $rules;
     }
@@ -112,7 +139,7 @@ class AreaModel extends Model {
         return $returnData;
     }
     public  function areaAdd(){
-        $rules=$this->areaAddOrEditRules();
+        $rules=$this->areaAddRules();
         $data=$this->areaAddOrEditData("add");
         if (!$this->validate($rules)->create($data)){
             return  $this->returnData(0,$this->getError(),"");
@@ -126,7 +153,7 @@ class AreaModel extends Model {
 
 
     public  function  areaEdit(){
-        $rules=$this->areaAddOrEditRules();
+        $rules=$this->areaEditRules();
         $data=$this->areaAddOrEditData("edit");
         if (!$this->validate($rules)->create($data)){
             return $this->returnData(0,$this->getError(),"");
@@ -165,18 +192,18 @@ class AreaModel extends Model {
         return $count;
     }
 
-
     public  function  getCountByMap($map=array()){
         $count=$this->where($map)->count();
         return $count;
     }
 
-    public  function exportList($map=array(),$orderBy="admin_id desc"){
+    public  function exportList($map=array(),$orderBy="area_id desc"){
 
         $list = $this->where($map)->order($orderBy)->select();
         foreach($list as $key=>$value){
             $list[$key]=$this->dataFormat($value);
         }
+
         return $list;
     }
 }

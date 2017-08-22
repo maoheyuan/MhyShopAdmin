@@ -69,7 +69,6 @@ class AdminController extends BaseController {
         export_csv($filename,$data); //导出
     }
 
-
     public  function  add(){
 
         C('TOKEN_ON',false);
@@ -135,14 +134,10 @@ class AdminController extends BaseController {
         }
     }
 
-
     public  function self(){
-
         $adminInfo=session("adminInfo");
         $this->assign("adminInfo",$adminInfo);
         $this->display();
-
-
     }
 
 }

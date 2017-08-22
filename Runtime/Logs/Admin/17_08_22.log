@@ -1703,3 +1703,779 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-08-22T09:44:06+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T09:44:09+08:00 ] ::1 /MhyShopAdmin/admin.php/area/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: area_id D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T09:44:15+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: area_id D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1219 行.
+NOTIC: [8] Undefined index: area_edit_time D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1219 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: INSERT INTO `mhy_area` (`area_name`,`area_parent_id`,`area_add_id`,`area_sort`,`area_level`,`area_add_time`) VALUES ('aa','76','1','10','0','1503366255') [ RunTime:0.1100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:44:18+08:00 ] ::1 /MhyShopAdmin/admin.php/area/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: area_id D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 73 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:44:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T09:44:31+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/delete.html?area_id=92
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0130s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: DELETE FROM `mhy_area` WHERE `area_id` = 92 [ RunTime:0.1520s ]
+
+[ 2017-08-22T09:44:35+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:47:48+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0480s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T09:48:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html?submit=export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:53:04+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:53:57+08:00 ] ::1 /MhyShopAdmin/admin.php/area/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: area_id D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 72 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:00+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/add.html?area_id=89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:07+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/add.html?area_id=89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: area_id D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1219 行.
+NOTIC: [8] Undefined index: area_edit_time D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1219 行.
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: INSERT INTO `mhy_area` (`area_name`,`area_parent_id`,`area_add_id`,`area_sort`,`area_level`,`area_add_time`) VALUES ('ggg','89','1','10','0','1503366851') [ RunTime:0.0580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T09:54:13+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/add.html?area_id=89
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:17+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:23+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/update.html?area_id=91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 91 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:26+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/update.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0060s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: UPDATE `mhy_area` SET `area_id`='91',`area_name`='gswxxx',`area_parent_id`='89',`area_add_id`='1',`area_sort`='10',`area_level`='0',`area_edit_time`='1503366866' WHERE `area_id` = 91 [ RunTime:0.0470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T09:54:28+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/update.html?area_id=91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mhy_area` WHERE `area_id` = 91 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T09:54:32+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-22T09:54:38+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/delete.html?area_id=91
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: auto D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Model.class.php 第 1130 行.
+SQL: DELETE FROM `mhy_area` WHERE `area_id` = 91 [ RunTime:0.0430s ]
+
+[ 2017-08-22T09:57:24+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html?submit=export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+
+[ 2017-08-22T09:58:35+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html?submit=export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:59:53+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-22T10:00:08+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\AreaModel.class.php:57) D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\AreaModel.class.php:57) D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\AreaModel.class.php:57) D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T10:01:47+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\AreaModel.class.php:57) D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\AreaModel.class.php:57) D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\AreaModel.class.php:57) D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-22T10:01:51+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html?submit=export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:02:48+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html?submit=export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+
+[ 2017-08-22T10:02:55+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-08-22T10:03:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html?submit=export
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0000s ]
+
