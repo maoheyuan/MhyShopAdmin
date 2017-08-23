@@ -220,7 +220,7 @@
 
                                 <ul class="mui-table-view mui-table-view-chevron">
                                     <li class="mui-table-view-cell">
-                                        <a href="#account" class="mui-navigate-right">我的订单</a>
+                                        <a href="<?php echo U('Order/index');?>" class="mui-navigate-right">我的订单</a>
                                     </li>
                                     <li class="mui-table-view-cell">
                                         <a href="#notifications" class="mui-navigate-right">我的券卡</a>
@@ -230,7 +230,7 @@
 
                                 <ul class="mui-table-view mui-table-view-chevron">
                                     <li class="mui-table-view-cell">
-                                        <a href="#privacy" class="mui-navigate-right">我的地址</a>
+                                        <a href="<?php echo U('Address/index');?>" class="mui-navigate-right">我的地址</a>
                                     </li>
                                     <li class="mui-table-view-cell">
                                         <a href="#privacy" class="mui-navigate-right">我的收藏</a>

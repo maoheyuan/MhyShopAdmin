@@ -70,7 +70,7 @@
 			<div id="segmentedControlContents" class="mui-col-xs-9" style="border-left: 1px solid #c8c7cc;">
                 <ul class="mui-table-view">
                     <li class="mui-table-view-cell mui-media">
-                        <a href="javascript:;">
+                        <a href="{:U('Goods/index')}">
                             <img class="mui-media-object mui-pull-left" src="__PUBLIC__/Wap/images/cbd.jpg">
                             <div class="mui-media-body">
                                 CBD
@@ -221,6 +221,10 @@
         </nav>
         <script>
             mui('#bottom-bar').on('tap','a',function(){
+                window.top.location.href=this.href;
+            });
+
+            mui('#segmentedControlContents').on('tap','a',function(){
                 window.top.location.href=this.href;
             });
         </script>
