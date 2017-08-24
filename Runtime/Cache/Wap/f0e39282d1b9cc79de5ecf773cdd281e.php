@@ -85,7 +85,7 @@
                         <input name="checkbox" value="Item 2" type="checkbox" checked="">
                     </div>
                 </div>
-           
+
                 <div class="mui-table-cell mui-col-xs-4">
                     <span class="mui-icon mui-icon-compose" ></span>编辑
                 </div>
