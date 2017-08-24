@@ -58,6 +58,40 @@ MhyShopAdmin 平台系统分为前台后台  二个子系统，前台商城子�
 ----我的中心模块<br>
 
 
+后台功能模块展示
+--------
+
+###登录模块
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/1.jpg" width="100" />
+###首页统计模块
+<img src="http://ov62dwm3x.bkt.clouddn.com/2.jpg" width="100" />
+###管理员管理模块
+<img src="http://ov62dwm3x.bkt.clouddn.com/3.jpg" width="100" />
+###会员管理模块
+<img src="http://ov62dwm3x.bkt.clouddn.com/4.jpg" width="100" />
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/5.jpg" width="100" />
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/6.jpg" width="100" />
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/7.jpg" width="100" />
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/8.jpg" width="100" />
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/9.jpg" width="100" />
+
+<img src="http://ov62dwm3x.bkt.clouddn.com/10.jpg" width="100" />
 
 
 
+在线交流
+--------
+若你在使用过程中有任何经验、想法、疑惑，都可以通过电子邮件869330407@qq.com来与我交流；
+
+
+
+License
+-------
+
+MhyShopAdmin 遵循MIT License；

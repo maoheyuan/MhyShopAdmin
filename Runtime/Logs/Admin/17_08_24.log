@@ -327,3 +327,690 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2017-08-24T09:36:53+08:00 ] ::1 /MhyShopAdmin/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_order` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_admin` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:37:11+08:00 ] ::1 /MhyShopAdmin/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_admin` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-24T09:37:12+08:00 ] ::1 /MhyShopAdmin/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:37:12+08:00 ] ::1 /MhyShopAdmin/admin.php/MhyShopAdmin/admin.php/Public/login.html.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:MhyShopAdmin
+
+[ 2017-08-24T09:37:18+08:00 ] ::1 /MhyShopAdmin/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 11 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 25 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 34 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_admin` ORDER BY admin_id desc LIMIT 0,20   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 160 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 164 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 169 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 170 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 171 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 178 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 179 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-24T09:37:21+08:00 ] ::1 /MhyShopAdmin/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_order` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_order_goods` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_admin` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:38:02+08:00 ] ::1 /MhyShopAdmin/admin.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 10 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 11 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 25 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 34 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AdminController.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `mhy_admin` [ RunTime:0.0060s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_admin` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_admin` ORDER BY admin_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 160 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 164 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 169 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 170 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 171 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 178 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 179 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\82856e028dfa032eb610749e1b559641.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:38:22+08:00 ] ::1 /MhyShopAdmin/admin.php/Member/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_member` ORDER BY member_id desc LIMIT 0,20   [ RunTime:0.0020s ]
+NOTIC: [8] A non well formed numeric value encountered D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Common\function.php 第 7 行.
+NOTIC: [8] Undefined index: allNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 45 行.
+NOTIC: [8] Undefined index: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\MemberController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 166 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 170 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 175 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 176 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 177 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 184 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 185 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 186 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\6d016b3978128ecc733d3a86706fedbd.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:38:39+08:00 ] ::1 /MhyShopAdmin/admin.php/Order/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\OrderController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\OrderController.class.php 第 12 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\OrderController.class.php 第 26 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\OrderController.class.php 第 30 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\OrderController.class.php 第 40 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\OrderController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `mhy_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_order` ORDER BY order_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 158 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 162 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 168 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 169 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 170 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 172 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 173 行.
+NOTIC: [8] Undefined index: order_status D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 174 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 183 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 184 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 185 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 192 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 193 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 194 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 195 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 201 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 243 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+NOTIC: [8] Undefined index: member_id D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\1f56f2de80515e17f2ef8ecb757d4465.php 第 266 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:38:52+08:00 ] ::1 /MhyShopAdmin/admin.php/Category/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\CategoryController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `mhy_category` ORDER BY category_sort desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:39:12+08:00 ] ::1 /MhyShopAdmin/admin.php/Goods/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_goods` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_goods` LEFT JOIN mhy_category  ON mhy_goods.category_id=mhy_category.category_id  ORDER BY goods_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: goods_add_time_name D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Model\GoodsModel.class.php 第 99 行.
+NOTIC: [8] Undefined index: allNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 43 行.
+NOTIC: [8] Undefined index: pageNum D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\GoodsController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 169 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 170 行.
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 176 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 180 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 185 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 186 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 187 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 194 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 195 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 196 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\bf1d780eb01c9e763c2d9a5d87d53579.php 第 202 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:39:30+08:00 ] ::1 /MhyShopAdmin/admin.php/Area/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\AreaController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `mhy_area` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `mhy_area` ORDER BY area_id desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+NOTIC: [8] Undefined variable: parentid D:\phpStudy\WWW\MhyShopAdmin\ThinkPHP3.2\Library\Think\Tree.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:40:08+08:00 ] ::1 /MhyShopAdmin/admin.php/Banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 11 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 12 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 26 行.
+NOTIC: [8] Undefined index: submit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 35 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\shopApp\Admin\Controller\BannerController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `mhy_banner` [ RunTime:0.0350s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_banner` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_banner` ORDER BY banner_id desc LIMIT 0,20   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 10 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mhy_category` WHERE `category_id` = 11 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: startTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 158 行.
+NOTIC: [8] Undefined index: endTime D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 162 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 167 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 168 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 169 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 176 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 177 行.
+NOTIC: [8] Undefined index: key D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 178 行.
+NOTIC: [8] Undefined index: content D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\be133e0ee490a0254a6b5dd8dcef7134.php 第 184 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:40:20+08:00 ] ::1 /MhyShopAdmin/admin.php/Config/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_config` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `mhy_config` ORDER BY config_sort desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-24T09:40:32+08:00 ] ::1 /MhyShopAdmin/admin.php/chart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `mhy_order` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1502985600 AND `order_add_time` < 1503072000  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1503072000 AND `order_add_time` < 1503158400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1503158400 AND `order_add_time` < 1503244800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1503244800 AND `order_add_time` < 1503331200  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1503331200 AND `order_add_time` < 1503417600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1503417600 AND `order_add_time` < 1503504000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order` WHERE ( `order_add_time` >= 1503504000 AND `order_add_time` < 1503590400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_order_goods` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1502985600 AND `ogoods_add_time` < 1503072000  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1503072000 AND `ogoods_add_time` < 1503158400  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1503158400 AND `ogoods_add_time` < 1503244800  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1503244800 AND `ogoods_add_time` < 1503331200  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1503331200 AND `ogoods_add_time` < 1503417600  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1503417600 AND `ogoods_add_time` < 1503504000  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_order_goods` WHERE ( `ogoods_add_time` >= 1503504000 AND `ogoods_add_time` < 1503590400  ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `mhy_goods` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1502985600 AND `goods_add_time` < 1503072000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1503072000 AND `goods_add_time` < 1503158400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1503158400 AND `goods_add_time` < 1503244800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1503244800 AND `goods_add_time` < 1503331200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1503331200 AND `goods_add_time` < 1503417600  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1503417600 AND `goods_add_time` < 1503504000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_goods` WHERE ( `goods_add_time` >= 1503504000 AND `goods_add_time` < 1503590400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `mhy_member` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1502985600 AND `member_time` < 1503072000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1503072000 AND `member_time` < 1503158400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1503158400 AND `member_time` < 1503244800  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1503244800 AND `member_time` < 1503331200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1503331200 AND `member_time` < 1503417600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1503417600 AND `member_time` < 1503504000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_member` WHERE ( `member_time` >= 1503504000 AND `member_time` < 1503590400  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `mhy_category` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1502985600 AND `category_add_time` < 1503072000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1503072000 AND `category_add_time` < 1503158400  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1503158400 AND `category_add_time` < 1503244800  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1503244800 AND `category_add_time` < 1503331200  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1503331200 AND `category_add_time` < 1503417600  ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1503417600 AND `category_add_time` < 1503504000  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `mhy_category` WHERE ( `category_add_time` >= 1503504000 AND `category_add_time` < 1503590400  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-24T09:40:43+08:00 ] ::1 /MhyShopAdmin/admin.php/Admin/self.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: admin_role D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\5dc059491efcf7f6199a244f0156f467.php 第 164 行.
+NOTIC: [8] Undefined index: admin_mobile D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\5dc059491efcf7f6199a244f0156f467.php 第 176 行.
+NOTIC: [8] Undefined index: admin_qq D:\phpStudy\WWW\MhyShopAdmin\Runtime\Cache\Admin\5dc059491efcf7f6199a244f0156f467.php 第 182 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-24T09:41:01+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/login.html?a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-24T09:41:01+08:00 ] ::1 /MhyShopAdmin/admin.php/Public/js/base.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:js
+
