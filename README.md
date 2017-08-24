@@ -5,14 +5,14 @@ MhyShopAdmin 是一个完整的，简单的移动电商平台，可用于二次�
 
 前端框架
 -------
-1.bootstrap
-2.jquery
-3.ajaxfileupload.js
-4.echarts
-5.My97DatePicker
-6.layDate
-8.layer
-9.ueditor
+1.bootstrap<br>
+2.jquery<br>
+3.ajaxfileupload.js<br>
+4.echarts<br>
+5.My97DatePicker<br>
+6.layDate<br>
+8.layer<br>
+9.ueditor<br>
 
 后端框架
 ------
